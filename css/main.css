@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Alegreya';
-  src: url('/fonts/alegreya/Alegreya-Bold.eot');
-  src: local('Alegreya Bold'), local('Alegreya-Bold'), url('/fonts/alegreya/Alegreya-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/alegreya/Alegreya-Bold.woff2') format('woff2'), url('/fonts/alegreya/Alegreya-Bold.woff') format('woff'), url('/fonts/alegreya/Alegreya-Bold.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-Bold.svg#Alegreya-Bold') format('svg');
+  src: local('Alegreya Bold'), local('Alegreya-Bold'), url('/fonts/alegreya/Alegreya-Bold.woff2') format('woff2'), url('/fonts/alegreya/Alegreya-Bold.woff') format('woff'), url('/fonts/alegreya/Alegreya-Bold.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-Bold.svg#Alegreya-Bold') format('svg'), url('/fonts/alegreya/Alegreya-Bold.eot'), url('/fonts/alegreya/Alegreya-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -106,23 +105,21 @@ h6,
 p {
   padding: 0;
   margin: 0;
+  font-size: 25px;
 }
 h1 {
-  font-size: 40px;
+  font-family: var(--fontAlegreya);
   font-weight: 700;
 }
 h2 {
   font-family: var(--fontAlegreya);
   font-weight: 400;
-  font-size: 25px;
 }
 h3 {
-  font-family: var(--fontPlayfairDisplay);
-  font-weight: 700;
-  font-size: 25px;
+  font-family: var(--PlayfairDisplay);
 }
 h4 {
-  font-family: var(--fontProximaNova);
+  font-family: var(--fontScriptina);
   font-size: 25px;
 }
 h5 {
