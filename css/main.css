@@ -1,11 +1,20 @@
 @font-face {
-  font-family: 'Alegreya-Bold', serif;
-  src: url('/fonts/alegreya/Alegreya-bold.ttf') format('truetype');
-  font-style: bold;
-  font-weight: 400;
+  font-family: 'Alegreya-bold', serif;
+  src: url('/fonts/alegreya/Alegreya-bold.eot');
+  src: local('☺'), url('/fonts/alegreya/Alegreya-bold.woff') format('woff'), url('/fonts/alegreya/Alegreya-bold.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: 400;
+}
+@font-face {
+  font-family: 'Alegreya-regular', serif;
+  src: url('/fonts/alegreya/Alegreya-regular.eot');
+  src: local('☺'), url('/fonts/alegreya/Alegreya-regular.woff') format('woff'), url('/fonts/alegreya/Alegreya-regular.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 :root {
-  --fontAlegreya: 'Alegreya-Bold';
+  --fontAlegreyaBold: 'Alegreya-bold';
+  --fontAlegreyaRegular: 'Alegreya-regular';
   --white: #ffffff;
   --blue: #039be5;
   --yellow: #fbdc4d;
@@ -47,7 +56,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: var(--fontAlegreya);
+  font-family: var(--fontAlegreyaBold);
   font-size: 18px;
   font-weight: 400;
   color: var(--text);
@@ -75,5 +84,8 @@ h1,
 h2,
 h3 {
   font-weight: 400;
+}
+h2 {
+  font-family: var(--fontAlegreyaRegular);
 }
 /*# sourceMappingURL=main.css.map */
