@@ -22,6 +22,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proxima-nova/ProximaNova-Regular.eot');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url('/fonts/proxima-nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/proxima-nova/ProximaNova-Regular.woff2') format('woff2'), url('/fonts/proxima-nova/ProximaNova-Regular.woff') format('woff'), url('/fonts/proxima-nova/ProximaNova-Regular.ttf') format('truetype'), url('/fonts/proxima-nova/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --fontAlegreya: 'Alegreya';
   --fontPlayfairDisplay: 'PlayfairDisplay';
