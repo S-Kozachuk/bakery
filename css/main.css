@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'Alegreya-bold', serif;
-  src: url('/fonts/alegreya/Alegreya-bold.eot');
-  src: local('☺'), url('/fonts/alegreya/Alegreya-bold.woff') format('woff'), url('/fonts/alegreya/Alegreya-bold.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-bold.svg') format('svg');
-  font-weight: bold;
-  font-style: 400;
+  font-family: 'Alegreya';
+  src: url('/fonts/alegreya/Alegreya-Bold.eot');
+  src: local('Alegreya Bold'), local('Alegreya-Bold'), url('/fonts/alegreya/Alegreya-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/alegreya/Alegreya-Bold.woff2') format('woff2'), url('/fonts/alegreya/Alegreya-Bold.woff') format('woff'), url('/fonts/alegreya/Alegreya-Bold.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-Bold.svg#Alegreya-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'Alegreya-regular', serif;
-  src: url('/fonts/alegreya/Alegreya-regular.eot');
-  src: local('☺'), url('/fonts/alegreya/Alegreya-regular.woff') format('woff'), url('/fonts/alegreya/Alegreya-regular.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-regular.svg') format('svg');
-  font-weight: normal;
+  font-family: 'Alegreya', serif;
+  src: url('/fonts/alegreya/Alegreya-regular.eot?');
+  src: local('Alegreya'), url('/fonts/alegreya/Alegreya-regular.woff') format('woff'), url('/fonts/alegreya/Alegreya-regular.ttf') format('truetype'), url('/fonts/alegreya/Alegreya-regular.svg') format('svg');
+  font-weight: 400;
   font-style: normal;
 }
 :root {
-  --fontAlegreyaBold: 'Alegreya-bold';
-  --fontAlegreyaRegular: 'Alegreya-regular';
+  --fontAlegreya: 'Alegreya';
   --white: #ffffff;
   --blue: #039be5;
   --yellow: #fbdc4d;
@@ -56,9 +56,8 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: var(--fontAlegreyaBold);
+  font-family: var(--fontAlegreya);
   font-size: 18px;
-  font-weight: 400;
   color: var(--text);
 }
 a,
@@ -80,12 +79,13 @@ p {
   padding: 0;
   margin: 0;
 }
-h1,
-h2,
-h3 {
-  font-weight: 400;
+h1 {
+  font-size: 40px;
+  font-weight: 500;
 }
 h2 {
   font-family: var(--fontAlegreyaRegular);
+  font-weight: 400;
+  font-size: 25px;
 }
 /*# sourceMappingURL=main.css.map */
