@@ -30,6 +30,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Scriptina';
+  src: url('/fonts/scriptina/Scriptina.eot');
+  src: local('Scriptina'), url('/fonts/scriptina/Scriptina.eot?#iefix') format('embedded-opentype'), url('/fonts/scriptina/Scriptina.woff2') format('woff2'), url('/fonts/scriptina/Scriptina.woff') format('woff'), url('/fonts/scriptina/Scriptina.ttf') format('truetype'), url('/fonts/scriptina/Scriptina.svg#Scriptina') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --fontAlegreya: 'Alegreya';
   --fontPlayfairDisplay: 'PlayfairDisplay';
