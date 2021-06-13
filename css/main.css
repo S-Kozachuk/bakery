@@ -14,8 +14,7 @@
 }
 @font-face {
   font-family: 'Playfair Display';
-  src: url('/fonts/playfair-display/PlayfairDisplay-Bold.eot');
-  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url('/fonts/playfair-display/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/playfair-display/PlayfairDisplay-Bold.woff2') format('woff2'), url('/fonts/playfair-display/PlayfairDisplay-Bold.woff') format('woff'), url('/fonts/playfair-display/PlayfairDisplay-Bold.ttf') format('truetype'), url('/fonts/playfair-display/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url('/fonts/playfair-display/PlayfairDisplay-Bold.woff2') format('woff2'), url('/fonts/playfair-display/PlayfairDisplay-Bold.woff') format('woff'), url('/fonts/playfair-display/PlayfairDisplay-Bold.ttf') format('truetype'), url('/fonts/playfair-display/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg') url('/fonts/playfair-display/PlayfairDisplay-Bold.eot') format('embedded-opentype'), url('/fonts/playfair-display/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -119,6 +118,7 @@ h3 {
 }
 h4 {
   font-family: var(--fontProximaNova);
+  font-weight: 400;
 }
 h5 {
   font-family: var(--fontScriptina);
