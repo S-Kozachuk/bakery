@@ -26,9 +26,23 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/fonts/playfair-display/PlayfairDisplay-Bold.eot');
+    src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'),
+        url('/fonts/playfair-display/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/playfair-display/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('/fonts/playfair-display/PlayfairDisplay-Bold.woff') format('woff'),
+        url('/fonts/playfair-display/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('/fonts/playfair-display/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
 :root {
     --fontAlegreya: 'Alegreya';
+    --fontPlayfairDisplay: 'PlayfairDisplay';
     --white: #ffffff;
     --blue: #039be5;
     --yellow: #fbdc4d;
@@ -104,7 +118,13 @@ h1 {
 }
 
 h2 {
-    font-family: var(--fontAlegreyaRegular);
+    font-family: var(--fontAlegreya);
     font-weight: 400;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: var(--fontPlayfairDisplay);
+    font-weight: 700;
     font-size: 25px;
 }
