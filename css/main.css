@@ -116,14 +116,12 @@ h2 {
   font-weight: 400;
 }
 h3 {
-  font-family: var(--PlayfairDisplay);
+  font-family: var(--fontPlayfairDisplay);
 }
 h4 {
-  font-family: var(--fontScriptina);
-  font-size: 25px;
+  font-family: var(--fontProximaNova);
 }
 h5 {
   font-family: var(--fontScriptina);
-  font-size: 25px;
 }
 /*# sourceMappingURL=main.css.map */
