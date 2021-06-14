@@ -123,4 +123,10 @@ h4 {
 h5 {
   font-family: var(--Scriptina);
 }
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  /* ограничивает размер всех изображений размером родительского контейнера */
+}
 /*# sourceMappingURL=main.css.map */
