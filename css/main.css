@@ -38,33 +38,8 @@
   --PlayfairDisplay: 'PlayfairDisplay';
   --ProximaNova: 'Proxima Nova';
   --Scriptina: 'Scriptina';
+  --headerBg: #9e9c93;
   --white: #ffffff;
-  --blue: #039be5;
-  --yellow: #fbdc4d;
-  --red: #ea736d;
-  --text: #161616;
-  --linkedin: #0077b5;
-  --github: #212121;
-  --github-h: #6cc644;
-  --vk-bg: #4d76a1;
-  --vk-h: #3c7dcc;
-  --whatsapp: #43d854;
-  --whatsapp-h: #128c7e;
-  --telegram: #039be5;
-  --telegram-h: #006699;
-  --facebook: #3b5998;
-  --facebook-h: #263b68;
-  --btn-yl-h: #ffd200;
-  --btn-yl-a: #e1bc10;
-  --btn-gr-h: #797979;
-  --btn-gr-a: #181818;
-  --btnfont: #464646;
-  --mail: #000;
-  --mail-h: #44aae9;
-  --mail-a: #ea655f;
-  --btn-a: #d4423b;
-  --h3-h: #ed574f;
-  --footer: #b0b0b0;
 }
 * {
   -webkit-box-sizing: border-box;
