@@ -119,4 +119,7 @@ img {
   -moz-background-size: cover;
        background-size: cover;
 }
+.header-content {
+  height: 830px;
+}
 /*# sourceMappingURL=main.css.map */
