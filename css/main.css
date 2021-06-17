@@ -142,6 +142,7 @@ img {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 .nav-menu__social a {
   font-size: 20px;
