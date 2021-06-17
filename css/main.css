@@ -110,12 +110,13 @@ img {
   width: 100%;
 }
 .nav-menu {
+  position: relative;
+  z-index: 1;
+  padding-top: 10px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);
   align-items: baseline;
-  position: relative;
-  z-index: 1;
 }
 .nav-menu__logo {
   font-family: var(--Scriptina);
