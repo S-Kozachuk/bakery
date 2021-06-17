@@ -116,8 +116,6 @@ img {
   align-items: baseline;
 }
 .nav-menu__logo {
-  margin-right: 100px;
-  width: 100px;
   font-family: var(--Scriptina);
   font-size: 30px;
   font-weight: 400;
