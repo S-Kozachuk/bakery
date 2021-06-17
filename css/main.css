@@ -113,6 +113,8 @@ img {
 }
 .nav-menu {
   display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
 }
 .nav-menu__social a {
   color: black;
