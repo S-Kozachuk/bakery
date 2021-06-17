@@ -143,7 +143,8 @@ img {
   grid-template-columns: repeat(3, 1fr);
 }
 .nav-menu__social a {
-  color: black;
+  font-size: 20px;
+  color: var(--mainBg);
 }
 .header {
   color: var(--mainBg);
