@@ -116,6 +116,11 @@ img {
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, 1fr);
 }
+.nav-menu__list {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(9, 1fr);
+}
 .nav-menu__social a {
   color: black;
 }
