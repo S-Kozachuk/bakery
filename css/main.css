@@ -111,6 +111,9 @@ img {
   padding: 0 15px;
   width: 100%;
 }
+.nav-menu__social a {
+  color: black;
+}
 .header {
   background-color: #9e9c93;
   background-image: url(../img/header/header-bg.jpg);
