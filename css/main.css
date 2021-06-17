@@ -121,6 +121,8 @@ img {
   width: 100px;
   font-family: var(--Scriptina);
   font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 9px;
 }
 .nav-menu__list {
   display: grid;
