@@ -147,6 +147,7 @@ img {
   color: var(--mainBg);
 }
 .header {
+  position: relative;
   color: var(--mainBg);
   background-color: #9e9c93;
   background-image: url(../img/header/header-bg.jpg);
