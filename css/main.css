@@ -111,6 +111,9 @@ img {
   padding: 0 15px;
   width: 100%;
 }
+.nav-menu {
+  display: grid;
+}
 .nav-menu__social a {
   color: black;
 }
