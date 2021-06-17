@@ -135,7 +135,7 @@ img {
   font-weight: 400;
   letter-spacing: 4.2px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--mainBg);
 }
 .nav-menu__social {
   display: grid;
