@@ -171,6 +171,10 @@ img {
 .header-content {
   height: 830px;
 }
+.header-content__title {
+  width: 223px;
+  border-bottom: 2px solid #b0aca8;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
