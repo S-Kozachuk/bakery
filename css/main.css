@@ -175,6 +175,20 @@ img {
   width: 223px;
   border-bottom: 2px solid #b0aca8;
 }
+.header-content__dashed-line {
+  width: 500px;
+  height: 500px;
+  border-radius: 1000px;
+  border: 20px solid #000;
+  border-top: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+.header-content__dashed-line_ov {
+  width: 460px;
+  height: 460px;
+  background: #fff;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
