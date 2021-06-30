@@ -170,8 +170,9 @@ img {
 }
 .header-content {
   display: grid;
-  grid-template-rows: 4fr;
+  grid-template-rows: repeat(4, 50px);
   grid-template-columns: 1fr;
+  justify-items: center;
   height: 830px;
 }
 .header-content__title {
