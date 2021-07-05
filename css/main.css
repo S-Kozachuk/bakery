@@ -181,6 +181,14 @@ img {
   border-bottom: 2px solid #b0aca8;
   text-align: center;
 }
+.header-content__dashed-line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-dasharray: 8 16;
+  fill-rule: evenodd;
+  filter: url(#filter);
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
