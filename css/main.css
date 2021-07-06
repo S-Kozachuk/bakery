@@ -176,6 +176,12 @@ img {
   margin-top: 100px;
   height: 830px;
 }
+.header-content__title {
+  font-family: var(--PlayfairDisplay);
+  font-size: 92px;
+  font-weight: 700;
+  letter-spacing: 6.9px;
+}
 .header-content__dashed-line {
   width: 223px;
   border-top: 2px solid #b0aca8;
@@ -186,12 +192,6 @@ img {
   stroke-dasharray: 8 16;
   fill-rule: evenodd;
   filter: url(#filter);
-}
-.header-content__title {
-  font-family: var(--PlayfairDisplay);
-  font-size: 92px;
-  font-weight: 700;
-  letter-spacing: 6.9px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
