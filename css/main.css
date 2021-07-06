@@ -200,6 +200,13 @@ img {
   line-height: 1.5;
   text-align: center;
 }
+.header-content__btn {
+  font-family: var(--Alegreya);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
