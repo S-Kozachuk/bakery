@@ -203,11 +203,17 @@ img {
   text-align: center;
 }
 .header-content__btn {
+  padding: 17px 49px;
+  border-width: 1px;
+  border-color: #9e9c93;
+  border-style: dashed;
+  background-color: #56534c87;
   font-family: var(--Alegreya);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 4.2px;
   text-transform: uppercase;
+  color: #b1aca9;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
