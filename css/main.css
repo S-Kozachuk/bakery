@@ -182,9 +182,11 @@ img {
   letter-spacing: 6.9px;
   text-shadow: 0px 2px 0px #3d3029;
 }
-.header-content__dashed-line {
-  width: 223px;
+.header-content__line {
   border-top: 2px solid #b0aca8;
+  width: 223px;
+}
+.header-content__dashed-line {
   text-align: center;
   fill: none;
   stroke: #fff;
