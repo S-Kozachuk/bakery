@@ -182,9 +182,6 @@ img {
   letter-spacing: 6.9px;
 }
 .header-content__dashed-line {
-<<<<<<< HEAD
-  display: inherit;
-=======
   width: 223px;
   border-top: 2px solid #b0aca8;
   text-align: center;
@@ -194,7 +191,6 @@ img {
   stroke-dasharray: 8 16;
   fill-rule: evenodd;
   filter: url(#filter);
->>>>>>> header
 }
 .header-content__subtitle {
   font-family: var(--ProximaNova);
