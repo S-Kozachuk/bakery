@@ -181,16 +181,18 @@ img {
   font-weight: 700;
   letter-spacing: 6.9px;
 }
-.header-content__dashed-line {
-  width: 223px;
+.header-content__line {
   border-top: 2px solid #b0aca8;
+  width: 223px;
+}
+.header-content__dashed-line {
   text-align: center;
   fill: none;
   stroke: #fff;
   stroke-width: 2px;
   stroke-dasharray: 8 16;
   fill-rule: evenodd;
-  filter: url(#filter);
+  filter: drop-shadow(0px 1px 0px #3d3029);
 }
 .header-content__subtitle {
   font-family: var(--ProximaNova);
