@@ -193,7 +193,7 @@ img {
   stroke-width: 2px;
   stroke-dasharray: 8 16;
   fill-rule: evenodd;
-  filter: drop-shadow(0px 1px 0px #3d3029);
+  filter: drop-shadow(0px 2px 0px #3d3029);
 }
 .header-content__subtitle {
   font-family: var(--ProximaNova);
