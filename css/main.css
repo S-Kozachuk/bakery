@@ -221,9 +221,9 @@ img {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: #83A7C9;
+  background: #beac44;
   border-radius: 50%;
-  box-shadow: 0px 43px 7px -35px rgba(0, 0, 0, 0.6);
+  background-image: radial-gradient(circle at 65% 15%, #834f4e, #3b3734);
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
