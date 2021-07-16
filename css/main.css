@@ -223,7 +223,7 @@ img {
   height: 300px;
   background: #beac44;
   border-radius: 50%;
-  background-image: radial-gradient(circle at 65% 15%, #834f4e, #3b3734);
+  background-image: radial-gradient(at center, #834f4e, #3b3734);
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
