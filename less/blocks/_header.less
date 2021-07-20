@@ -25,6 +25,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
     margin-top: 100px;
+    position: relative;
 }
 
 .header-content__title {
@@ -57,6 +58,7 @@
     letter-spacing: 2.4px;
     line-height: 1.5;
     text-align: center;
+    filter: drop-shadow( 0px 1px 0px #3d3029 );
 }
 
 .header-content__btn {
@@ -72,4 +74,12 @@
     letter-spacing: 4.2px;
     text-transform: uppercase;
     color: #b1aca9;
+}
+
+.header-content__bg-shadow {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: radial-gradient(at center, rgba(59, 56, 53, 0.3) 10%, rgba(255, 255, 255, 0.3) 50%);
 }
