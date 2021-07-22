@@ -190,6 +190,7 @@ img {
   width: 223px;
 }
 .header-content__dashed-line {
+  margin-bottom: 60px;
   text-align: center;
   fill: none;
   stroke: #fff;
