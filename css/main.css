@@ -179,6 +179,7 @@ img {
   z-index: 2;
 }
 .header-content__title {
+  margin-bottom: 42px;
   font-family: var(--PlayfairDisplay);
   font-size: 92px;
   font-weight: 700;
