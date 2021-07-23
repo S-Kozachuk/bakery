@@ -177,6 +177,16 @@ img {
   position: relative;
   z-index: 2;
 }
+.header-content::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  background-image: url(/img/header/loaf.svg);
+  background-size: 300px 300px;
+}
 .header-content__title {
   margin-bottom: 42px;
   font-family: var(--PlayfairDisplay);
