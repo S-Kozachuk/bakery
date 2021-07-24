@@ -238,8 +238,8 @@ img {
   width: 450px;
   border-radius: 50%;
   background-image: radial-gradient(at center, rgba(59, 56, 53, 0.3) 10%, rgba(255, 255, 255, 0) 70%);
-  top: 50%;
-  transform: translate(50%, 0%);
+  top: 0;
+  transform: translate(50%, 50%);
   right: 50%;
   z-index: 1;
 }
