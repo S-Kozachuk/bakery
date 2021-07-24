@@ -168,16 +168,7 @@ img {
   height: 70px;
   background-color: rgba(86, 83, 76, 0.529);
 }
-.header-content {
-  margin-top: 205px;
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  grid-template-columns: 1fr;
-  justify-items: center;
-  position: relative;
-  z-index: 2;
-}
-.header-content::after {
+.header::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -186,6 +177,15 @@ img {
   height: 200px;
   background-image: url(/img/header/loaf.svg);
   background-size: 300px 300px;
+}
+.header-content {
+  margin-top: 205px;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 1fr;
+  justify-items: center;
+  position: relative;
+  z-index: 2;
 }
 .header-content__title {
   margin-bottom: 42px;
