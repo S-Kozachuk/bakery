@@ -177,16 +177,6 @@ img {
   position: relative;
   z-index: 2;
 }
-.header-content::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 200px;
-  height: 200px;
-  background-image: url(/img/header/loaf.svg);
-  background-size: 300px 300px;
-}
 .header-content__title {
   margin-bottom: 42px;
   font-family: var(--PlayfairDisplay);
@@ -243,6 +233,14 @@ img {
   transform: translate(50%, 50%);
   right: 50%;
   z-index: 1;
+}
+.header-loaf-frame {
+  position: absolute;
+  top: 90%;
+  left: 44%;
+  transform: translate(50%, 50%);
+  width: 100px;
+  height: 100px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com

@@ -17,7 +17,7 @@
         height: 70px;
         background-color: rgba(86, 83, 76, 0.529);
     }
-
+    
 }
 
 .header-content {
@@ -29,17 +29,7 @@
     position: relative;
     z-index: 2;
 
-    &::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 200px;
-        height: 200px;
-        background-image: url(/img/header/loaf.svg);
-        background-size: 300px 300px;
-    }
-
+    
 }
 
 .header-content__title {
@@ -104,4 +94,13 @@
     transform: translate(50%, 50%);
     right: 50%;
     z-index: 1;
+}
+
+.header-loaf-frame {
+    position: absolute;
+    top: 90%;
+    left: 44%;
+    transform: translate(50%, 50%);
+    width: 100px;
+    height: 100px;
 }
