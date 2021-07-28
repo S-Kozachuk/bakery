@@ -239,10 +239,6 @@ img {
   left: 47%;
   transform: translate(50%, 50%);
   fill: #c8b6ad;
-  background: #fff;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
 }
 .header-loaf-frame {
   position: absolute;
@@ -251,6 +247,17 @@ img {
   top: 88%;
   left: 43%;
   transform: translate(50%, 50%);
+}
+.header-loaf-bg {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  top: 91%;
+  left: 45%;
+  transform: translate(50%, 50%);
+  z-index: 1;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
