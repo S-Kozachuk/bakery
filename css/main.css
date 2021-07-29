@@ -234,6 +234,12 @@ img {
   right: 50%;
   z-index: 1;
 }
+.loaf-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  position: relative;
+}
 .header-loaf-img {
   position: absolute;
   top: 95%;
@@ -241,6 +247,7 @@ img {
   transform: translate(50%, 50%);
   fill: #c8b6ad;
   z-index: 2;
+  background-image: url(/img/header/circle.png);
 }
 .header-loaf-frame {
   position: absolute;
