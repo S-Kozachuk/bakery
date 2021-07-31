@@ -233,12 +233,6 @@ img {
   right: 50%;
   z-index: 1;
 }
-.loaf-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
-  position: relative;
-}
 .header-loaf {
   position: relative;
   display: grid;
