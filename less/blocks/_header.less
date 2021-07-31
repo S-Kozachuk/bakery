@@ -101,6 +101,19 @@
     grid: auto/auto;
     justify-content: center;
     top: 26px;
+
+    &::before {
+        content: "";
+        background: #fff;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+
 }
 
 .header-loaf-img {

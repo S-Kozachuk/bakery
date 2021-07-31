@@ -240,6 +240,17 @@ img {
   justify-content: center;
   top: 26px;
 }
+.header-loaf::before {
+  content: "";
+  background: #fff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
 .header-loaf-img {
   fill: #c8b6ad;
   z-index: 2;
