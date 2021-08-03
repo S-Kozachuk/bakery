@@ -272,6 +272,7 @@ img {
   justify-items: center;
 }
 .cakes-title {
+  margin-bottom: 15px;
   font-family: var(--Alegreya);
   font-size: 48px;
   font-weight: 700;
