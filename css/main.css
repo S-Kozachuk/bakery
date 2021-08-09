@@ -303,6 +303,7 @@ img {
   color: #56534c;
 }
 .cakes-chef {
+  margin-bottom: 40px;
   font-family: var(--Alegreya);
   font-size: 24px;
   font-weight: 700;
