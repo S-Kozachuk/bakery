@@ -271,6 +271,9 @@ img {
   grid: auto / repeat(2, auto);
   justify-items: center;
 }
+.cakes-column-right {
+  width: 615px;
+}
 .cakes-title {
   margin-top: 90px;
   margin-bottom: 15px;
