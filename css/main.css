@@ -279,7 +279,6 @@ img {
 }
 .cakes-title {
   margin-top: 90px;
-  margin-bottom: 15px;
   font-family: var(--Alegreya);
   font-size: 48px;
   font-weight: 700;
@@ -287,7 +286,7 @@ img {
   color: #56534c;
 }
 .cakes-subtitle {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   font-family: var(--Alegreya);
   font-size: 14px;
   font-weight: 700;
