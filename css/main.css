@@ -271,9 +271,14 @@ img {
   grid: auto / repeat(2, auto);
   justify-items: center;
 }
+.cakes-column-left {
+  text-align: center;
+}
+.cakes-column-right {
+  width: 615px;
+}
 .cakes-title {
   margin-top: 90px;
-  margin-bottom: 15px;
   font-family: var(--Alegreya);
   font-size: 48px;
   font-weight: 700;
@@ -281,7 +286,7 @@ img {
   color: #56534c;
 }
 .cakes-subtitle {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   font-family: var(--Alegreya);
   font-size: 14px;
   font-weight: 700;
@@ -289,7 +294,7 @@ img {
   text-transform: uppercase;
   color: #a47d5e;
 }
-.cakes-text {
+.cakes-text > p {
   margin-bottom: 40px;
   font-size: 14px;
   font-weight: 400;
@@ -298,6 +303,7 @@ img {
   color: #56534c;
 }
 .cakes-chef {
+  margin-bottom: 40px;
   font-family: var(--Alegreya);
   font-size: 24px;
   font-weight: 700;
@@ -305,9 +311,30 @@ img {
   color: #56534c;
 }
 .cakes-chef-content {
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto;
+  align-items: center;
+  justify-items: center;
+}
+.cakes-chef-name > p {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: var(--Alegreya);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: #56534c;
+  border-top: 1px #d7d5ca solid;
+  border-bottom: 1px #d7d5ca solid;
+  width: 115px;
+  text-align: center;
+}
+.cakes-chef-foto > img {
+  box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.13);
+  background-color: #9e9c93;
+  border-radius: 50%;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
