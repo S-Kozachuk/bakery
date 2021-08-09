@@ -309,6 +309,16 @@ img {
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto;
 }
+.cakes-chef-name > p {
+  font-family: var(--Alegreya);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: #56534c;
+  border-top: 1px #d7d5ca solid;
+  border-bottom: 1px #d7d5ca solid;
+  width: 115px;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
