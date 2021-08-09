@@ -311,6 +311,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto;
+  align-items: center;
 }
 .cakes-chef-name > p {
   font-family: var(--Alegreya);
