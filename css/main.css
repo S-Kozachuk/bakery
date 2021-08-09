@@ -295,7 +295,7 @@ img {
   text-transform: uppercase;
   color: #a47d5e;
 }
-.cakes-text {
+.cakes-text > p {
   margin-bottom: 40px;
   font-size: 14px;
   font-weight: 400;
