@@ -338,6 +338,8 @@ img {
   border-radius: 50%;
 }
 .chef-perf {
+  position: relative;
+  top: -30%;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
   color: #56534c;
@@ -353,6 +355,7 @@ img {
   color: #a47d5e;
 }
 .chef-perf__right {
+  top: 30%;
   transform: scale(1, -1);
 }
 /*!
