@@ -274,9 +274,6 @@ img {
 .cakes-column-left {
   text-align: center;
 }
-.cakes-column-right {
-  width: 615px;
-}
 .cakes-title {
   margin-top: 90px;
   font-family: var(--Alegreya);
@@ -357,6 +354,13 @@ img {
 .chef-perf__right {
   top: 30%;
   transform: scale(1, -1);
+}
+.cakes-column-right {
+  width: 615px;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas: ;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
