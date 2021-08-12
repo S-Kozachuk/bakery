@@ -337,7 +337,7 @@ img {
   background-color: #9e9c93;
   border-radius: 50%;
 }
-.left-chef-perf {
+.chef-perf {
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
   color: #56534c;
@@ -350,6 +350,9 @@ img {
   line-height: 1.25;
   letter-spacing: 0.6px;
   color: #a47d5e;
+}
+.chef-perf__right {
+  transform: scale(1, -1);
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
