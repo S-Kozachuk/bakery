@@ -131,33 +131,12 @@
     grid-area: cell-one;
 }
 
-
-
 .cakes-cell-two {
     grid-area: cell-two;
-    background-image: url(/img/cakes/cake-dough.png);
-    background-repeat: no-repeat;
-    outline: 2px dashed #ffffff;
-    outline-offset: -10px; /* Выводим рамку внутри элемента */
-    padding: 10px; /* Поля */
-    min-height: 100px; /* Минимальная высота */
 }
 
 .cakes-cell-three {
     grid-area: cell-three;
-    
-    &::after {
-        position: absolute; 
-        top: 0;
-        left: 0;
-        content: "";
-        width: 274px;
-        height: 231px;
-        border: 5px solid #fff;
-        z-index: 2;
-        transform: translate(2%, 2%);
-    }
-    
 }
 
 .cakes-cell-four {
