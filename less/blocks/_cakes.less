@@ -110,6 +110,23 @@
                          "cell-five cell-five";
 }
 
+.cakes-cell {
+    position: relative;
+    
+    &::after {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        content: "";
+        width: 274px;
+        height: 231px;
+        border: 5px solid #fff;
+        z-index: 2;
+        transform: translate(2%, 2%);
+    }
+
+}
+
 .cakes-cell-one {
     grid-area: cell-one;
 }
