@@ -391,7 +391,6 @@ img {
 }
 .cakes-cell-five {
   grid-area: cell-five;
-  background-image: url(/img/cakes/tastes_bg.svg);
 }
 .cakes-svg-1 {
   fill: #fffff;
