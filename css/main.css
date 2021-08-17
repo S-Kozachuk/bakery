@@ -393,8 +393,11 @@ img {
   grid-area: cell-five;
   background-image: url(/img/cakes/tastes_bg.svg);
 }
-.svg_img {
+.cakes-svg-1 {
   fill: #fffff;
+}
+.cakes-svg-2 {
+  fill: none;
   stroke: #CABEBC;
   stroke-width: 2;
   stroke-miterlimit: 10;
