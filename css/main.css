@@ -391,7 +391,19 @@ img {
 }
 .cakes-cell-five {
   grid-area: cell-five;
-  background-image: url(/img/cakes/tastes_bg.svg);
+}
+.tastes-svg {
+  width: 100px;
+  height: 100px;
+}
+.cakes-svg-1 {
+  fill: #000000;
+}
+.cakes-svg-2 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
