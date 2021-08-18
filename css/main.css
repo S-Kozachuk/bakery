@@ -361,7 +361,7 @@ img {
   display: grid;
   grid-template-rows: repeat(3, auto);
   grid-template-columns: repeat(2, auto);
-  grid-template-areas: "cell-one cell-two" "cell-three cell-four" "cell-five cell-five";
+  grid-template-areas: "cell-one cell-two" "cell-five cell-five" "cell-three cell-four";
 }
 .cakes-cell {
   position: relative;
