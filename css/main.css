@@ -392,6 +392,7 @@ img {
 }
 .cakes-cell-five {
   grid-area: cell-five;
+  position: absolute;
 }
 .tastes-svg {
   width: 100px;
