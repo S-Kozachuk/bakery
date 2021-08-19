@@ -107,8 +107,8 @@
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(2, auto);
     grid-template-areas:"cell-one cell-two"
-                        "cell-five cell-five" 
-                        "cell-three cell-four";
+                        "cell-three cell-four"
+                        "cell-five cell-five"; 
 }
 
 .cakes-cell {
@@ -152,8 +152,6 @@
 .tastes-svg {
     width: 100px;
     height: 100px;
-    position: absolute;
-    z-index: 2;
 }
 
 .cakes-svg-1 {
@@ -168,8 +166,5 @@
 }
 
 .cakes-cell-five>p {
-    position: relative;
-    z-index: 3;
-    transform: translate(-25%, 206%);
     color: red;
 }
