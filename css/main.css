@@ -360,12 +360,12 @@ img {
 }
 .cakes-right-grid {
   margin-top: 100px;
-  width: 615px;
   position: relative;
   display: grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: repeat(2, auto);
   grid-template-areas: "cell-one cell-two" "cell-three cell-four";
+  justify-content: center;
 }
 .cakes-cell {
   position: relative;
