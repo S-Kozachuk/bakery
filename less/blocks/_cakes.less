@@ -99,15 +99,19 @@
     transform: scale(1, -1);
 }
 
+.cakes-column-right {
+    position: relative;
+}
+
 .cakes-right-grid {
     margin-top: 100px;
-    width: 615px;
     position: relative;
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(2, auto);
     grid-template-areas:"cell-one cell-two"
                         "cell-three cell-four";
+    justify-content: center;
 }
 
 .cakes-cell {
@@ -161,4 +165,28 @@
 
 .cakes-cell-five>p {
     color: red;
+}
+
+.cakes-right__tastes {
+    display: grid;
+    grid: auto/ auto;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    &::before {
+        content: "TASTES SO GOOD!";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: red;
+        text-align: center;
+        font-size: 25px;
+    }
+
 }
