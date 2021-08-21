@@ -415,9 +415,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(86, 83, 76, 0.529);
+  color: red;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
