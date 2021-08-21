@@ -407,7 +407,14 @@ img {
   color: red;
 }
 .cakes-column-right__pattern {
-  position: relative;
+  display: grid;
+  grid: 1px;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 .cakes-column-right__pattern::before {
   content: "TASTES SO GOOD!";
@@ -417,6 +424,11 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   color: red;
+}
+.tastes-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
