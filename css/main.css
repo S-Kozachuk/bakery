@@ -406,6 +406,9 @@ img {
 .cakes-cell-five > p {
   color: red;
 }
+.cakes-column-right__pattern {
+  position: relative;
+}
 .cakes-column-right__pattern::before {
   content: "TASTES SO GOOD!";
   display: block;
