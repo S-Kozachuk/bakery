@@ -411,7 +411,7 @@ img {
 }
 .cakes-right__tastes {
   display: grid;
-  grid: 1px;
+  grid: auto / auto;
   justify-content: center;
   position: absolute;
   top: 50%;
