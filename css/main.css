@@ -410,7 +410,7 @@ img {
 .cakes-cell-five > p {
   color: red;
 }
-.cakes-right__tastes {
+.cakes-cell__tastes {
   display: grid;
   grid: auto / auto;
   justify-content: center;
@@ -420,7 +420,7 @@ img {
   transform: translate(-50%, -50%);
   z-index: 3;
 }
-.cakes-right__tastes::before {
+.cakes-cell__tastes::before {
   content: "TASTES SO GOOD!";
   display: block;
   position: absolute;
