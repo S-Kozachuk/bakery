@@ -399,11 +399,11 @@ img {
   height: 250px;
 }
 .cakes-svg-1 {
-  fill: #000000;
+  fill: #f3ede9;
 }
 .cakes-svg-2 {
   fill: none;
-  stroke: #000000;
+  stroke: #f3ede9;
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
