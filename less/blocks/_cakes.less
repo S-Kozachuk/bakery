@@ -107,11 +107,10 @@
     margin-top: 100px;
     position: relative;
     display: grid;
-    grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(2, auto);
     grid-template-areas:"cell-one cell-two"
                         "cell-three cell-four";
     justify-content: center;
+    gap: 20px;
 }
 
 .cakes-cell {
@@ -153,12 +152,12 @@
 }
 
 .cakes-svg-1 {
-    fill: #000000;
+    fill: #f3ede9;
 }
 
 .cakes-svg-2 {
     fill: none;
-    stroke:#000000;
+    stroke: #f3ede9;
     stroke-width: 2;
     stroke-miterlimit: 10;
 }
@@ -167,7 +166,7 @@
     color: red;
 }
 
-.cakes-right__tastes {
+.cakes-cell__tastes {
     display: grid;
     grid: auto/ auto;
     justify-content: center;
@@ -175,7 +174,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 3;
 
     &::before {
         content: "TASTES SO GOOD!";
