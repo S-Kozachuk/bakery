@@ -367,18 +367,8 @@ img {
   gap: 20px;
 }
 .cakes-cell {
-  position: relative;
-}
-.cakes-cell::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 274px;
-  height: 231px;
-  border: 5px solid #fff;
-  z-index: 2;
-  transform: translate(2%, 2%);
+  outline: 5px solid #fff;
+  outline-offset: -12px;
 }
 .cakes-cell-one {
   grid-area: cell-one;
@@ -425,9 +415,13 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: red;
+  font-family: var(--Alegreya);
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+  color: #c9b176;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+  width: 150px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
