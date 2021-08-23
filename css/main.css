@@ -416,6 +416,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: var(--Alegreya);
+  line-height: 1.2;
   letter-spacing: 1.5px;
   color: #c9b176;
   text-align: center;
