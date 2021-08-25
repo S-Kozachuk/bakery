@@ -1,3 +1,9 @@
+.cakes {
+ background-image: url(/img/cakes/cake-bg.jpg);
+ background-repeat: repeat-x;
+ background: linear-gradient(-135deg, #f8f6f4, #fdfbf8);
+}
+
 .cakes-wrapper {
     display: grid;
     grid: auto / repeat(2, 1fr);
@@ -116,6 +122,7 @@
 .cakes-cell {
     outline: 5px solid #fff;
     outline-offset: -12px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
 .cakes-cell-one {
@@ -137,6 +144,7 @@
 .tastes-svg {
     width: 250px;
     height: 250px;
+    filter: drop-shadow(5px 16px 10px #3b251d);
 }
 
 .cakes-svg-1 {
@@ -171,6 +179,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        z-index: 1;
         font-family: var(--Alegreya);
         line-height: 1.2;
         letter-spacing: 1.5px;
