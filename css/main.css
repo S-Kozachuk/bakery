@@ -266,6 +266,11 @@ img {
   fill: #c8b6ad;
   z-index: 2;
 }
+.cakes {
+  background-image: url(/img/cakes/cake-bg.jpg);
+  background-repeat: repeat-x;
+  background: linear-gradient(-135deg, #f8f6f4, #f8f6f4);
+}
 .cakes-wrapper {
   display: grid;
   grid: auto / repeat(2, 1fr);
