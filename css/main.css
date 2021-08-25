@@ -269,7 +269,7 @@ img {
 .cakes {
   background-image: url(/img/cakes/cake-bg.jpg);
   background-repeat: repeat-x;
-  background: linear-gradient(-135deg, #f8f6f4, #f8f6f4);
+  background: linear-gradient(-135deg, #f8f6f4, #fdfbf8);
 }
 .cakes-wrapper {
   display: grid;
