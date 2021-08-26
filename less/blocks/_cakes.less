@@ -54,11 +54,18 @@
 .cakes-chef-content {
     margin-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template: auto / repeat(3, auto);
     align-items: center;
     justify-items: center;
     row-gap: 50px;
+}
+
+.cakes-chef-name {
+    justify-self: end;
+}
+
+.cakes-chef-name__s {
+    justify-self: start;
 }
 
 .cakes-chef-name>p {
@@ -76,9 +83,17 @@
 }
 
 .cakes-chef-foto>img {
-    box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.15);
     background-color: #9e9c93;
     border-radius: 50%;
+}
+
+.cakes-chef-speech {
+    display: grid;
+    grid-template: auto / repeat(3, auto);
+    align-items: center;
+    justify-items: center;
+    margin-top: 40px;
 }
 
 .chef-perf {
@@ -122,7 +137,7 @@
 .cakes-cell {
     outline: 5px solid #fff;
     outline-offset: -12px;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.05)
 }
 
 .cakes-cell-one {
@@ -186,7 +201,7 @@
         color: #c9b176;
         text-align: center;
         font-size: 30px;
-        width: 150px;
+        width: 156px;
     }
 
 }
