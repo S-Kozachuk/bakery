@@ -344,6 +344,13 @@ img {
   background-color: #9e9c93;
   border-radius: 50%;
 }
+.cakes-chef-speech {
+  display: grid;
+  grid-template: auto / repeat(3, auto);
+  align-items: center;
+  justify-items: center;
+  margin-top: 40px;
+}
 .chef-perf {
   position: relative;
   top: -30%;
