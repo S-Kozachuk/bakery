@@ -323,6 +323,9 @@ img {
 .cakes-chef-name {
   justify-self: end;
 }
+.cakes-chef-name__s {
+  justify-self: start;
+}
 .cakes-chef-name > p {
   padding-top: 15px;
   padding-bottom: 20px;
