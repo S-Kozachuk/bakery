@@ -315,8 +315,7 @@ img {
 .cakes-chef-content {
   margin-bottom: 20px;
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template: auto / repeat(3, auto);
   align-items: center;
   justify-items: center;
   row-gap: 50px;
