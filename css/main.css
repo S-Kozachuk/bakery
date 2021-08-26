@@ -320,6 +320,9 @@ img {
   justify-items: center;
   row-gap: 50px;
 }
+.cakes-chef-name {
+  justify-self: end;
+}
 .cakes-chef-name > p {
   padding-top: 15px;
   padding-bottom: 20px;
