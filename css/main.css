@@ -453,6 +453,7 @@ img {
 .pancakes-content {
   display: grid;
   grid-template-areas: "left-column right-column";
+  justify-content: space-around;
 }
 .pancakes-left-column {
   grid-area: left-column;
