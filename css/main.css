@@ -461,7 +461,7 @@ img {
 }
 .pancakes-right-column {
   grid-area: right-column;
-  background-image: url(/img/pancakes/windmill_2.svg);
+  background-image: url(/img/pancakes/windmill.svg);
   height: 512px;
   width: 545px;
   background-repeat: no-repeat;
