@@ -454,7 +454,7 @@ img {
   margin: 0 auto;
   display: grid;
   grid-template-areas: "left-column right-column";
-  max-width: 970PX;
+  max-width: 970px;
 }
 .pancakes-left-column {
   grid-area: left-column;
@@ -465,6 +465,18 @@ img {
   height: 512px;
   width: 545px;
   background-repeat: no-repeat;
+  position: relative;
+}
+.pancakes-right-column::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e0d6c7;
+  background-blend-mode: overlay, color;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
