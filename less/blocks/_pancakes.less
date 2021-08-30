@@ -1,7 +1,8 @@
 .pancakes {
+    padding-top: 150px;
+    padding-bottom: 100px;
     background-image: url(/img/pancakes/pancakes_bg.jpg);
     background-repeat: no-repeat;
-    height: 600px;
     background-size: cover;
 }
 
@@ -18,21 +19,24 @@
 
 .pancakes-right-column {
     grid-area: right-column;
-    background-image: url(/img/pancakes/windmill.svg);
+    position: relative;
+    background-image: url(/img/pancakes/windmill.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: 100% 100%;
+
     height: 512px;
     width: 545px;
-    background-repeat: no-repeat;
-    position: relative;
 }
 
-.pancakes-right-column::before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #e0d6c7;
-        background-blend-mode: overlay, color;
+.pancakes-timer {
+    position: absolute;
+    background-image: url(/img/pancakes/field.svg);
+    width: 200px;
+    height: 200px;
+    top: 0;
+    right: 0;
+    transform: translate(47%, -22%);
+    background-color: #fff;
+    background-blend-mode: exclusion;
 }
