@@ -445,6 +445,7 @@ img {
   width: 156px;
 }
 .pancakes {
+  padding-top: 150px;
   background-image: url(/img/pancakes/pancakes_bg.jpg);
   background-repeat: no-repeat;
   height: 600px;
@@ -469,19 +470,6 @@ img {
   height: 512px;
   width: 545px;
 }
-/*
-.pancakes-right-column::before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #e0d6c7;
-        background-blend-mode: overlay, color;
-}
-*/
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
