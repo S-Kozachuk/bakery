@@ -467,7 +467,7 @@ img {
   background-repeat: no-repeat;
   position: relative;
   background-color: #e0d6c7;
-  background-blend-mode: luminosity;
+  background-blend-mode: soft-light;
 }
 /*
 .pancakes-right-column::before {
