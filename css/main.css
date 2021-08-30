@@ -466,6 +466,8 @@ img {
   width: 545px;
   background-repeat: no-repeat;
   position: relative;
+  background-color: #e0d6c7;
+  background-blend-mode: luminosity;
 }
 /*
 .pancakes-right-column::before {
