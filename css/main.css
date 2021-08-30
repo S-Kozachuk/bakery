@@ -477,8 +477,9 @@ img {
   height: 200px;
   top: 0;
   right: 0;
-  transform: translate(49%, -50%);
+  transform: translate(47%, -22%);
   background-color: #fff;
+  background-blend-mode: exclusion;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
