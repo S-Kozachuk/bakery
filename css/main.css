@@ -470,6 +470,12 @@ img {
   height: 512px;
   width: 545px;
 }
+.pancakes-timer {
+  position: absolute;
+  background-image: url(/img/pancakes/field.svg);
+  width: 200px;
+  height: 200px;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
