@@ -458,6 +458,7 @@ img {
   max-width: 970px;
 }
 .pancakes-left-column {
+  position: relative;
   grid-area: left-column;
 }
 .pancakes-right-column {
@@ -480,6 +481,36 @@ img {
   transform: translate(47%, -22%);
   background-color: #fff;
   background-blend-mode: exclusion;
+}
+.slider-button {
+  display: grid;
+  grid: auto / auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, 0);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  align-content: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.slider-button__img {
+  width: 10px;
+  height: 19px;
+}
+.rating-stars-l {
+  display: grid;
+  grid-template-rows: 5fr;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(150%, -50%);
+}
+.rating-stars-l__unit {
+  margin-top: 10px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
