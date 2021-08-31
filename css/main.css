@@ -507,7 +507,7 @@ img {
   position: absolute;
   top: 50%;
   left: 0%;
-  transform: translate(90%, -50%);
+  transform: translate(150%, -50%);
 }
 .rating-stars-l__unit {
   margin-top: 10px;
