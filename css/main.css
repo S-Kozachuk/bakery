@@ -482,10 +482,22 @@ img {
   background-blend-mode: exclusion;
 }
 .slider-button {
-  background-color: #000;
+  display: grid;
+  grid: auto / auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, 0);
   border-radius: 50px;
   width: 40px;
   height: 40px;
+  align-content: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.slider-button__img {
+  width: 10px;
+  height: 19px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
