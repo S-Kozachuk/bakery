@@ -502,6 +502,7 @@ img {
 }
 .rating-stars-l {
   position: absolute;
+  top: 0;
   display: grid;
   grid-template-rows: 5fr;
   grid-template-columns: 1fr;
