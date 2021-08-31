@@ -501,11 +501,13 @@ img {
   height: 19px;
 }
 .rating-stars-l {
-  position: absolute;
-  top: 0;
   display: grid;
   grid-template-rows: 5fr;
   grid-template-columns: 1fr;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(90%, -50%);
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
