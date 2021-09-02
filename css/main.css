@@ -462,6 +462,8 @@ img {
   grid-area: left-column;
 }
 .pancakes-right-column {
+  padding-top: 75px;
+  padding-left: 60px;
   grid-area: right-column;
   position: relative;
   background-image: url(/img/pancakes/windmill.png);
@@ -481,6 +483,39 @@ img {
   transform: translate(47%, -22%);
   background-color: #fff;
   background-blend-mode: exclusion;
+}
+.pancakes-title {
+  margin-bottom: 5px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #56534c;
+}
+.pancakes-subtitle {
+  margin-bottom: 65px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #a47d5e;
+}
+.pancakes-text > p {
+  margin-bottom: 50px;
+  max-width: 350px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  color: #56534c;
+  text-align: left;
+}
+.main-stars {
+  margin-bottom: 35px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  /* Заменить на сокращённую запись */
+  justify-items: start;
+  max-width: 100px;
 }
 .slider-button {
   display: grid;
@@ -517,6 +552,8 @@ img {
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, 1fr);
   /* Заменить на сокращённую запись */
+  justify-items: center;
+  align-items: center;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
