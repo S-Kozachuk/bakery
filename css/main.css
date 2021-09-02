@@ -551,6 +551,8 @@ img {
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, 1fr);
   /* Заменить на сокращённую запись */
+  justify-items: center;
+  align-items: center;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
