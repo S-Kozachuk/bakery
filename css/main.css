@@ -482,6 +482,12 @@ img {
   background-color: #fff;
   background-blend-mode: exclusion;
 }
+.pancakes-title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #56534c;
+}
 .slider-button {
   display: grid;
   grid: auto / auto;
