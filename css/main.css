@@ -462,6 +462,7 @@ img {
   grid-area: left-column;
 }
 .pancakes-right-column {
+  padding-top: 75px;
   padding-left: 60px;
   grid-area: right-column;
   position: relative;
