@@ -512,7 +512,7 @@ img {
   margin-bottom: 35px;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, auto);
   /* Заменить на сокращённую запись */
   justify-items: start;
   max-width: 100px;
