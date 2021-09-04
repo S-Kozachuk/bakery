@@ -462,7 +462,7 @@ img {
   grid-area: left-column;
 }
 .pancakes-right-column {
-  padding-top: 75px;
+  padding-top: 66px;
   padding-left: 60px;
   grid-area: right-column;
   position: relative;
@@ -485,7 +485,6 @@ img {
   background-blend-mode: exclusion;
 }
 .pancakes-title {
-  margin-bottom: 5px;
   font-size: 48px;
   font-weight: 700;
   letter-spacing: 1.2px;
@@ -512,7 +511,7 @@ img {
   margin-bottom: 35px;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, auto);
   /* Заменить на сокращённую запись */
   justify-items: start;
   max-width: 100px;
@@ -550,7 +549,7 @@ img {
 .pancakes-slider {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, auto);
   /* Заменить на сокращённую запись */
   justify-items: center;
   align-items: center;
