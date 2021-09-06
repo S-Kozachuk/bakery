@@ -549,23 +549,20 @@ img {
 .pancakes-slider {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 32px repeat(3, 1fr) 32px;
+  grid-template-columns: 32px 1fr 32px;
   /* Заменить на сокращённую запись */
   max-width: 425px;
   justify-items: center;
   align-items: center;
 }
-/*
 .pancakes-slider-carousel {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
-    width: 330px;
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  width: 330px;
+  justify-items: center;
+  align-items: center;
 }
-
-*/
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
