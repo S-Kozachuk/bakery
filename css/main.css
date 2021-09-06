@@ -549,7 +549,7 @@ img {
 .pancakes-slider {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 32px 1fr 32px;
+  grid-template-columns: 32px repeat(3, 1fr) 32px;
   /* Заменить на сокращённую запись */
   max-width: 425px;
   justify-items: center;
