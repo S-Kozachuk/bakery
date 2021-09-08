@@ -567,11 +567,11 @@ img {
   width: 330px;
   margin: 0 auto;
 }
-.pancakes-slider-unit {
-  margin-right: 10px;
-}
-.pancakes-slider-unit:last-child {
-  margin-right: 0;
+.pancakes-slider__wrapper {
+  display: grid;
+  grid-row: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
