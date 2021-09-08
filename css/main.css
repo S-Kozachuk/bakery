@@ -564,8 +564,14 @@ img {
     justify-items: center;
     align-items: center;
     */
-  width: 300px;
+  width: 330px;
   margin: 0 auto;
+}
+.pancakes-slider-unit {
+  margin-right: 10px;
+}
+.pancakes-slider-unit:last-child {
+  margin-right: 0;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
