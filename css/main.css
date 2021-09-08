@@ -556,12 +556,16 @@ img {
   align-items: center;
 }
 .pancakes-slider-carousel {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(3, 1fr);
-  width: 330px;
-  justify-items: center;
-  align-items: center;
+  /*
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    width: 330px;
+    justify-items: center;
+    align-items: center;
+    */
+  width: 300px;
+  margin: 0 auto;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
