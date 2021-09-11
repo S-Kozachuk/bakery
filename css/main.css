@@ -572,6 +572,7 @@ img {
   grid-row: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
+  margin-right: 5px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
