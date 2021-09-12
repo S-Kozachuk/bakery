@@ -611,6 +611,11 @@ img {
   border: 2px solid #5528ff;
   width: 12px;
   height: 12px;
+  border-radius: 50px;
+  outline: none;
+}
+.owl-carousel .owl-dots button.owl-dot.active {
+  background: #a47d5e;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
