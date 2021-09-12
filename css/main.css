@@ -455,7 +455,7 @@ img {
   margin: 0 auto;
   display: grid;
   grid-template-areas: "left-column right-column";
-  grid-template-columns: minmax(auto, 420px) minmax(auto, 550px);
+  grid-template-columns: minmax(auto, 43%) minmax(auto, 57%);
   max-width: 970px;
 }
 .pancakes-left-column {
