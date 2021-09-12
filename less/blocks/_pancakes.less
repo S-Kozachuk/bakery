@@ -10,6 +10,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-areas:"left-column right-column";
+    grid-template-columns: minmax(auto, 43%) minmax(auto, 57%);
     max-width: 970px;
 }
 
@@ -27,9 +28,6 @@
     background-repeat: no-repeat;
     background-color: #fff;
     background-position: 100% 100%;
-
-    height: 512px;
-    width: 545px;
 }
 
 .pancakes-timer {
@@ -142,5 +140,65 @@
     display: grid;
     grid-row: auto;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 30px;
+    margin-right: 5px
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+    display: none;
+}
+
+.pancakes-slider-carousel .owl-carousel .owl-nav button.owl-prev {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/pancakes/arrow-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-150%, 100%);
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+    display: none;
+}
+
+.pancakes-slider-carousel .owl-carousel .owl-nav button.owl-next {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/pancakes/arrow-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(150%, 100%);
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.pancakes-slider-carousel .owl-carousel .owl-dots {
+    margin: 0 auto;
+    width: 56px;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+    margin-right: 10px;
+    border: 1.5px solid #d8bba3;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    outline: none;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+
+.owl-carousel .owl-dots button.owl-dot.active {
+    background: #d8bba3;
 }
