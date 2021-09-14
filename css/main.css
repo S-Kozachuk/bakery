@@ -620,6 +620,7 @@ img {
   right: 0;
   transform: translate(50%, -20%);
   display: grid;
+  justify-content: center;
   background-image: url(/img/pancakes/field.svg);
   width: 200px;
   height: 200px;
