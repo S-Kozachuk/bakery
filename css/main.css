@@ -638,6 +638,10 @@ img {
   color: #a47d5e;
   text-transform: uppercase;
 }
+.pancakes-timer-digit > p {
+  font-size: 92px;
+  color: #dfc691;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
