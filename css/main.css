@@ -626,6 +626,14 @@ img {
 .owl-carousel .owl-dots button.owl-dot.active {
   background: #d8bba3;
 }
+.pancakes-timer-ready {
+  font-family: var(--Alegreya);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: #a47d5e;
+  text-transform: uppercase;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
