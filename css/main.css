@@ -626,6 +626,9 @@ img {
 .owl-carousel .owl-dots button.owl-dot.active {
   background: #d8bba3;
 }
+.pancakes-timer-ready {
+  margin-top: 34px;
+}
 .pancakes-timer-ready > p {
   font-family: var(--Alegreya);
   font-size: 18px;
