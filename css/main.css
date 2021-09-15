@@ -630,7 +630,7 @@ img {
 }
 .pancakes-timer__wrapper {
   display: grid;
-  grid-template-rows: 20px 60px 20px;
+  grid-template-rows: 20px 80px 20px;
   justify-content: center;
 }
 .pancakes-timer-ready {
