@@ -199,7 +199,10 @@
     top: 0;
     right: 0;
     transform: translate(50%, -20%);
+    
     display: grid;
+    grid-template-rows: 20px 60px 20px;
+
     justify-content: center;
     background-image: url(/img/pancakes/field.svg);
     width: 200px;
@@ -214,6 +217,10 @@
 
 .pancakes-timer-ready {
     margin-top: 34px;
+    /*
+    grid-row-start: start;
+    grid-column: start;
+    */
 }
 
 .pancakes-timer-ready>p {
@@ -223,6 +230,10 @@
 }
 
 .pancakes-timer-digit {
+    /*
+    grid-row-start: row2;
+    grid-column: start;
+    */
 }   
 
 .pancakes-timer-digit>p {
@@ -233,4 +244,8 @@
 .pancakes-timer-min {
     font-size: 18px;
     color: #979285;
+    /*
+    grid-row-start: row3;
+    grid-column: start;
+    */  
 }
