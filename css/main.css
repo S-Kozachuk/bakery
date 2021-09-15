@@ -631,7 +631,7 @@ img {
 .pancakes-timer__wrapper {
   margin-top: 25px;
   display: grid;
-  grid-template-rows: 20px 80px 20px;
+  grid-template-rows: 20px 102px 20px;
   justify-content: center;
 }
 .pancakes-timer-ready {
@@ -640,11 +640,13 @@ img {
   text-transform: uppercase;
 }
 .pancakes-timer-digit {
+  padding-top: 8px;
   font-size: 92px;
   color: #dfc691;
   line-height: 1;
 }
 .pancakes-timer-min {
+  justify-self: center;
   font-size: 18px;
   color: #979285;
 }
