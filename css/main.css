@@ -634,12 +634,6 @@ img {
   justify-content: center;
 }
 .pancakes-timer-ready {
-  /*
-    grid-row-start: start;
-    grid-column: start;
-    */
-}
-.pancakes-timer-ready > p {
   font-size: 18px;
   color: #a47d5e;
   text-transform: uppercase;
