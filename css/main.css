@@ -619,17 +619,19 @@ img {
   top: 0;
   right: 0;
   transform: translate(50%, -20%);
-  display: grid;
-  grid-template-rows: 20px 60px 20px;
-  justify-content: center;
-  background-image: url(/img/pancakes/field.svg);
   width: 200px;
   height: 200px;
+  background-image: url(/img/pancakes/field.svg);
   background-color: #fff;
   background-blend-mode: exclusion;
   font-family: var(--Alegreya);
   font-weight: 700;
   letter-spacing: 1.8px;
+}
+.pancakes-timer__wrapper {
+  display: grid;
+  grid-template-rows: 20px 60px 20px;
+  justify-content: center;
 }
 .pancakes-timer-ready {
   margin-top: 34px;
