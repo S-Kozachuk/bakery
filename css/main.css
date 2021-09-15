@@ -641,6 +641,7 @@ img {
 .pancakes-timer-digit {
   font-size: 92px;
   color: #dfc691;
+  line-height: 1;
 }
 .pancakes-timer-min {
   font-size: 18px;
