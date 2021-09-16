@@ -499,7 +499,7 @@ img {
   text-align: left;
 }
 .main-stars {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, auto);
