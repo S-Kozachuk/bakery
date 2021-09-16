@@ -488,7 +488,7 @@ img {
   color: #a47d5e;
 }
 .pancakes-text {
-  margin-bottom: 50px;
+  margin-bottom: 11px;
 }
 .pancakes-text > p {
   max-width: 360px;
@@ -499,7 +499,7 @@ img {
   text-align: left;
 }
 .main-stars {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, auto);
