@@ -619,7 +619,7 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(50%, -20%);
+  transform: translate(55%, -21%);
   width: 200px;
   height: 200px;
   background-image: url(/img/pancakes/field.png);
@@ -630,7 +630,7 @@ img {
   letter-spacing: 1.8px;
 }
 .pancakes-timer__wrapper {
-  margin-top: 25px;
+  margin-top: 26px;
   display: grid;
   grid-template-rows: 20px 102px 20px;
   justify-content: center;
@@ -641,7 +641,7 @@ img {
   text-transform: uppercase;
 }
 .pancakes-timer-digit {
-  padding-top: 8px;
+  padding-top: 16px;
   font-size: 92px;
   color: #dfc691;
   line-height: 1;
