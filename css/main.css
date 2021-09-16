@@ -455,7 +455,7 @@ img {
   margin: 0 auto;
   display: grid;
   grid-template-areas: "left-column right-column";
-  grid-template-columns: minmax(auto, 43%) minmax(auto, 57%);
+  grid-template-columns: minmax(auto, 44%) minmax(auto, 56%);
   max-width: 965px;
   box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
 }
