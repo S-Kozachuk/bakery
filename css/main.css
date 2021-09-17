@@ -654,7 +654,7 @@ img {
 .breakfast {
   height: 61vh;
   background-image: url(/img/breakfast/breakfast.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
