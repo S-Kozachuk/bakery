@@ -652,8 +652,9 @@ img {
   color: #979285;
 }
 .breakfast {
-  height: 73vh;
+  height: 61vh;
   background-image: url(/img/breakfast/breakfast.jpg);
+  background-size: contain;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
