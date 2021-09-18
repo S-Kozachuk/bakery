@@ -660,6 +660,10 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.breakfast-menu {
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
