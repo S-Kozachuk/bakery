@@ -661,6 +661,9 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.breakfast-column-left {
+  color: #fff;
+}
 .breakfast-menu {
   display: grid;
   grid-template-rows: repeat(11, 1fr);
