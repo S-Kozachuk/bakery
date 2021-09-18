@@ -653,6 +653,7 @@ img {
 }
 .breakfast {
   height: 61vh;
+  /* удалить после завершения стилизации */
   background-image: url(/img/breakfast/breakfast.jpg);
   background-size: cover;
 }
