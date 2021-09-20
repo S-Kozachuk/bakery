@@ -667,6 +667,7 @@ img {
 .breakfast-menu {
   display: grid;
   grid-template-rows: repeat(11, 1fr);
+  font-family: var(--Alegreya);
 }
 .breakfast-title {
   font-size: 60px;
