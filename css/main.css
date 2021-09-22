@@ -652,8 +652,7 @@ img {
   color: #979285;
 }
 .breakfast {
-  height: 61vh;
-  /* удалить после завершения стилизации */
+  padding: 90px 0;
   background-image: url(/img/breakfast/breakfast.jpg);
   background-size: cover;
 }
