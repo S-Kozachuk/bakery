@@ -700,7 +700,7 @@ img {
   letter-spacing: 0.8px;
   color: #c2beba;
 }
-.breakfast-menu-cost {
+.breakfast-menu__cost {
   margin-bottom: 40px;
   font-size: 36px;
   font-weight: 400;
@@ -708,7 +708,7 @@ img {
   line-height: 1;
   color: #dfc691;
 }
-.breakfast-menu-cost:last-child {
+.breakfast-menu__cost:last-child {
   margin-bottom: 0;
 }
 /*!
