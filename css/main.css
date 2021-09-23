@@ -675,6 +675,7 @@ img {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 3px;
+  line-height: 1;
 }
 .breakfast-subtitle {
   font-family: var(--Alegreya);
