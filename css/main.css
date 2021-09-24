@@ -721,7 +721,7 @@ img {
   display: grid;
   justify-items: center;
   height: 580px;
-  border: dotted 1px #9e9c93;
+  border: dashed 5px #9e9c93;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
