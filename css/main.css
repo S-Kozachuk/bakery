@@ -726,6 +726,7 @@ img {
 .breakfast-decor-left {
   position: relative;
   width: 144px;
+  height: 1px;
   border: 1px solid #56534c;
 }
 .breakfast-decor-left::before {
@@ -737,6 +738,10 @@ img {
   top: -7px;
   left: -14px;
   border-radius: 50%;
+}
+.breakfast-decor-center {
+  width: 43px;
+  height: 34px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
