@@ -739,10 +739,22 @@ img {
   left: -14px;
   border-radius: 50%;
 }
-.breakfast-decor-center {
+.breakfast-decor-center > svg {
   width: 43px;
   height: 34px;
   fill: #c2beba;
+  /* Почему не отображается псевдоэлемент? */
+}
+.breakfast-decor-center > svg ::before {
+  content: "";
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border: 1px solid #fff;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
