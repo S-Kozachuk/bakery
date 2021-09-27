@@ -733,6 +733,10 @@ img {
   font-weight: 700;
   letter-spacing: 0.7px;
 }
+.breakfast-decor-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
 .breakfast-decor-left {
   position: relative;
   width: 144px;
