@@ -103,22 +103,23 @@
 
 }
 
-.breakfast-decor-center>svg {
-    width: 43px;
-    height: 34px;
+.breakfast-decor-center {
+    position: relative;
+    width: 45px;
+    height: 35px;
     fill: #c2beba;
 
     /* Почему не отображается псевдоэлемент? */
-    ::before {
+    &::before {
         content: "";
-        border-radius: 50%;
-        height: 80px;
-        width: 80px;
         position: absolute;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
         top: 50%;
         right: 50%;
         transform: translate(50%, -50%);
-        border: 1px solid #fff;
+        border: 2px solid #c2beba;
     }
 
 }
