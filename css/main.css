@@ -757,6 +757,22 @@ img {
   transform: translate(50%, -50%);
   border: 2px solid #c2beba;
 }
+.breakfast-decor-right {
+  position: relative;
+  width: 144px;
+  height: 1px;
+  border: 1px solid #9e9c93;
+}
+.breakfast-decor-right::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #9e9c93;
+  top: -7px;
+  right: -14px;
+  border-radius: 50%;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
