@@ -742,14 +742,14 @@ img {
   top: 17px;
   width: 144px;
   height: 1px;
-  border: 1px solid #9e9c93;
+  border: 1px solid #c2beba;
 }
 .breakfast-decor-left::before {
   content: "";
   position: absolute;
   width: 12px;
   height: 12px;
-  border: 1px solid #9e9c93;
+  border: 1px solid #c2beba;
   top: -7px;
   left: -14px;
   border-radius: 50%;
@@ -777,14 +777,14 @@ img {
   top: 17px;
   width: 144px;
   height: 1px;
-  border: 1px solid #9e9c93;
+  border: 1px solid #c2beba;
 }
 .breakfast-decor-right::before {
   content: "";
   position: absolute;
   width: 12px;
   height: 12px;
-  border: 1px solid #9e9c93;
+  border: 1px solid #c2beba;
   top: -7px;
   right: -14px;
   border-radius: 50%;
