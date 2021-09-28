@@ -756,10 +756,10 @@ img {
 }
 .breakfast-decor-center {
   position: relative;
+  margin: 0 9px;
   width: 45px;
   height: 35px;
   fill: #c2beba;
-  /* Почему не отображается псевдоэлемент? */
 }
 .breakfast-decor-center::before {
   content: "";
