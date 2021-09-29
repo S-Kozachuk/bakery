@@ -720,7 +720,6 @@ img {
 .breakfast-testimonial {
   display: grid;
   justify-items: center;
-  height: 580px;
   border: dashed 2px #9e9c93;
 }
 .establishment-year {
@@ -797,6 +796,9 @@ img {
   letter-spacing: 0.7px;
   color: #56534c;
   text-align: center;
+}
+.breakfast-descr__button {
+  padding: 15px 70px;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
