@@ -803,6 +803,7 @@ img {
   text-align: center;
 }
 .breakfast-descr__button {
+  margin-bottom: 50px;
   display: inline-block;
   padding: 12px 70px;
   border: 1px solid #9e9c93;
