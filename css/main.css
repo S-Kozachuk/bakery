@@ -724,6 +724,7 @@ img {
   border: dashed 2px #9e9c93;
 }
 .establishment-year {
+  margin-bottom: 25px;
   display: grid;
   grid-template-columns: repeat(2, 210px);
   align-items: center;
