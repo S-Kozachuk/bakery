@@ -794,6 +794,7 @@ img {
   color: #56534c;
 }
 .breakfast-descr__text p {
+  margin-bottom: 50px;
   max-width: 330px;
   font-size: 14px;
   line-height: 2.14;
