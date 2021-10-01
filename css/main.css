@@ -725,6 +725,7 @@ img {
   padding-top: 45px;
   border: dashed 2px #9e9c93;
   border-bottom-left-radius: 15px;
+  color: #56534c;
 }
 .breakfast-testimonial::after {
   position: absolute;
@@ -805,7 +806,6 @@ img {
   line-height: 1.4;
   letter-spacing: 1.1px;
   text-align: center;
-  color: #56534c;
 }
 .breakfast-descr__text p {
   margin-bottom: 50px;
