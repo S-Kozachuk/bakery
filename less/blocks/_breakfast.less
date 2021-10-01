@@ -75,13 +75,30 @@
     width: 445px;
     height: 600px;
     background: #f3f1e9;
+    background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
 }
 
 .breakfast-testimonial {
+    position: relative;
     display: grid;
     justify-items: center;
     padding-top: 45px;
     border: dashed 2px #9e9c93;
+    border-bottom-left-radius: 15px;
+    color: #56534c;
+
+    &::after {
+        position: absolute;
+        content: "";
+        background-image: url(/img/breakfast/corner.png);
+        width: 40px;
+        height: 40px;
+        bottom: 0;
+        z-index: 0;
+        left: 0;
+        transform: translate(-16px, 19px);
+    }
+    
 }
 
 .establishment-year {
