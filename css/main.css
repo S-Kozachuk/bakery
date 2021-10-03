@@ -713,10 +713,19 @@ img {
 }
 .breakfast-column-right {
   padding: 12px;
+  position: relative;
   width: 445px;
   height: 600px;
-  background: #f3f1e9;
   background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
+}
+.breakfast-column-right::before {
+  position: absolute;
+  content: "";
+  top: 24px;
+  right: -20px;
+  width: 12px;
+  height: 550px;
+  background: #f3f1e9;
 }
 .breakfast-testimonial {
   position: relative;
