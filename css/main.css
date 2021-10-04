@@ -657,6 +657,7 @@ img {
   background-size: cover;
 }
 .breakfast-wrapper {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -714,20 +715,29 @@ img {
 .breakfast-column-right {
   padding: 12px;
   position: relative;
+  z-index: 3;
   max-width: 445px;
   background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
+  /*
+    &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "";
+        width: 14px;
+        height: 547px;
+        transform: translate(90%, 5%);
+        background: #d7d4c5;
+        box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
+    }
+    */
 }
-.breakfast-column-right::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  content: "";
-  width: 14px;
-  height: 547px;
-  transform: translate(90%, 5%);
-  background: #d7d4c5;
-  box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
-}
+/*
+Создать 2 вертикальных контейнера. Разместить с
+перекрытием друг под дургом и под основным блоком
+.breakfast-column-right.
+Контейнерам добавить пунктирные рамки и тени.
+*/
 .breakfast-testimonial {
   position: relative;
   display: grid;
@@ -842,6 +852,18 @@ img {
 .breakfast-descr__button:hover {
   border: 1px solid rgba(158, 156, 147, 0.5);
   color: rgba(164, 94, 94, 0.5);
+}
+.breakfast-sidebar-first {
+  position: absolute;
+  top: 0;
+  right: 13%;
+  z-index: 2;
+  content: "";
+  width: 14px;
+  height: 547px;
+  transform: translate(-4%, 5%);
+  background: #d7d4c5;
+  box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
