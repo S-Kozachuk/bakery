@@ -5,6 +5,7 @@
 }
 
 .breakfast-wrapper {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -71,11 +72,23 @@
 
 .breakfast-column-right {
     padding: 12px;
-    // Временные параметры, после наполнения контейнера - убрать.
-    width: 445px;
-    height: 600px;
-    background: #f3f1e9;
+    position: relative;
+    z-index: 3;
+    max-width: 445px;
     background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
+    /*
+    &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "";
+        width: 14px;
+        height: 547px;
+        transform: translate(90%, 5%);
+        background: #d7d4c5;
+        box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
+    }
+    */
 }
 
 .breakfast-testimonial {
@@ -215,4 +228,44 @@
         color: rgba(164, 94, 94, 0.5);
     }
 
+}
+
+.breakfast-sidebar-first {
+    position: absolute;
+    top: 0;
+    right: 13%;
+    z-index: 2;
+    padding-top: 6px;
+    content: "";
+    width: 14px;
+    height: 547px;
+    transform: translate(-4%, 6%);
+    background: #d7d4c5;
+    box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
+}
+
+.breakfast-sidebar-first__border {
+    width: 9px;
+    height: 534px;
+    border: dashed 2px #9e9c93;
+}
+
+.breakfast-sidebar-second {
+    position: absolute;
+    top: 0;
+    right: 13%;
+    z-index: 1;
+    padding-top: 12px;
+    content: "";
+    width: 14px;
+    height: 502px;
+    transform: translate(69%, 11%);
+    background: #d7d4c5;
+    box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
+}
+
+.breakfast-sidebar-second__border {
+    width: 9px;
+    height: 482px;
+    border: dashed 2px #9e9c93;
 }
