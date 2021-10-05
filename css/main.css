@@ -860,9 +860,13 @@ img {
   background: #d7d4c5;
   box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
 }
-.breakfast-sidebar-first__border {
+.breakfast-sidebar-first::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 5px;
   width: 9px;
-  height: 534px;
+  height: 526px;
   border: dashed 2px #9e9c93;
 }
 .breakfast-sidebar-second {
