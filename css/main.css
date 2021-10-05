@@ -731,6 +731,9 @@ img {
   background-repeat: no-repeat;
   z-index: 1;
 }
+.rye {
+  fill: crimson;
+}
 .breakfast-testimonial {
   position: relative;
   display: grid;
