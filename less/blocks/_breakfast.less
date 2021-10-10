@@ -71,31 +71,32 @@
 }
 
 .breakfast-column-right {
-    padding: 12px;
+    padding: 10px;
     position: relative;
     z-index: 3;
     max-width: 445px;
     background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
-    /*
+
     &::before {
-        position: absolute;
-        top: 0;
-        right: 0;
         content: "";
-        width: 14px;
-        height: 547px;
-        transform: translate(90%, 5%);
-        background: #d7d4c5;
-        box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(57%, 27%);
+        width: 415px;
+        height: 200px;
+        background-image: url(/img/breakfast/rye.svg);
+        background-repeat: no-repeat;
+        z-index: 1;
     }
-    */
+
 }
 
 .breakfast-testimonial {
     position: relative;
     display: grid;
     justify-items: center;
-    padding-top: 45px;
+    padding-top: 34px;
     border: dashed 2px #9e9c93;
     border-bottom-left-radius: 15px;
     color: #56534c;
@@ -115,7 +116,7 @@
 }
 
 .establishment-year {
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     display: grid;
     grid-template-columns: repeat(2, 210px);
     align-items: center;
@@ -129,7 +130,7 @@
 .breakfast-decor-wrapper {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    margin-bottom: 50px;
+    margin-bottom: 78px;
 }
 
 .breakfast-decor {
@@ -192,7 +193,7 @@
 }
 
 .breakfast-descr__title {
-    margin-bottom: 40px;
+    margin-bottom: 31px;
     font-size: 44px;
     font-weight: 700;
     line-height: 1.4;
@@ -201,8 +202,8 @@
 }
 
 .breakfast-descr__text p {
-    margin-bottom: 50px;
-    max-width: 330px;
+    margin-bottom: 42px;
+    max-width: 360px;
     font-size: 14px;
     line-height: 2.14;
     letter-spacing: 0.7px;
@@ -241,13 +242,18 @@
     height: 547px;
     transform: translate(-4%, 6%);
     background: #d7d4c5;
-    box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
-}
+    box-shadow: -2px 6px 16px -2px rgba(0, 0, 0, 0.5);
 
-.breakfast-sidebar-first__border {
-    width: 9px;
-    height: 534px;
-    border: dashed 2px #9e9c93;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        width: 9px;
+        height: 526px;
+        border: dashed 2px #9e9c93;
+    }
+
 }
 
 .breakfast-sidebar-second {
@@ -261,11 +267,16 @@
     height: 502px;
     transform: translate(69%, 11%);
     background: #d7d4c5;
-    box-shadow: 9px -2px 16px -2px rgba(0, 0, 0, 0.5);
-}
+    box-shadow: 5px 3px 16px 0px rgba(0, 0, 0, 0.5);
 
-.breakfast-sidebar-second__border {
-    width: 9px;
-    height: 482px;
-    border: dashed 2px #9e9c93;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        width: 9px;
+        height: 482px;
+        border: dashed 2px #9e9c93;
+    }
+
 }
