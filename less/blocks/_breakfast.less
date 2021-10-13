@@ -13,6 +13,7 @@
 .breakfast-column-left {
     display: grid;
     justify-items: center;
+    justify-self: center;
     max-width: 445px;
     color: #fff;
 }
@@ -81,7 +82,7 @@
     padding: 10px;
     position: relative;
     z-index: 3;
-    width: 445px;
+    max-width: 445px;
     background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
 
     &::before {
@@ -96,7 +97,7 @@
         background-repeat: no-repeat;
         z-index: 1;
     }
-    
+
 }
 
 .breakfast-testimonial {
