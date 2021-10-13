@@ -712,8 +712,10 @@ img {
 .breakfast-menu__cost:last-child {
   margin-bottom: 0;
 }
-.ones {
-  width: 500px;
+.rye-symbol {
+  width: 95px;
+  height: 45px;
+  opacity: .5;
 }
 .breakfast-column-right {
   padding: 10px;
