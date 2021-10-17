@@ -652,7 +652,7 @@ img {
   color: #979285;
 }
 .breakfast {
-  padding: 90px 0;
+  padding: 85px 0;
   background-image: url(/img/breakfast/breakfast.jpg);
   background-size: cover;
 }
@@ -664,11 +664,13 @@ img {
 .breakfast-column-left {
   display: grid;
   justify-items: center;
+  justify-self: center;
+  max-width: 445px;
   color: #fff;
 }
 .breakfast-menu {
   display: grid;
-  grid-template-rows: repeat(9, auto);
+  grid-template-rows: repeat(11, auto);
   justify-items: center;
   font-family: var(--Alegreya);
 }
@@ -702,7 +704,7 @@ img {
   color: #c2beba;
 }
 .breakfast-menu__cost {
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 1.8px;
@@ -712,9 +714,15 @@ img {
 .breakfast-menu__cost:last-child {
   margin-bottom: 0;
 }
+.rye-symbol {
+  width: 95px;
+  height: 45px;
+  opacity: .3;
+}
 .breakfast-column-right {
   padding: 10px;
   position: relative;
+  justify-self: right;
   z-index: 3;
   max-width: 445px;
   background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
