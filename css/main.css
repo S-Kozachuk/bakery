@@ -675,6 +675,7 @@ img {
   font-family: var(--Alegreya);
 }
 .breakfast-title {
+  margin-bottom: 1px;
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 3px;
