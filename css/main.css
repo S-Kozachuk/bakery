@@ -107,7 +107,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
-  max-width: 1264px;
+  max-width: 1294px;
 }
 .nav-menu {
   position: relative;
@@ -768,7 +768,7 @@ img {
   transform: translate(57%, 27%);
   width: 415px;
   height: 200px;
-  background-image: url(/img/breakfast/rye.svg);
+  background-image: url(/img/breakfast/rye-1.svg);
   background-repeat: no-repeat;
   z-index: 1;
 }
