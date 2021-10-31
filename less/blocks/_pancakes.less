@@ -1,0 +1,239 @@
+.pancakes {
+    padding-top: 141px;
+    padding-bottom: 106px;
+    background-image: url(/img/pancakes/pancakes_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pancakes-content {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:"left-column right-column";
+    grid-template-columns: minmax(auto, 44%) minmax(auto, 56%);
+    max-width: 965px;
+    box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
+}
+
+.pancakes-left-column {
+    position: relative;
+    grid-area: left-column;
+}
+
+.pancakes-right-column {
+    padding-top: 66px;
+    padding-left: 60px;
+    grid-area: right-column;
+    position: relative;
+    background-image: url(/img/pancakes/windmill.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: 100% 100%;
+}
+
+.pancakes-title {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #56534c;
+}
+
+.pancakes-subtitle {
+    margin-bottom: 53px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #a47d5e;
+}
+
+.pancakes-text {
+    margin-bottom: 35px;
+}
+
+.pancakes-text>p {
+    max-width: 360px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714;
+    color: #56534c;
+    text-align: left;
+}
+
+.main-stars {
+    margin-bottom: 38px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, auto);
+    /* Заменить на сокращённую запись */
+    justify-items: start;
+    max-width: 100px;
+}
+
+.slider-button {
+    display: grid;
+    grid: auto / auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, 0);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.slider-button__img {
+    width: 10px;
+    height: 19px;
+}
+
+.rating-stars-l {
+    display: grid;
+    grid-template-rows: 5fr;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(151%, -52%);
+}
+
+.rating-stars-l__unit {
+    margin-top: 10px;
+}
+
+.pancakes-slider {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 32px 1fr 32px;
+    /* Заменить на сокращённую запись */
+    max-width: 425px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.pancakes-slider-carousel {
+    /*
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    width: 330px;
+    justify-items: center;
+    align-items: center;
+    */
+    width: 330px;
+    margin: 0 auto;
+}
+
+.pancakes-slider__wrapper {
+    display: grid;
+    grid-row: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-right: 5px
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+    display: none;
+}
+
+.pancakes-slider-carousel .owl-carousel .owl-nav button.owl-prev {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/pancakes/arrow-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-150%, 100%);
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+    display: none;
+}
+
+.pancakes-slider-carousel .owl-carousel .owl-nav button.owl-next {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/pancakes/arrow-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(150%, 100%);
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.pancakes-slider-carousel .owl-carousel .owl-dots {
+    margin: 0 auto;
+    width: 56px;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+    margin-right: 10px;
+    border: 1.5px solid #d8bba3;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    outline: none;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+
+.owl-carousel .owl-dots button.owl-dot.active {
+    background: #d8bba3;
+}
+
+.pancakes-timer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(55%, -21%);
+        
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/pancakes/field.png);
+    background-color: #fff;
+    box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.5);
+
+    font-family: var(--Alegreya);
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.pancakes-timer__wrapper {
+    margin-top: 26px;
+    display: grid;
+    grid-template-rows: 20px 102px 20px;
+    justify-content: center;
+}
+
+.pancakes-timer-ready {
+    font-size: 18px;
+    color: #a47d5e;
+    text-transform: uppercase;
+}
+
+.pancakes-timer-digit {
+    padding-top: 16px;
+    font-size: 92px;
+    color: #dfc691;
+    line-height: 1;
+}
+
+.pancakes-timer-min {
+    justify-self: center;
+    font-size: 18px;
+    color: #979285;
+}
