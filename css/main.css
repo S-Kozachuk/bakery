@@ -456,10 +456,10 @@ img {
   background-size: cover;
 }
 .pancakes-content {
-  margin: 0 auto;
+  margin-left: 99px;
   display: grid;
   grid-template-areas: "left-column right-column";
-  grid-template-columns: minmax(auto, 44%) minmax(auto, 56%);
+  grid-template-columns: minmax(auto, 44%) minmax(auto, 57%);
   max-width: 965px;
   box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
 }
@@ -492,7 +492,7 @@ img {
   color: #a47d5e;
 }
 .pancakes-text {
-  margin-bottom: 35px;
+  margin-bottom: 52px;
 }
 .pancakes-text > p {
   max-width: 360px;
@@ -503,13 +503,13 @@ img {
   text-align: left;
 }
 .main-stars {
-  margin-bottom: 38px;
+  margin-bottom: 34px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, auto);
-  /* Заменить на сокращённую запись */
+  column-gap: 10px;
   justify-items: start;
-  max-width: 100px;
+  max-width: 107px;
 }
 .slider-button {
   display: grid;
@@ -545,8 +545,7 @@ img {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 32px 1fr 32px;
-  /* Заменить на сокращённую запись */
-  max-width: 425px;
+  max-width: 412px;
   justify-items: center;
   align-items: center;
 }
@@ -603,6 +602,7 @@ img {
 }
 .pancakes-slider-carousel .owl-carousel .owl-dots {
   margin: 0 auto;
+  margin-top: 6px;
   width: 56px;
 }
 .owl-carousel .owl-dots button.owl-dot {
@@ -623,7 +623,7 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(55%, -21%);
+  transform: translate(52%, -21%);
   width: 200px;
   height: 200px;
   background-image: url(/img/pancakes/field.png);
@@ -645,7 +645,7 @@ img {
   text-transform: uppercase;
 }
 .pancakes-timer-digit {
-  padding-top: 16px;
+  padding-top: 4px;
   font-size: 92px;
   color: #dfc691;
   line-height: 1;
