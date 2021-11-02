@@ -456,11 +456,11 @@ img {
   background-size: cover;
 }
 .pancakes-content {
-  margin-left: 99px;
+  margin-left: 98px;
   display: grid;
   grid-template-areas: "left-column right-column";
-  grid-template-columns: minmax(auto, 44%) minmax(auto, 57%);
-  max-width: 965px;
+  grid-template-columns: minmax(auto, 44%) minmax(auto, 56%);
+  max-width: 958px;
   box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
 }
 .pancakes-left-column {
@@ -517,7 +517,7 @@ img {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -45%);
   border-radius: 50px;
   width: 40px;
   height: 40px;
