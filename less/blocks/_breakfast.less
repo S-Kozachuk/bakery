@@ -1,17 +1,16 @@
 .breakfast {
-    padding: 85px 0;
+    padding-top: 85px;
+    padding-bottom: 67px;
     background-image: url(/img/breakfast/breakfast.jpg);
     background-size: cover;
 }
 
 .breakfast-wrapper {
+    margin-top: 2px;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-
-    
-
 
     @media (min-width: 1440px) {
         &::before {
@@ -28,10 +27,9 @@
         }
     }
 
-
     @media (min-width: 1600px) {
         &::before {
-            transform: translate(44%, 33%);
+            transform: translate(45%, 25%);
             width: 30%;
             height: 36%;
         }
@@ -40,7 +38,7 @@
 }
 
 .breakfast-column-left {
-    margin-left: 40px;
+    margin-left: 87px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,33 +151,20 @@
 }
 
 .breakfast-column-right {
+    margin-top: 7px;
     padding: 10px;
     position: relative;
     justify-self: right;
     z-index: 3;
     max-width: 445px;
     background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
-    /*
-    &::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        transform: translate(57%, 27%);
-        width: 415px;
-        height: 200px;
-        background-image: url(/img/breakfast/rye-1.svg);
-        background-repeat: no-repeat;
-        z-index: 1;
-    }
-    */
 }
 
 .breakfast-testimonial {
+    padding-top: 35px;
     position: relative;
     display: grid;
     justify-items: center;
-    padding-top: 34px;
     border: dashed 2px #9e9c93;
     border-bottom-left-radius: 15px;
     color: #56534c;
@@ -193,7 +178,7 @@
         bottom: 0;
         z-index: 0;
         left: 0;
-        transform: translate(-16px, 19px);
+        transform: translate(-16px, 17px);
     }
     
 }
@@ -213,7 +198,7 @@
 .breakfast-decor-wrapper {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    margin-bottom: 78px;
+    margin-bottom: 74px;
 }
 
 .breakfast-decor {
@@ -285,7 +270,7 @@
 }
 
 .breakfast-descr__text p {
-    margin-bottom: 42px;
+    margin-bottom: 45px;
     max-width: 360px;
     font-size: 14px;
     line-height: 2.14;
@@ -295,7 +280,7 @@
 }
 
 .breakfast-descr__button {
-    margin-bottom: 50px;
+    margin-bottom: 57px;
     display: inline-block;
     padding: 12px 70px;
     border: 1px solid #9e9c93;
