@@ -668,17 +668,26 @@ img {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
 }
-.breakfast-wrapper::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(44%, 30%);
-  width: 30%;
-  height: 36%;
-  background-image: url(/img/breakfast/rye-1.svg);
-  background-repeat: no-repeat;
-  z-index: 4;
+@media (min-width: 1440px) {
+  .breakfast-wrapper::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(28%, 26%);
+    width: 22%;
+    height: 35%;
+    background-image: url(/img/breakfast/rye-1.svg);
+    background-repeat: no-repeat;
+    z-index: 4;
+  }
+}
+@media (min-width: 1600px) {
+  .breakfast-wrapper::before {
+    transform: translate(44%, 33%);
+    width: 30%;
+    height: 36%;
+  }
 }
 .breakfast-column-left {
   margin-left: 40px;
