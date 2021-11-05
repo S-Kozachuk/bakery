@@ -268,7 +268,7 @@ img {
   z-index: 2;
 }
 .cakes {
-  padding-bottom: 100px;
+  padding-bottom: 117px;
   background-image: url(/img/cakes/cake-bg.jpg);
   background-repeat: repeat-x;
   background: linear-gradient(-135deg, #f8f6f4, #fdfbf8);
@@ -290,7 +290,7 @@ img {
   color: #56534c;
 }
 .cakes-subtitle {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   font-family: var(--Alegreya);
   font-size: 14px;
   font-weight: 700;
@@ -299,7 +299,7 @@ img {
   color: #a47d5e;
 }
 .cakes-text > p {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
@@ -307,7 +307,7 @@ img {
   color: #56534c;
 }
 .cakes-chef {
-  margin-bottom: 40px;
+  margin-bottom: 44px;
   font-family: var(--Alegreya);
   font-size: 24px;
   font-weight: 700;
@@ -315,7 +315,7 @@ img {
   color: #56534c;
 }
 .cakes-chef-content {
-  margin-bottom: 20px;
+  margin-bottom: -8px;
   display: grid;
   grid-template: auto / repeat(3, auto);
   align-items: center;
@@ -355,7 +355,8 @@ img {
 }
 .chef-perf {
   position: relative;
-  top: -30%;
+  top: -36%;
+  left: 10%;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
   color: #56534c;
@@ -371,14 +372,16 @@ img {
   color: #a47d5e;
 }
 .chef-perf__right {
-  top: 30%;
+  top: 45%;
+  left: -8%;
   transform: scale(1, -1);
 }
 .cakes-column-right {
+  margin-left: -5px;
   position: relative;
 }
 .cakes-right-grid {
-  margin-top: 100px;
+  margin-top: 121px;
   position: relative;
   display: grid;
   grid-template-areas: "cell-one cell-two" "cell-three cell-four";
@@ -453,12 +456,14 @@ img {
   background-size: cover;
 }
 .pancakes-content {
-  margin: 0 auto;
+  margin-left: 98px;
   display: grid;
   grid-template-areas: "left-column right-column";
-  grid-template-columns: minmax(auto, 44%) minmax(auto, 56%);
-  max-width: 965px;
+  grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
+  max-width: 954px;
   box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
+  border: 0px dashed #ffffff00;
+  border-bottom-left-radius: 97px;
 }
 .pancakes-left-column {
   position: relative;
@@ -489,7 +494,7 @@ img {
   color: #a47d5e;
 }
 .pancakes-text {
-  margin-bottom: 35px;
+  margin-bottom: 52px;
 }
 .pancakes-text > p {
   max-width: 360px;
@@ -500,13 +505,13 @@ img {
   text-align: left;
 }
 .main-stars {
-  margin-bottom: 38px;
+  margin-bottom: 34px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(5, auto);
-  /* Заменить на сокращённую запись */
+  column-gap: 10px;
   justify-items: start;
-  max-width: 100px;
+  max-width: 107px;
 }
 .slider-button {
   display: grid;
@@ -514,7 +519,7 @@ img {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -45%);
   border-radius: 50px;
   width: 40px;
   height: 40px;
@@ -542,8 +547,7 @@ img {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 32px 1fr 32px;
-  /* Заменить на сокращённую запись */
-  max-width: 425px;
+  max-width: 412px;
   justify-items: center;
   align-items: center;
 }
@@ -600,6 +604,7 @@ img {
 }
 .pancakes-slider-carousel .owl-carousel .owl-dots {
   margin: 0 auto;
+  margin-top: 6px;
   width: 56px;
 }
 .owl-carousel .owl-dots button.owl-dot {
@@ -620,7 +625,7 @@ img {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(55%, -21%);
+  transform: translate(56%, -21%);
   width: 200px;
   height: 200px;
   background-image: url(/img/pancakes/field.png);
@@ -642,7 +647,7 @@ img {
   text-transform: uppercase;
 }
 .pancakes-timer-digit {
-  padding-top: 16px;
+  padding-top: 4px;
   font-size: 92px;
   color: #dfc691;
   line-height: 1;
@@ -653,18 +658,41 @@ img {
   color: #979285;
 }
 .breakfast {
-  padding: 85px 0;
+  padding-top: 85px;
+  padding-bottom: 67px;
   background-image: url(/img/breakfast/breakfast.jpg);
   background-size: cover;
 }
 .breakfast-wrapper {
+  margin-top: 2px;
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
 }
+@media (min-width: 1440px) {
+  .breakfast-wrapper::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(28%, 26%);
+    width: 22%;
+    height: 35%;
+    background-image: url(/img/breakfast/rye-1.svg);
+    background-repeat: no-repeat;
+    z-index: 4;
+  }
+}
+@media (min-width: 1600px) {
+  .breakfast-wrapper::before {
+    transform: translate(45%, 25%);
+    width: 30%;
+    height: 36%;
+  }
+}
 .breakfast-column-left {
-  margin-left: 40px;
+  margin-left: 87px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -754,6 +782,7 @@ img {
   opacity: .3;
 }
 .breakfast-column-right {
+  margin-top: 7px;
   padding: 10px;
   position: relative;
   justify-self: right;
@@ -761,23 +790,11 @@ img {
   max-width: 445px;
   background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
 }
-.breakfast-column-right::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(57%, 27%);
-  width: 415px;
-  height: 200px;
-  background-image: url(/img/breakfast/rye-1.svg);
-  background-repeat: no-repeat;
-  z-index: 1;
-}
 .breakfast-testimonial {
+  padding-top: 35px;
   position: relative;
   display: grid;
   justify-items: center;
-  padding-top: 34px;
   border: dashed 2px #9e9c93;
   border-bottom-left-radius: 15px;
   color: #56534c;
@@ -791,7 +808,7 @@ img {
   bottom: 0;
   z-index: 0;
   left: 0;
-  transform: translate(-16px, 19px);
+  transform: translate(-16px, 17px);
 }
 .establishment-year {
   margin-bottom: 22px;
@@ -807,7 +824,7 @@ img {
 .breakfast-decor-wrapper {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  margin-bottom: 78px;
+  margin-bottom: 74px;
 }
 .breakfast-decor {
   position: relative;
@@ -863,7 +880,7 @@ img {
   text-align: center;
 }
 .breakfast-descr__text p {
-  margin-bottom: 42px;
+  margin-bottom: 45px;
   max-width: 360px;
   font-size: 14px;
   line-height: 2.14;
@@ -872,7 +889,7 @@ img {
   text-align: center;
 }
 .breakfast-descr__button {
-  margin-bottom: 50px;
+  margin-bottom: 57px;
   display: inline-block;
   padding: 12px 70px;
   border: 1px solid #9e9c93;
@@ -891,13 +908,13 @@ img {
 .breakfast-sidebar-first {
   position: absolute;
   top: 0;
-  right: 13%;
+  right: 0;
   z-index: 2;
   padding-top: 6px;
   content: "";
   width: 14px;
   height: 547px;
-  transform: translate(-4%, 6%);
+  transform: translate(100%, 5%);
   background: #d7d4c5;
   box-shadow: -2px 6px 16px -2px rgba(0, 0, 0, 0.5);
 }
@@ -913,13 +930,13 @@ img {
 .breakfast-sidebar-second {
   position: absolute;
   top: 0;
-  right: 13%;
+  right: 0;
   z-index: 1;
   padding-top: 12px;
   content: "";
   width: 14px;
   height: 502px;
-  transform: translate(69%, 11%);
+  transform: translate(155%, 10%);
   background: #d7d4c5;
   box-shadow: 5px 3px 16px 0px rgba(0, 0, 0, 0.5);
 }

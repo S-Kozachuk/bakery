@@ -7,12 +7,14 @@
 }
 
 .pancakes-content {
-    margin: 0 auto;
+    margin-left: 98px;
     display: grid;
     grid-template-areas:"left-column right-column";
-    grid-template-columns: minmax(auto, 44%) minmax(auto, 56%);
-    max-width: 965px;
+    grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
+    max-width: 954px;
     box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
+    border: 0px dashed #ffffff00;
+    border-bottom-left-radius: 97px;
 }
 
 .pancakes-left-column {
@@ -48,7 +50,7 @@
 }
 
 .pancakes-text {
-    margin-bottom: 35px;
+    margin-bottom: 52px;
 }
 
 .pancakes-text>p {
@@ -61,13 +63,13 @@
 }
 
 .main-stars {
-    margin-bottom: 38px;
+    margin-bottom: 34px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(5, auto);
-    /* Заменить на сокращённую запись */
+    column-gap: 10px;
     justify-items: start;
-    max-width: 100px;
+    max-width: 107px;
 }
 
 .slider-button {
@@ -76,7 +78,7 @@
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -45%);
     border-radius: 50px;
     width: 40px;
     height: 40px;
@@ -108,8 +110,7 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 32px 1fr 32px;
-    /* Заменить на сокращённую запись */
-    max-width: 425px;
+    max-width: 412px;
     justify-items: center;
     align-items: center;
 }
@@ -174,6 +175,7 @@
 
 .pancakes-slider-carousel .owl-carousel .owl-dots {
     margin: 0 auto;
+    margin-top: 6px;
     width: 56px;
 }
 
@@ -199,7 +201,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(55%, -21%);
+    transform: translate(56%, -21%);
         
     width: 200px;
     height: 200px;
@@ -226,7 +228,7 @@
 }
 
 .pancakes-timer-digit {
-    padding-top: 16px;
+    padding-top: 4px;
     font-size: 92px;
     color: #dfc691;
     line-height: 1;
