@@ -949,6 +949,17 @@ img {
   height: 482px;
   border: dashed 2px #9e9c93;
 }
+.sandwich-content {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+}
+.sandwich-menu__item {
+  margin-bottom: 55px;
+}
+.sandwich-menu__item:last-child {
+  margin-bottom: 0;
+}
 .sandwich-menu__img {
   margin-bottom: 25px;
 }
@@ -965,7 +976,6 @@ img {
   color: #a47d5e;
 }
 .sandwich-menu__description {
-  margin-bottom: 55px;
   font-family: var(--ProximaNova);
   font-size: 14px;
   font-weight: 400;
