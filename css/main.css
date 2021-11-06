@@ -983,6 +983,14 @@ img {
   letter-spacing: 0.28px;
   color: #56534c;
 }
+.sandwich__header {
+  background-image: url(/img/pancakes/windmill.png);
+  /*Удалить после стилизации заголовков*/
+  height: 200px;
+  background-size: 108px 117px;
+  background-repeat: no-repeat;
+  background-position: 33%;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
