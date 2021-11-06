@@ -951,7 +951,7 @@ img {
 }
 .sandwich-content {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 30% 70%;
   grid-template-rows: 1fr;
 }
 .sandwich-menu__item {
