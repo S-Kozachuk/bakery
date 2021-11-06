@@ -952,6 +952,14 @@ img {
 .sandwich-menu__img > img {
   filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.04));
 }
+.sandwich-menu__title {
+  font-family: var(--Alegreya);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  color: #a47d5e;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
