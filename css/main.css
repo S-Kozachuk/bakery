@@ -1063,8 +1063,11 @@ img {
   position: absolute;
   top: 0;
   right: 0;
+  font-family: var(--Alegreya);
 }
 .sandwich-timer {
+  width: 200px;
+  height: 200px;
   background-color: #fff;
   opacity: .8;
 }
@@ -1073,6 +1076,13 @@ img {
   height: 200px;
   background-image: url(/img/pancakes/field.png);
   background-color: #fff;
+}
+.sandwich-timer__title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: #a47d5e;
+  text-transform: uppercase;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
