@@ -950,7 +950,8 @@ img {
   border: dashed 2px #9e9c93;
 }
 .sandwich {
-  padding: 70px 0;
+  padding: 94px 0;
+  background-color: #f3f1e9;
 }
 .sandwich-wrapper {
   display: grid;
@@ -993,13 +994,23 @@ img {
 }
 .sandwich__header {
   margin-bottom: 50px;
+  position: relative;
   display: grid;
   justify-items: center;
   max-width: 460px;
+}
+.sandwich__header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(122%, -54%);
+  z-index: -1;
+  width: 150px;
+  height: 150px;
   background-image: url(/img/pancakes/windmill.png);
-  background-size: 108px 117px;
+  background-size: 115px 122px;
   background-repeat: no-repeat;
-  background-position: 33%;
 }
 .sandwich__title {
   margin-bottom: 8px;
