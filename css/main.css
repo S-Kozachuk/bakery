@@ -1049,12 +1049,15 @@ img {
   font-size: 18px;
   line-height: 1;
   letter-spacing: 0.9px;
-  color: #dfc691;
   background-color: #fff;
   border: 1px dashed #dfc691 ;
 }
 .sandwich-testimonial-label a {
   color: #dfc691;
+}
+.sandwich-testimonial-label a:hover {
+  color: #df9a91;
+  transition: .5s;
 }
 .sandwich-supply-timer {
   position: absolute;
