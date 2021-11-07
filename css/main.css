@@ -960,6 +960,9 @@ img {
 }
 .sandwich-menu__item {
   margin-bottom: 55px;
+  padding: 0 19px;
+  display: grid;
+  justify-items: center;
 }
 .sandwich-menu__item:last-child {
   margin-bottom: 0;
@@ -985,6 +988,7 @@ img {
   font-weight: 400;
   line-height: 1.428;
   letter-spacing: 0.28px;
+  text-align: center;
   color: #56534c;
 }
 .sandwich__header {
