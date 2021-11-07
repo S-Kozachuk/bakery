@@ -952,7 +952,7 @@ img {
 .sandwich {
   padding: 70px 0;
 }
-.sandwich-content {
+.sandwich-wrapper {
   display: grid;
   grid-template-columns: minmax(auto, 300px) minmax(auto, 870px);
   grid-template-rows: 1fr;
