@@ -1092,6 +1092,13 @@ img {
   text-transform: uppercase;
   color: #56534c;
 }
+.sandwich-timer__value {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.66;
+  letter-spacing: 1.8px;
+  color: #979285;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
