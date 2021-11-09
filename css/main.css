@@ -1063,19 +1063,22 @@ img {
   position: absolute;
   top: 0;
   right: 0;
+  transform: translate(-20%, -4%);
   font-family: var(--Alegreya);
 }
 .sandwich-timer {
+  display: grid;
+  justify-content: center;
+  padding: 42px 0;
   width: 200px;
   height: 200px;
   background-color: #fff;
   opacity: .8;
 }
 .sandwich-timer-ready {
-  width: 200px;
-  height: 200px;
+  padding: 26px 0;
   background-image: url(/img/pancakes/field.png);
-  background-color: #fff;
+  opacity: 1;
 }
 .sandwich-timer-ready li:nth-of-type(2) {
   font-size: 92px;
@@ -1102,6 +1105,7 @@ img {
   font-weight: 700;
   line-height: 1.66;
   letter-spacing: 1.8px;
+  text-align: center;
   color: #979285;
 }
 /*!
