@@ -1119,10 +1119,20 @@ img {
 .footer-list-left {
   display: grid;
   grid-template-columns: repeat(5, auto);
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 1px solid #c2beba;
 }
 .footer-list-right {
   display: grid;
   grid-template-columns: repeat(5, auto);
+}
+.footer-list__item {
+  font-family: var(--Alegreya);
+  font-weight: 400;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  color: #56534c;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
