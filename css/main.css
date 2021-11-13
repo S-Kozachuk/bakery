@@ -1112,18 +1112,15 @@ img {
   text-align: center;
   color: #979285;
 }
+.footer {
+  padding: 27px 0;
+  background-color: #f3f1e9;
+}
 .footer-wrapper {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
 .footer-list {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  padding-top: 10px;
-  border-top: 1px solid #c2beba;
-  border-bottom: 1px solid #c2beba;
-}
-.footer-list-right {
   display: grid;
   grid-template-columns: repeat(5, auto);
   padding-top: 10px;
