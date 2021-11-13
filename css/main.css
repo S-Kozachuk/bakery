@@ -1128,6 +1128,8 @@ img {
   border-bottom: 1px solid #c2beba;
 }
 .footer-logo {
+  display: grid;
+  justify-content: center;
   color: #56534c;
 }
 .footer-list__item {
