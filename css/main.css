@@ -1141,11 +1141,15 @@ img {
   color: #56534c79;
   transition: .5s;
 }
-.footer-logo {
+.footer-logo a {
   margin-top: 17px;
   display: grid;
   justify-content: center;
   color: #56534c;
+}
+.footer-logo a:hover {
+  color: #56534c79;
+  transition: .5s;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
