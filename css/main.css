@@ -1131,6 +1131,7 @@ img {
 .footer-logo {
   display: grid;
   justify-content: center;
+  align-items: center;
   color: #56534c;
 }
 .footer-list__item {
