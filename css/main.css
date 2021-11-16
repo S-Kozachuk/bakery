@@ -1138,6 +1138,7 @@ img {
 }
 .footer-list__item:hover {
   color: #56534c7e;
+  transition: .5s;
 }
 .footer-logo a {
   margin-top: 22px;
@@ -1147,6 +1148,7 @@ img {
 }
 .footer-logo a:hover {
   color: #56534c7e;
+  transition: .5s;
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
