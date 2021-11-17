@@ -166,6 +166,10 @@ img {
   color: #39569c;
   transition: .5s;
 }
+.nav-menu__social .fa-instagram:hover {
+  color: #C13584;
+  transition: .5s;
+}
 .header {
   position: relative;
   color: var(--mainBg);
