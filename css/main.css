@@ -144,6 +144,10 @@ img {
   text-transform: uppercase;
   color: var(--mainBg);
 }
+.nav-menu__link:hover {
+  color: rgba(255, 255, 255, 0.507);
+  transition: .5s;
+}
 .nav-menu__social {
   display: grid;
   grid-template-rows: 1fr;
