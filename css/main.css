@@ -118,12 +118,17 @@ img {
   grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);
   align-items: baseline;
 }
-.nav-menu__logo {
+.nav-menu__logo a {
   font-family: var(--Scriptina);
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 9px;
   line-height: 1;
+  color: #fff;
+}
+.nav-menu__logo a:hover {
+  color: rgba(255, 255, 255, 0.507);
+  transition: .5s;
 }
 .nav-menu__list {
   display: grid;
