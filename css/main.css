@@ -162,6 +162,10 @@ img {
   color: #00acee;
   transition: .5s;
 }
+.nav-menu__social .fa-facebook-f:hover {
+  color: #39569c;
+  transition: .5s;
+}
 .header {
   position: relative;
   color: var(--mainBg);
