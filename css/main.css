@@ -651,8 +651,16 @@ img {
 .owl-carousel .owl-dots button.owl-dot:last-child {
   margin-right: 0;
 }
+.owl-carousel .owl-dots button.owl-dot:hover {
+  background: #d8bba386;
+  transition: .5s;
+}
 .owl-carousel .owl-dots button.owl-dot.active {
   background: #d8bba3;
+}
+.owl-carousel .owl-dots button.owl-dot.active:hover {
+  background-color: #d8bba380;
+  transition: .5s;
 }
 .pancakes-timer {
   position: absolute;
