@@ -585,14 +585,6 @@ img {
   align-items: center;
 }
 .pancakes-slider-carousel {
-  /*
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
-    width: 330px;
-    justify-items: center;
-    align-items: center;
-    */
   width: 330px;
   margin: 0 auto;
 }
@@ -619,6 +611,10 @@ img {
   outline: none;
   transition: 0.5s ease;
 }
+.pancakes-slider-carousel .owl-carousel .owl-nav button.owl-prev:hover {
+  transition: 1s;
+  background-image: url(/img/pancakes/arrow-left-active.png);
+}
 .owl-carousel .owl-nav button.owl-next span {
   display: none;
 }
@@ -634,6 +630,10 @@ img {
   transform: translate(150%, 100%);
   outline: none;
   transition: 0.5s ease;
+}
+.pancakes-slider-carousel .owl-carousel .owl-nav button.owl-next:hover {
+  transition: 1s;
+  background-image: url(/img/pancakes/arrow-right-active.png);
 }
 .pancakes-slider-carousel .owl-carousel .owl-dots {
   margin: 0 auto;
