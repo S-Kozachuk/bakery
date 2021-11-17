@@ -245,6 +245,18 @@ img {
   text-transform: uppercase;
   color: #b1aca9;
 }
+.header-content__btn a {
+  color: #b1aca9;
+}
+.header-content__btn a:hover {
+  color: #D8D5D3;
+  transition: .5s;
+}
+/*
+.header-content__btn a {
+    color: crimson;
+}
+*/
 .header-content__bg-shadow {
   position: absolute;
   height: 450px;
