@@ -158,6 +158,10 @@ img {
   font-size: 15px;
   color: var(--mainBg);
 }
+.nav-menu__social .fa-twitter:hover {
+  color: #00acee;
+  transition: .5s;
+}
 .header {
   position: relative;
   color: var(--mainBg);
