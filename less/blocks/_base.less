@@ -157,3 +157,45 @@ img {
     width: 100%;
     max-width: 1294px;
 }
+
+#page-nav {
+    display: none;
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    /*transform: translate(0, -50%);*/
+    z-index: 100;
+
+    @media (min-width: 1200px) {
+    display: block;
+    }
+
+}
+
+#page-nav li {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(5, 5, 5);
+    border-radius: 50%;
+    border: 0.7px solid #ffffff;
+    margin-bottom: 15px;
+    transition: .5s;
+
+    &:hover {
+        background-color: firebrick;
+    }
+}
+
+#page-nav li a {
+    display: block;
+    height: 100%;
+
+   
+}
+
+#page-nav li.active {
+    transition: .5s;
+    background-color: firebrick;
+
+    
+}
