@@ -8,12 +8,19 @@
     align-items: baseline;
 }
 
-.nav-menu__logo {
+.nav-menu__logo a {
     font-family: var(--Scriptina);
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 9px;
     line-height: 1;
+    color: #fff;
+
+    &:hover {
+        color: rgba(255, 255, 255, 0.507);
+        transition: .5s;
+    }
+
 }
 
 .nav-menu__list {
@@ -30,6 +37,12 @@
     letter-spacing: 4.2px;
     text-transform: uppercase;
     color: var(--mainBg);
+
+    &:hover {
+        color: rgba(255, 255, 255, 0.507);
+        transition: .5s;
+    }
+
 }
 
 .nav-menu__social {
@@ -42,4 +55,31 @@
 .nav-menu__social a {
     font-size: 15px;
     color: var(--mainBg);
+}
+
+.nav-menu__social .fa-twitter {
+
+    &:hover {
+        color: #00acee;
+        transition: .5s;
+    }
+
+}
+
+.nav-menu__social .fa-facebook-f {
+
+    &:hover {
+        color: #39569c;
+        transition: .5s;
+    }
+
+}
+
+.nav-menu__social .fa-instagram {
+
+    &:hover {
+        color: #C13584;
+        transition: .5s;
+    }
+
 }
