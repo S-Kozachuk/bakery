@@ -572,7 +572,7 @@ img {
 .pancakes {
   padding-top: 141px;
   padding-bottom: 106px;
-  background-image: url(/img/pancakes/pancakes_bg.jpg);
+  background-image: url(../img/pancakes/pancakes_bg.jpg);
   background-repeat: no-repeat;
   -moz-background-size: cover;
        background-size: cover;
@@ -856,7 +856,7 @@ img {
 .breakfast {
   padding-top: 85px;
   padding-bottom: 67px;
-  background-image: url(/img/breakfast/breakfast.jpg);
+  background-image: url(../img/breakfast/breakfast.jpg);
   -moz-background-size: cover;
        background-size: cover;
 }
