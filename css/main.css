@@ -146,6 +146,9 @@ img {
   transition: .5s;
   background-color: #dfc691;
 }
+.none {
+  display: none;
+}
 .nav-menu {
   position: relative;
   z-index: 1;
