@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="libs/owlcarousel2/assets/owl.carousel.min.css">
 </head>
 <body>
-    <header class="header">
+    <ul id="page-nav">
+		<li class="active"><a href="#header"></a></li>
+		<li class=""><a href="#cakes"></a></li>
+		<li class=""><a href="#pancakes"></a></li>
+        <li class=""><a href="#breakfast"></a></li>
+        <li class=""><a href="#sandwich"></a></li>
+    </ul>
+    <header class="header" id="header">
         <div class="container">
             <div class="nav-menu">
                 <div class="nav-menu__logo"><a href="#">Gustoso</a></div>
@@ -44,9 +51,7 @@
                 </ul>
             </div>
             <div class="header-content">
-                <h1 class="header-content__title">
-                    Pastry with love
-                </h1>
+                <h1 class="header-content__title">Pastry with love</h1>
                 <div class="header-content__line"></div>
                 <div class="header-content__dashed-line">
                     <svg width="193" height="13" version="1.1" viewBox="0 0 193 13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -90,7 +95,7 @@
         </div>
     </header>
     <main>
-        <section class="cakes">
+        <section class="cakes" id="cakes">
             <div class="container">
                 <div class="cakes-wrapper">
                     <div class="cakes-column-left">
@@ -155,7 +160,7 @@
                 </div>
             </div>
         </section>
-        <section class="pancakes">
+        <section class="pancakes" id="pancakes">
             <div class="container">
                 <div class="pancakes-wrapper">
                     <div class="pancakes-content">
@@ -238,7 +243,7 @@
                                 <div class="pancakes-arrow__right"></div>
                             </div>
                             <div class="slider-button">
-                                <img class="slider-button__img" src="/img/pancakes/slider-button.png" alt="slider-button">
+                                <img class="slider-button__img" src="img/pancakes/slider-button.png" alt="slider-button">
                             </div>
                             <div class="pancakes-timer">
                                 <div class="pancakes-timer__wrapper">
@@ -252,7 +257,7 @@
                 </div>
             </div>
         </section>
-        <section class="breakfast">
+        <section class="breakfast" id="breakfast">
             <div class="container">
                 <div class="breakfast-wrapper">
                     <div class="breakfast-column-left">
@@ -387,7 +392,7 @@
                 </div>
             </div>
         </section>
-        <section class="sandwich">
+        <section class="sandwich" id="sandwich">
             <div class="container">
                 <div class="sandwich-wrapper">
                     <div class="sandwich-menu"> 
@@ -476,7 +481,7 @@
                         <li><a class="footer-list__item" href="#">events</a></li>
                         <li class="footer-list__item">~</li>
                         <li><a class="footer-list__item" href="#">catering</a></li>
-                        <li class="footer-list__item">~</li>
+                        <li class="footer__item-l">~</li>
                         <li><a class="footer-list__item" href="#">visit us</a></li>
                     </ul>
                 </div>
@@ -485,6 +490,7 @@
     </footer>
     <script src="libs/jquery/jquery-3.5.1.min.js"></script>
     <script src="libs/owlcarousel2/owl.carousel.min.js"></script>
+    <script src="libs/navplugin/nav.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

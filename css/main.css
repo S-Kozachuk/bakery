@@ -110,6 +110,42 @@ img {
   width: 100%;
   max-width: 1294px;
 }
+#page-nav {
+  display: none;
+  position: fixed;
+  right: 50px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: 100;
+}
+@media (min-width: 1200px) {
+  #page-nav {
+    display: block;
+  }
+}
+#page-nav li {
+  width: 15px;
+  height: 15px;
+  background-color: #56534c;
+  border-radius: 50%;
+  border: 0.7px solid #ffffff;
+  margin-bottom: 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+#page-nav li:hover {
+  background-color: #dfc691;
+}
+#page-nav li a {
+  display: block;
+  height: 100%;
+}
+#page-nav li.active {
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: #dfc691;
+}
 .nav-menu {
   position: relative;
   z-index: 1;
@@ -514,7 +550,7 @@ img {
 .pancakes {
   padding-top: 141px;
   padding-bottom: 106px;
-  background-image: url(/img/pancakes/pancakes_bg.jpg);
+  background-image: url(../img/pancakes/pancakes_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -752,7 +788,7 @@ img {
 .breakfast {
   padding-top: 85px;
   padding-bottom: 67px;
-  background-image: url(/img/breakfast/breakfast.jpg);
+  background-image: url(../img/breakfast/breakfast.jpg);
   background-size: cover;
 }
 .breakfast-wrapper {
@@ -1257,22 +1293,22 @@ img {
           align-items: center;
   border-top: 1px solid #c2beba;
   border-bottom: 1px solid #c2beba;
-}
-.footer-list__item {
   font-family: var(--Alegreya);
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 4.2px;
   text-transform: uppercase;
+}
+.footer-list__item {
   color: #56534c;
 }
 .footer-list__item:hover {
-  color: #56534c7e;
+  color: #56534c79;
   -webkit-transition: .5s;
   transition: .5s;
 }
 .footer-logo a {
-  margin-top: 22px;
+  margin-top: 17px;
   display: grid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1280,7 +1316,7 @@ img {
   color: #56534c;
 }
 .footer-logo a:hover {
-  color: #56534c7e;
+  color: #56534c79;
   -webkit-transition: .5s;
   transition: .5s;
 }
