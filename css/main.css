@@ -239,9 +239,11 @@ img {
   background-color: transparent;
 }
 .toggle-menu.active span:before {
+  top: 0;
   transform: rotate(45deg);
 }
 .toggle-menu.active span:after {
+  bottom: 0;
   transform: rotate(-45deg);
 }
 .header {
