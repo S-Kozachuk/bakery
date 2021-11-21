@@ -208,13 +208,32 @@ img {
   transition: .5s;
 }
 .toggle-menu {
+  display: flex;
   border: 1px solid red;
   width: 150px;
   height: 150px;
 }
 .toggle-menu span {
+  position: relative;
+  margin: auto;
   width: 100%;
   height: 10px;
+  background-color: var(--yellow);
+}
+.toggle-menu span:before,
+.toggle-menu span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background-color: var(--yellow);
+  left: 0;
+}
+.toggle-menu span:before {
+  top: -30px;
+}
+.toggle-menu span:after {
+  bottom: -30px;
 }
 .header {
   position: relative;
