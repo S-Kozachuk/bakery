@@ -235,6 +235,9 @@ img {
 .toggle-menu span:after {
   bottom: -30px;
 }
+.toggle-menu.active span {
+  background-color: transparent;
+}
 .header {
   position: relative;
   color: var(--mainBg);
