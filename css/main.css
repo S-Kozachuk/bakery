@@ -244,10 +244,12 @@ img {
 .toggle-menu.active span:before {
   top: 0;
   transform: rotate(45deg);
+  background-color: var(--red);
 }
 .toggle-menu.active span:after {
   bottom: 0;
   transform: rotate(-45deg);
+  background-color: var(--red);
 }
 .header {
   position: relative;
