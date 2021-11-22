@@ -24,10 +24,15 @@
 }
 
 .nav-menu__list {
-    display: grid;
+    display: none;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(9, 1fr);
     justify-items: center;
+
+    @media(min-width: 1200px) {
+        display: grid;      
+    }
+    
 }
 
 .nav-menu__link {
