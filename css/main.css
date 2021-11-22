@@ -200,10 +200,15 @@ img {
   transition: .5s;
 }
 .nav-menu__social {
-  display: grid;
+  display: none;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+}
+@media (min-width: 1200px) {
+  .nav-menu__social {
+    display: grid;
+  }
 }
 .nav-menu__social a {
   font-size: 15px;
