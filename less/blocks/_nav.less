@@ -1,11 +1,17 @@
 .nav-menu {
     position: relative;
-    z-index: 1;
     padding-top: 14px;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
     align-items: baseline;
+    z-index: 1;
+
+    @media(min-width: 1200px) {
+        grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);   
+    }
+
 }
 
 .nav-menu__logo a {

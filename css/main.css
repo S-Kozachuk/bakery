@@ -154,14 +154,22 @@ img {
 }
 .nav-menu {
   position: relative;
-  z-index: 1;
   padding-top: 14px;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);
+  grid-template-columns: repeat(2, auto);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  z-index: 1;
+}
+@media (min-width: 1200px) {
+  .nav-menu {
+    grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);
+  }
 }
 .nav-menu__logo a {
   font-family: var(--Scriptina);
