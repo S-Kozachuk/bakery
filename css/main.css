@@ -400,8 +400,8 @@ img {
 */
 .header-content__bg-shadow {
   position: absolute;
-  height: 450px;
-  width: 450px;
+  height: 320px;
+  width: 320px;
   border-radius: 50%;
   background-image: radial-gradient(at center, rgba(59, 56, 53, 0.3) 10%, rgba(255, 255, 255, 0) 70%);
   top: 0;
@@ -409,6 +409,12 @@ img {
           transform: translate(50%, 50%);
   right: 50%;
   z-index: 1;
+}
+@media (min-width: 1200px) {
+  .header-content__bg-shadow {
+    height: 450px;
+    width: 450px;
+  }
 }
 .header-loaf {
   position: relative;
