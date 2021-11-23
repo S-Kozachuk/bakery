@@ -153,6 +153,7 @@ img {
   display: none;
 }
 .nav-menu {
+  padding: 0 20px;
   position: fixed;
   top: 0;
   right: 0;
@@ -160,7 +161,7 @@ img {
   width: 100%;
   max-width: 320px;
   /*После стилизации удалить*/
-  background: #fda861;
+  background: #c7c3c0;
   padding-top: 14px;
   display: grid;
   grid-template-rows: 1fr;
