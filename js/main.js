@@ -19,7 +19,6 @@ $('#page-nav').onePageNav({
   scrollChange: function ($currentListItem) { }
 });
 
-
 // Owl Carousel 2
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({

@@ -1,5 +1,13 @@
 .nav-menu {
-    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    max-width: 320px;
+    /*После стилизации удалить*/
+    background: rgb(253, 168, 97);
+
     padding-top: 14px;
     display: grid;
     grid-template-rows: 1fr;
@@ -9,6 +17,7 @@
     z-index: 1;
 
     @media(min-width: 1200px) {
+        position: relative;
         grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);   
     }
 
