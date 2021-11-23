@@ -176,6 +176,14 @@ img {
   -webkit-transition: .5s;
   transition: .5s;
 }
+.nav-menu__item {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .nav-menu__item {
+    display: block;
+  }
+}
 .nav-menu__list {
   display: none;
   grid-template-rows: 1fr;
