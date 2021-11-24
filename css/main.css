@@ -154,6 +154,7 @@ img {
 }
 .nav-menu {
   padding-top: 14px;
+  position: relative;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, auto);
@@ -167,7 +168,6 @@ img {
 }
 @media (min-width: 1200px) {
   .nav-menu {
-    position: relative;
     grid-template-columns: repeat(3, auto);
   }
 }
@@ -183,9 +183,6 @@ img {
   color: rgba(255, 255, 255, 0.507);
   -webkit-transition: .5s;
   transition: .5s;
-}
-.nav-menu-mobile {
-  z-index: 3;
 }
 @media (min-width: 1200px) {
   .nav-menu-mobile .nav-menu__logo a {
@@ -205,6 +202,12 @@ img {
   max-width: 320px;
   /*После стилизации удалить*/
   background: #c7c3c0;
+  z-index: 3;
+}
+@media (min-width: 1024px) {
+  .nav-menu-mobile {
+    background: none;
+  }
 }
 @media (min-width: 1200px) {
   .nav-menu-mobile {

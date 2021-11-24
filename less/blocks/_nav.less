@@ -1,5 +1,6 @@
 .nav-menu {
     padding-top: 14px;
+    position: relative;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, auto);
@@ -7,8 +8,11 @@
     align-items: baseline;
     z-index: 1;
 
+    @media(min-width: 1024px) {
+
+    }
+
     @media(min-width: 1200px) {
-        position: relative;
         grid-template-columns: repeat(3, auto);  
     }
 
@@ -27,10 +31,6 @@
         transition: .5s;
     }
 
-}
-
-.nav-menu-mobile {
-    z-index: 3;
 }
 
 .nav-menu-mobile .nav-menu__logo a{
@@ -54,6 +54,11 @@
     max-width: 320px;
     /*После стилизации удалить*/
     background: #c7c3c0;
+    z-index: 3;
+
+    @media(min-width: 1024px) {
+        background: none;
+    }
 
     @media(min-width: 1200px) {
         grid-template-columns: repeat(3, 1fr);
