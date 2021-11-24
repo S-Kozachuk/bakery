@@ -158,7 +158,7 @@ img {
   align-items: baseline;
   z-index: 1;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .nav-menu {
     grid-template-columns: repeat(3, auto);
   }
