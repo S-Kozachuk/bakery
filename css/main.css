@@ -184,6 +184,9 @@ img {
   -webkit-transition: .5s;
   transition: .5s;
 }
+.nav-menu-mobile {
+  z-index: 3;
+}
 @media (min-width: 1200px) {
   .nav-menu-mobile .nav-menu__logo a {
     display: none;
