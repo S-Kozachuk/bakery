@@ -38,7 +38,7 @@
 }
 
 .nav-menu-mobile {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     padding: 0 20px;
@@ -70,6 +70,10 @@
         grid-template-rows: 1fr;
     }
 
+}
+
+.nav-menu-mobile.active {
+    display: grid;
 }
 
 .nav-menu-mobile .nav-menu__social {
