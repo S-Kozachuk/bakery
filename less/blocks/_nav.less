@@ -49,8 +49,10 @@
     width: 100%;
     max-width: 320px;
     /*После стилизации удалить*/
-    background: #c7c3c0;
+    background-color: #c7c3c0;
     z-index: 3;
+    transform: translateX(100%);
+    transition: .5s;
 
     @media(min-width: 1024px) {
         display: grid;
@@ -62,8 +64,9 @@
         right: 0;
         height: auto;
         width: auto;
-        max-width: none;  
-        background: none;
+        max-width: unset;  
+        background-color: transparent;
+        transform: translateX(0%);
     }
 
     @media(min-width: 1200px) {
@@ -75,6 +78,8 @@
 
 .nav-menu-mobile.active {
     display: grid;
+    transform: translateX(0%);
+    transition: .5s;
 }
 
 .nav-menu-mobile .nav-menu__social {
