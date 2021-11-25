@@ -197,6 +197,7 @@ img {
 }
 @media (min-width: 1024px) {
   .nav-menu-mobile {
+    display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     padding: 0;
