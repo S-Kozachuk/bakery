@@ -215,6 +215,14 @@ img {
     grid-template-rows: 1fr;
   }
 }
+.nav-menu-mobile .nav-menu__social {
+  display: grid;
+}
+@media (min-width: 1024px) {
+  .nav-menu-mobile .nav-menu__social {
+    display: none;
+  }
+}
 .nav-menu__item {
   display: none;
 }
