@@ -357,7 +357,7 @@ img {
   opacity: 0;
   transition: .5s;
 }
-#overlay .active {
+#overlay.active {
   opacity: 0.5;
 }
 .header {
