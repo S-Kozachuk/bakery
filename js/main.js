@@ -1,8 +1,10 @@
 // Mobile (toggle) menu
 $(document).ready(function() {
   const menuToggle = document.querySelector('.toggle-menu');
-  menuToggle.addEventListener('click', function(){
-    this.classList.toggle('active')
+  const mobMenu = document.querySelector('.nav-menu-mobile');
+  menuToggle.addEventListener('click', function() {
+    this.classList.toggle('active');
+    mobMenu.classList.toggle('active');
   });
 });
 
