@@ -346,6 +346,9 @@ img {
   transform: rotate(-45deg);
   background-color: var(--red);
 }
+.noscroll {
+  overflow: hidden;
+}
 #overlay {
   position: fixed;
   top: 0;
