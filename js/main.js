@@ -21,6 +21,14 @@ $(document).ready(function() {
     bodyEl.classList.remove('noscroll');
   });
 
+  // Closing mobile menu if resized screen
+  window.addEventListener('resize', function(){
+    mobMenu.classList.remove('active');
+    menuToggle.classList.remove('active');
+    overlayEl.classList.remove('active');
+    bodyEl.classList.remove('noscroll');
+  });
+  
 });
 
 
