@@ -28,10 +28,16 @@ $(document).ready(function() {
     overlayEl.classList.remove('active');
     bodyEl.classList.remove('noscroll');
   });
-  
+
+  // Closing moble menu if clicking to overlay 
+  overlayEl.addEventListener('click', function() {
+    this.classList.remove('active');
+    menuToggle.classList.remove('active');
+    mobMenu.classList.remove('active');
+    bodyEl.classList.remove('noscroll');  
+  }); 
+
 });
-
-
 
 // Nav Plugin (side pagination)
 $('#page-nav').onePageNav({
