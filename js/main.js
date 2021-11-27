@@ -4,13 +4,26 @@ $(document).ready(function() {
   const mobMenu = document.querySelector('.nav-menu-mobile');
   const overlayEl = document.querySelector('#overlay');
   const bodyEl = document.body;
+
+  // Clicking to Hamburger icon
   menuToggle.addEventListener('click', function() {
     this.classList.toggle('active');
     mobMenu.classList.toggle('active');
     overlayEl.classList.toggle('active');
     bodyEl.classList.toggle('noscroll');
   });
+
+  // Clicking to mobile menu window
+  mobMenu.addEventListener('click', function() {
+    this.classList.remove('active');
+    menuToggle.classList.remove('active');
+    overlayEl.classList.remove('active');
+    bodyEl.classList.remove('noscroll');
+  });
+
 });
+
+
 
 // Nav Plugin (side pagination)
 $('#page-nav').onePageNav({
