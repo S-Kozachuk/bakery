@@ -446,9 +446,22 @@ img {
   width: 100%;
   z-index: 3;
 }
+.fix-menu::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(86, 83, 76, 0.529);
+}
 @media (min-width: 1024px) {
   .fix-menu {
     position: unset;
+  }
+  .fix-menu::before {
+    display: none;
   }
 }
 .header {
@@ -461,15 +474,17 @@ img {
   -moz-background-size: cover;
        background-size: cover;
 }
-.header::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(86, 83, 76, 0.529);
+@media (min-width: 1024px) {
+  .header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(86, 83, 76, 0.529);
+  }
 }
 .header-content {
   display: grid;
