@@ -43,7 +43,7 @@ $(document).ready(function() {
 const fixMenu = document.querySelector('.fix-menu');
 window.addEventListener('scroll', function () {
 	if(this.scrollY > 10) {
-		fixMenu.classList.add('active'); 
+		fixMenu.classList.add('active');
 	}
 	else{
 		fixMenu.classList.remove('active'); 
