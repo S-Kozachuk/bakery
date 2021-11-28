@@ -266,8 +266,7 @@ img {
   height: 100vh;
   width: 100%;
   max-width: 320px;
-  /*После стилизации удалить*/
-  background-color: #c7c3c0;
+  background-color: #54514e;
   z-index: 3;
   -webkit-transform: translateX(100%);
      -moz-transform: translateX(100%);
