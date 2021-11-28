@@ -484,12 +484,18 @@ img {
   }
 }
 .header-content__title {
+  margin-top: 139px;
   margin-bottom: 46px;
   font-family: var(--PlayfairDisplay);
   font-size: 92px;
   font-weight: 700;
   letter-spacing: 6.9px;
   text-shadow: 0px 2px 0px #3d3029;
+}
+@media (min-width: 1024px) {
+  .header-content__title {
+    margin-top: unset;
+  }
 }
 .header-content__line {
   margin-bottom: 5px;
