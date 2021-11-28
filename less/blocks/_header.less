@@ -25,6 +25,11 @@
 	top: 0;
 	left: 0;
 	width: 100%;
+
+	@media(min-width: 1024px) {
+       position: unset;
+    }
+
 }
 
 .header {
@@ -50,7 +55,6 @@
 }
 
 .header-content {
-    
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: 1fr;

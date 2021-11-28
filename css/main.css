@@ -445,6 +445,11 @@ img {
   left: 0;
   width: 100%;
 }
+@media (min-width: 1024px) {
+  .fix-menu {
+    position: unset;
+  }
+}
 .header {
   position: relative;
   color: var(--mainBg);
