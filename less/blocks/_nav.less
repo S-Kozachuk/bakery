@@ -27,6 +27,19 @@
 	width: 100%;
 	z-index: 3;
 
+	@media(min-width: 1024px) {
+       position: unset;
+
+	   &::before {
+		   display: none;
+	   }
+
+    }
+
+}
+
+.fix-menu.active {
+
 	&::before {
         content: "";
         display: block;
@@ -37,16 +50,7 @@
         height: 70px;
         background-color: rgba(86, 83, 76, 0.529);
     }
-
-	@media(min-width: 1024px) {
-       position: unset;
-
-	   &::before {
-		   display: none;
-	   }
-
-    }
-
+	
 }
 
 .nav-menu {
