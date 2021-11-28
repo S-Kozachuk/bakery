@@ -163,7 +163,7 @@ img {
   display: none;
 }
 .nav-menu {
-  padding-top: 14px;
+  padding: 10px 15px 0;
   position: relative;
   display: grid;
   grid-template-rows: 1fr;
