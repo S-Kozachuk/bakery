@@ -50,13 +50,18 @@
 }
 
 .header-content {
-    margin-top: 220px;
+    
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: 1fr;
     justify-items: center;
     position: relative;
     z-index: 2;
+
+	@media(min-width: 1024px) {
+        margin-top: 220px;
+    }
+
 }
 
 .header-content__title {
