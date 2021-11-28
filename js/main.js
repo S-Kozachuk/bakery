@@ -42,7 +42,12 @@ $(document).ready(function() {
 // Fix menu
 const fixMenu = document.querySelector('.fix-menu');
 window.addEventListener('scroll', function () {
-	fixMenu.classList.add('active');
+	if(this.scrollY > 10) {
+		fixMenu.classList.add('active'); 
+	}
+	else{
+		fixMenu.classList.remove('active'); 
+	}
 });
 
 // Nav Plugin (side pagination)
