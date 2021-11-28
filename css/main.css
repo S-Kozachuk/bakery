@@ -207,7 +207,10 @@ img {
   left: 0;
   width: 100%;
   height: 70px;
-  background-color: rgba(86, 83, 76, 0.529);
+  background-color: rgba(86, 83, 76, 0.55);
+  -webkit-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
 }
 .nav-menu {
   padding: 10px 15px 0;
