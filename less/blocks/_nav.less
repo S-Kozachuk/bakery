@@ -1,3 +1,54 @@
+.noscroll {
+    overflow: hidden;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0;
+    transition: .5s;
+}
+
+#overlay.active {
+    display: block;
+    opacity: 0.5;
+}
+
+.fix-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+
+	&::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        background-color: rgba(86, 83, 76, 0.529);
+    }
+
+	@media(min-width: 1024px) {
+       position: unset;
+
+	   &::before {
+		   display: none;
+	   }
+
+    }
+
+}
+
 .nav-menu {
     padding: 10px 15px 0;
     position: relative;
