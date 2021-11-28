@@ -35,8 +35,14 @@ $(document).ready(function() {
     menuToggle.classList.remove('active');
     mobMenu.classList.remove('active');
     bodyEl.classList.remove('noscroll');  
-  }); 
+  });
+  
+});
 
+// Fix menu
+const fixMenu = document.querySelector('.fix-menu');
+window.addEventListener('scroll', function () {
+	fixMenu.classList.add('active');
 });
 
 // Nav Plugin (side pagination)
