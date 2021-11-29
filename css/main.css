@@ -412,13 +412,13 @@ img {
   top: 0;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  background-color: var(--red);
+  background-color: var(--sandwichBg);
 }
 .toggle-menu.active span:after {
   bottom: 0;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
-  background-color: var(--red);
+  background-color: var(--sandwichBg);
 }
 .header {
   position: relative;
