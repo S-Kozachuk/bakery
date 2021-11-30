@@ -270,8 +270,8 @@ img {
 }
 @media (min-width: 768px) {
   .nav-menu-mobile {
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     padding: 0;
     position: relative;
     top: 0;
