@@ -299,7 +299,7 @@ img {
 .nav-menu-mobile .nav-menu__social {
   display: grid;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .nav-menu-mobile .nav-menu__social {
     display: none;
   }
@@ -320,14 +320,6 @@ img {
   justify-items: center;
 }
 @media (min-width: 768px) {
-  .nav-menu__list {
-    margin-bottom: 0;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(9, 1fr);
-    justify-items: center;
-  }
-}
-@media (min-width: 1024px) {
   .nav-menu__list {
     margin-bottom: 0;
     grid-template-rows: 1fr;
@@ -404,7 +396,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .nav-menu__social {
     display: grid;
   }
