@@ -176,9 +176,12 @@
 
     @media(min-width: 768px) {
 		margin-bottom: 0;
-        grid-template-rows: 1fr;
+		grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+	@media(min-width: 1024px) {
         grid-template-columns: repeat(9, 1fr);
-        justify-items: center;
     }
     
 }
