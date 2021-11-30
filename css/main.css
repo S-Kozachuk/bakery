@@ -344,10 +344,10 @@ img {
   color: var(--mainBg);
 }
 @media (min-width: 768px) {
-  .nav-menu__link:nth-child(1) {
+  .nav-menu__link:nth-child(6n+1) {
     display: none;
   }
-  .nav-menu__link:nth-child(2) {
+  .nav-menu__link:nth-child(even) {
     display: none;
   }
 }
