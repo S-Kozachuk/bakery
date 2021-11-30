@@ -178,7 +178,7 @@
 		margin-bottom: 0;
         grid-template-rows: 1fr;
         grid-template-columns: repeat(9, 1fr);
-        justify-items: center; 
+        justify-items: center;
     }
 
 	@media(min-width: 1024px) {
@@ -191,6 +191,27 @@
 }
 
 .nav-menu__link {
+	font-family: var(--Alegreya);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    color: var(--mainBg);
+
+	@media(min-width: 768px) {
+
+		&:nth-child(1) {
+			display: none;
+		}
+
+		&:nth-child(2) {
+			display: none;
+		}
+
+    }
+}
+
+.nav-menu__link a {
     font-family: var(--Alegreya);
     font-size: 16px;
     font-weight: 400;

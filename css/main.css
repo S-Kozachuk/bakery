@@ -343,13 +343,29 @@ img {
   text-transform: uppercase;
   color: var(--mainBg);
 }
-.nav-menu__link:hover {
+@media (min-width: 768px) {
+  .nav-menu__link:nth-child(1) {
+    display: none;
+  }
+  .nav-menu__link:nth-child(2) {
+    display: none;
+  }
+}
+.nav-menu__link a {
+  font-family: var(--Alegreya);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  color: var(--mainBg);
+}
+.nav-menu__link a:hover {
   color: rgba(255, 255, 255, 0.507);
   -webkit-transition: .5s;
   transition: .5s;
 }
 @media (min-width: 1024px) {
-  .nav-menu__link {
+  .nav-menu__link a {
     font-size: 14px;
   }
 }
