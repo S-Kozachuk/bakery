@@ -340,6 +340,12 @@ img {
   color: var(--mainBg);
 }
 @media (min-width: 768px) {
+  .nav-menu__link {
+    margin-right: 30px;
+  }
+  .nav-menu__link:last-child {
+    margin-right: 0;
+  }
   .nav-menu__link:nth-child(6n+1) {
     display: none;
   }
