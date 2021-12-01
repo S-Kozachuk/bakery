@@ -231,7 +231,7 @@ img {
             align-items: self-end;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .nav-menu {
     padding: 12px 0 0;
   }
