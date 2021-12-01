@@ -243,6 +243,11 @@ img {
   -webkit-transition: .5s;
   transition: .5s;
 }
+@media (min-width: 768px) {
+  .nav-menu__logo a {
+    font-size: 25px;
+  }
+}
 @media (min-width: 1024px) {
   .nav-menu__logo a {
     text-shadow: unset;
