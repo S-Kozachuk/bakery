@@ -446,7 +446,7 @@ img {
   font-size: 18px;
   color: var(--mainBg);
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .nav-menu__social a {
     font-size: 15px;
   }
