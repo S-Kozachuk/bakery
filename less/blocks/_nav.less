@@ -28,7 +28,6 @@
 	z-index: 3;
 
 	@media(min-width: 768px) {
-       position: unset;
 
 	   &::before {
 		   display: none;
@@ -36,7 +35,7 @@
 
     }
 
-	@media(min-width: 1200px) {
+	@media(min-width: 1024px) {
 		position: unset;
  
 		&::before {
@@ -60,6 +59,14 @@
         background-color: rgba(86, 83, 76, 0.55);
 		box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
     }
+
+	@media(min-width: 768px) {
+
+		&::before {
+			height: 57px;
+		}
+ 
+	 }
 
 }
 

@@ -180,14 +180,11 @@ img {
   z-index: 3;
 }
 @media (min-width: 768px) {
-  .fix-menu {
-    position: unset;
-  }
   .fix-menu::before {
     display: none;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .fix-menu {
     position: unset;
   }
@@ -206,6 +203,11 @@ img {
   background-color: rgba(86, 83, 76, 0.55);
   -webkit-box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+  .fix-menu.active::before {
+    height: 57px;
+  }
 }
 .nav-menu {
   padding: 10px 15px 0;
