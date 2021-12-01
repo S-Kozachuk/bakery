@@ -224,6 +224,9 @@ img {
 @media (min-width: 768px) {
   .nav-menu {
     grid-template-columns: repeat(3, auto);
+    -webkit-box-align: self-end;
+        -ms-flex-align: self-end;
+            align-items: self-end;
   }
 }
 .nav-menu__logo a {
