@@ -251,6 +251,7 @@ img {
 @media (min-width: 1024px) {
   .nav-menu__logo a {
     text-shadow: unset;
+    font-size: 30px;
   }
 }
 @media (min-width: 768px) {
@@ -390,6 +391,11 @@ img {
   color: rgba(255, 255, 255, 0.507);
   -webkit-transition: .5s;
   transition: .5s;
+}
+@media (min-width: 768px) {
+  .nav-menu__link a {
+    font-size: 15px;
+  }
 }
 @media (min-width: 1024px) {
   .nav-menu__link a {
