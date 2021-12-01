@@ -349,6 +349,12 @@ img {
 @media (min-width: 1024px) {
   .nav-menu__list {
     grid-template-columns: repeat(9, 1fr);
+    max-width: 615px;
+  }
+}
+@media (min-width: 1200px) {
+  .nav-menu__list {
+    max-width: unset;
   }
 }
 .nav-menu__link {
