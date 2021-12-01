@@ -229,6 +229,11 @@ img {
             align-items: self-end;
   }
 }
+@media (min-width: 768px) {
+  .nav-menu {
+    padding: 12px 0 0;
+  }
+}
 .nav-menu__logo a {
   font-family: var(--Scriptina);
   font-size: 30px;
@@ -447,10 +452,10 @@ img {
 }
 @media (min-width: 1024px) {
   .nav-menu__social li {
-    margin-right: 10px;
+    margin-right: 19px;
   }
   .nav-menu__social li:nth-child(2) {
-    margin-right: 10px;
+    margin-right: 11px;
   }
 }
 .nav-menu__social a {
