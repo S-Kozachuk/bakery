@@ -436,10 +436,21 @@ img {
 }
 @media (min-width: 768px) {
   .nav-menu__social li {
-    margin-right: 10px;
+    margin-right: 16px;
+  }
+  .nav-menu__social li:nth-child(2) {
+    margin-right: 9px;
   }
   .nav-menu__social li:last-child {
     margin-right: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-menu__social li {
+    margin-right: 10px;
+  }
+  .nav-menu__social li:nth-child(2) {
+    margin-right: 10px;
   }
 }
 .nav-menu__social a {

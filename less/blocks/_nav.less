@@ -300,10 +300,23 @@
 .nav-menu__social li {
 
 	@media (min-width: 768px) {
-        margin-right: 10px;
+        margin-right: 16px;
+
+		&:nth-child(2) {
+			margin-right: 9px;
+		}
 		
 		&:last-child {
 			margin-right: 0;
+		}
+
+    }
+
+	@media (min-width: 1024px) {
+        margin-right: 10px;
+
+		&:nth-child(2) {
+			margin-right: 10px;
 		}
 
     }
