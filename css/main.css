@@ -614,7 +614,7 @@ img {
   width: 223px;
 }
 .header-content__dashed-line {
-  margin-bottom: 56px;
+  margin-bottom: 32px;
   text-align: center;
   fill: none;
   stroke: #fff;
@@ -629,6 +629,7 @@ img {
 }
 @media (min-width: 768px) {
   .header-content__dashed-line {
+    margin-bottom: 56px;
     stroke-dasharray: 8 16;
   }
   .header-content__dashed-line svg {
