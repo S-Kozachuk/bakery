@@ -614,7 +614,7 @@ img {
   width: 223px;
 }
 .header-content__dashed-line {
-  margin-bottom: 32px;
+  margin-bottom: 23px;
   text-align: center;
   fill: none;
   stroke: #fff;
@@ -655,14 +655,14 @@ img {
   }
 }
 .header-content__btn {
-  margin-bottom: 167px;
+  margin-bottom: 75px;
   padding: 16px 46px;
   border-width: 1px;
   border-color: #9e9c93;
   border-style: dashed;
   background-color: #56534c87;
   font-family: var(--Alegreya);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 4.2px;
   text-transform: uppercase;
@@ -670,11 +670,21 @@ img {
 }
 .header-content__btn a {
   color: #b1aca9;
+  text-shadow: 0px 1px 3px #3d3029;
 }
 .header-content__btn a:hover {
   color: #D8D5D3;
   -webkit-transition: .5s;
   transition: .5s;
+}
+@media (min-width: 768px) {
+  .header-content__btn {
+    margin-bottom: 167px;
+    font-size: 14px;
+  }
+  .header-content__btn a {
+    text-shadow: unset;
+  }
 }
 /*
 .header-content__btn a {

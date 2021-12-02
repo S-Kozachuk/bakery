@@ -73,7 +73,7 @@
 }
 
 .header-content__dashed-line {
-    margin-bottom: 32px;
+    margin-bottom: 23px;
     text-align: center;
     fill: none;
     stroke: #fff;
@@ -117,7 +117,7 @@
 }
 
 .header-content__btn {
-    margin-bottom: 167px;
+    margin-bottom: 75px;
     padding: 16px 46px;
     border-width: 1px;
     border-color: #9e9c93;
@@ -125,7 +125,7 @@
     background-color: #56534c87;
 
     font-family: var(--Alegreya);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 4.2px;
     text-transform: uppercase;
@@ -133,6 +133,7 @@
 
     a {
         color: #b1aca9;
+		text-shadow: 0px 1px 3px #3d3029;
 
         &:hover {
             color: #D8D5D3;
@@ -140,6 +141,15 @@
         }
 
     }
+
+	@media(min-width: 768px) {
+		margin-bottom: 167px;
+		font-size: 14px;
+
+		a {
+			text-shadow: unset;
+		}
+	}
 
 }
 
