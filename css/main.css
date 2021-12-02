@@ -43,7 +43,8 @@
   --sandwichBg: #f3f1e9;
 }
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 html {
   height: 100%;
@@ -116,7 +117,9 @@ img {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr minmax(auto, 800px) 1fr minmax(auto, 100px);
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 .nav-menu__logo {
   font-family: var(--Scriptina);
@@ -196,7 +199,8 @@ img {
   stroke-width: 2px;
   stroke-dasharray: 8 16;
   fill-rule: evenodd;
-  filter: drop-shadow(0px 1px 0px #3d3029);
+  -webkit-filter: drop-shadow(0px 1px 0px #3d3029);
+          filter: drop-shadow(0px 1px 0px #3d3029);
 }
 .header-content__subtitle {
   margin-bottom: 50px;
@@ -206,7 +210,8 @@ img {
   letter-spacing: 2.4px;
   line-height: 1.5;
   text-align: center;
-  filter: drop-shadow(0px 1px 0px #3d3029);
+  -webkit-filter: drop-shadow(0px 1px 0px #3d3029);
+          filter: drop-shadow(0px 1px 0px #3d3029);
 }
 .header-content__btn {
   margin-bottom: 160px;
@@ -229,7 +234,8 @@ img {
   border-radius: 50%;
   background-image: radial-gradient(at center, rgba(59, 56, 53, 0.3) 10%, rgba(255, 255, 255, 0) 70%);
   top: 0;
-  transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
   right: 50%;
   z-index: 1;
 }
@@ -237,7 +243,9 @@ img {
   position: relative;
   display: grid;
   grid: auto / auto;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   top: 26px;
 }
 .header-loaf::before {
@@ -249,7 +257,8 @@ img {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
 }
 .header-loaf::after {
   content: "";
@@ -259,7 +268,8 @@ img {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
 }
 .header-loaf-img {
   fill: #c8b6ad;
