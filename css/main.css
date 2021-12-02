@@ -743,7 +743,13 @@ img {
 }
 .header-loaf-img {
   fill: #c8b6ad;
+  width: 45px;
   z-index: 2;
+}
+@media (min-width: 768px) {
+  .header-loaf-img {
+    width: unset;
+  }
 }
 .cakes {
   padding-bottom: 117px;
