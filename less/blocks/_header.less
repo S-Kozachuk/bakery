@@ -78,9 +78,24 @@
     fill: none;
     stroke: #fff;
     stroke-width: 2px;
-    stroke-dasharray: 8 16;
+    stroke-dasharray: 8 24;
     fill-rule: evenodd;
     filter: drop-shadow( 0px 2px 0px #3d3029 );
+
+	svg {
+		width: 150px;
+	}
+
+	@media(min-width: 768px) {
+
+		stroke-dasharray: 8 16;
+
+		svg {
+			width: unset;
+		}
+
+	}
+	
 }
 
 .header-content__subtitle {

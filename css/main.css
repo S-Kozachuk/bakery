@@ -619,10 +619,21 @@ img {
   fill: none;
   stroke: #fff;
   stroke-width: 2px;
-  stroke-dasharray: 8 16;
+  stroke-dasharray: 8 24;
   fill-rule: evenodd;
   -webkit-filter: drop-shadow(0px 2px 0px #3d3029);
           filter: drop-shadow(0px 2px 0px #3d3029);
+}
+.header-content__dashed-line svg {
+  width: 150px;
+}
+@media (min-width: 768px) {
+  .header-content__dashed-line {
+    stroke-dasharray: 8 16;
+  }
+  .header-content__dashed-line svg {
+    width: unset;
+  }
 }
 .header-content__subtitle {
   margin-bottom: 59px;
