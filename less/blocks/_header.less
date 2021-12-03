@@ -188,13 +188,22 @@
         content: "";
         background: #fff;
         border-radius: 50%;
-        height: 80px;
-        width: 80px;
+        height: 65px;
+        width: 65px;
         position: absolute;
         top: 50%;
         right: 50%;
         transform: translate(50%, -50%);
     }
+
+	@media(min-width: 768px) {
+
+		&::before {
+			height: 80px;
+			width: 80px;
+		}
+		
+	}
 
     &::after {
         content: "";
@@ -206,6 +215,7 @@
         right: 50%;
         transform: translate(50%, -50%);
     }
+
 
 }
 

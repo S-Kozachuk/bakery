@@ -722,13 +722,19 @@ img {
   content: "";
   background: #fff;
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 65px;
+  width: 65px;
   position: absolute;
   top: 50%;
   right: 50%;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
+}
+@media (min-width: 768px) {
+  .header-loaf::before {
+    height: 80px;
+    width: 80px;
+  }
 }
 .header-loaf::after {
   content: "";
