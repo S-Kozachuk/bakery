@@ -664,11 +664,18 @@ img {
     text-shadow: 0px 2px 0px #3d3029;
   }
 }
+@media (min-width: 425px) {
+  .header-content__subtitle {
+    font-size: 21px;
+    text-shadow: 0px 2px 0px rgba(61, 48, 41, 0.5);
+  }
+}
 @media (min-width: 768px) {
   .header-content__subtitle {
     margin-bottom: 59px;
     font-size: 24px;
     letter-spacing: 2.4px;
+    max-width: unset;
   }
 }
 .header-content__btn {
