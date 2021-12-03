@@ -412,7 +412,7 @@ img {
 }
 @media (min-width: 768px) {
   .nav-menu__link a {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 @media (min-width: 1024px) {
@@ -605,6 +605,11 @@ img {
     margin-bottom: 35px;
   }
 }
+@media (min-width: 375px) {
+  .header-content__title {
+    font-size: 65px;
+  }
+}
 @media (min-width: 1024px) {
   .header-content__title {
     margin-top: unset;
@@ -673,9 +678,15 @@ img {
 @media (min-width: 768px) {
   .header-content__subtitle {
     margin-bottom: 59px;
+    font-size: 21px;
+    letter-spacing: 2.1px;
+    max-width: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .header-content__subtitle {
     font-size: 24px;
     letter-spacing: 2.4px;
-    max-width: unset;
   }
 }
 .header-content__btn {
