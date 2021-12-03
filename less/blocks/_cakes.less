@@ -7,8 +7,13 @@
 
 .cakes-wrapper {
     display: grid;
-    grid: auto / repeat(2, 1fr);
+    grid: repeat(2, 1fr) / auto;
     justify-items: center;
+
+	@media(min-width: 1024px) {
+        grid: auto / repeat(2, 1fr);
+    }
+
 }
 
 .cakes-column-left {
