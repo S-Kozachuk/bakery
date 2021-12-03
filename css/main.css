@@ -737,15 +737,24 @@ img {
   }
 }
 .header-loaf::after {
-  content: "";
-  background-image: url(/img/header/loaf-frame.png);
-  width: 106px;
-  height: 106px;
   position: absolute;
   top: 50%;
+  height: 106px;
+  content: "";
+  width: 106px;
   right: 50%;
-  -webkit-transform: translate(50%, -50%);
-          transform: translate(50%, -50%);
+  background-image: url(/img/header/loaf-frame.png);
+  -webkit-transform: translate(59%, -42%);
+          transform: translate(59%, -42%);
+  background-size: 85px 85px;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .header-loaf::after {
+    background-size: unset;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+  }
 }
 .header-loaf-img {
   fill: #c8b6ad;
