@@ -929,6 +929,14 @@ img {
     width: 115px;
   }
 }
+.cakes-chef-foto {
+  padding: 8px;
+}
+@media (min-width: 768px) {
+  .cakes-chef-foto {
+    padding: unset;
+  }
+}
 .cakes-chef-foto > img {
   -webkit-box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.15);
