@@ -831,7 +831,7 @@ img {
   text-align: center;
 }
 .cakes-title {
-  margin-top: 90px;
+  margin-top: 75px;
   font-family: var(--Alegreya);
   font-size: 40px;
   font-weight: 700;
@@ -840,6 +840,7 @@ img {
 }
 @media (min-width: 1024px) {
   .cakes-title {
+    margin-top: 90px;
     font-size: 48px;
   }
 }
