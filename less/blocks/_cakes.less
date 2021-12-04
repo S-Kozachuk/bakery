@@ -102,10 +102,9 @@
 }
 
 .cakes-chef-name>p {
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 0 5px;
     font-family: var(--Alegreya);
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 400;
     letter-spacing: 0.6px;
     color: #56534c;
@@ -113,6 +112,12 @@
     border-bottom: 1px #d7d5ca solid;
     width: 115px;
     text-align: center;
+
+	@media(min-width: 768px) {
+		padding-top: 15px;
+    	padding-bottom: 20px;
+		font-size: 24px;
+	}
 }
 
 .cakes-chef-foto>img {
