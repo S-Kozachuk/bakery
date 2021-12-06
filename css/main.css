@@ -1003,7 +1003,12 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 20px;
+  gap: 8px;
+}
+@media (min-width: 768px) {
+  .cakes-right-grid {
+    gap: 20px;
+  }
 }
 .cakes-cell {
   outline: 5px solid #fff;

@@ -200,7 +200,12 @@
     grid-template-areas:"cell-one cell-two"
                         "cell-three cell-four";
     justify-content: center;
-    gap: 20px;
+    gap: 8px;
+
+	@media(min-width: 768px) {
+		gap: 20px;
+	}
+
 }
 
 .cakes-cell {
