@@ -140,11 +140,17 @@
 }
 
 .cakes-chef-speech {
+	margin-top: 45px;
     display: grid;
     grid-template: auto / repeat(3, auto);
     align-items: center;
     justify-items: center;
-    margin-top: 40px;
+    
+
+	@media(min-width: 768px) {
+		margin-top: 40px;
+	}
+
 }
 
 .chef-perf {
