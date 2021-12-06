@@ -819,7 +819,7 @@ img {
 }
 .cakes-wrapper {
   display: grid;
-  grid: repeat(2, 1fr) / auto;
+  grid: repeat(2, auto) / auto;
   justify-items: center;
 }
 @media (min-width: 1024px) {
@@ -991,9 +991,11 @@ img {
   -webkit-transform: scale(1, -1);
           transform: scale(1, -1);
 }
-.cakes-column-right {
-  margin-left: -5px;
-  position: relative;
+@media (min-width: 1200px) {
+  .cakes-column-right {
+    position: relative;
+    margin-left: -5px;
+  }
 }
 .cakes-right-grid {
   margin-top: 75px;
