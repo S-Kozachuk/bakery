@@ -996,7 +996,7 @@ img {
   position: relative;
 }
 .cakes-right-grid {
-  margin-top: 121px;
+  margin-top: 75px;
   position: relative;
   display: grid;
   grid-template-areas: "cell-one cell-two" "cell-three cell-four";
@@ -1007,6 +1007,7 @@ img {
 }
 @media (min-width: 768px) {
   .cakes-right-grid {
+    margin-top: 121px;
     gap: 20px;
   }
 }
