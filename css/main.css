@@ -1024,10 +1024,18 @@ img {
   grid-area: cell-four;
 }
 .tastes-svg {
-  width: 250px;
-  height: 250px;
-  -webkit-filter: drop-shadow(5px 16px 10px #3b251d);
-          filter: drop-shadow(5px 16px 10px #3b251d);
+  width: 127px;
+  height: 127px;
+  -webkit-filter: drop-shadow(2px 7px 8px rgba(59, 37, 29, 0.5));
+          filter: drop-shadow(2px 7px 8px rgba(59, 37, 29, 0.5));
+}
+@media (min-width: 768px) {
+  .tastes-svg {
+    width: 250px;
+    height: 250px;
+    -webkit-filter: drop-shadow(5px 16px 10px #3b251d);
+            filter: drop-shadow(5px 16px 10px #3b251d);
+  }
 }
 .cakes-svg-1 {
   fill: #f3ede9;
