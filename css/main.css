@@ -974,11 +974,16 @@ img {
 }
 .chef-speech {
   max-width: 245px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.6px;
   color: #a47d5e;
+}
+@media (min-width: 768px) {
+  .chef-speech {
+    font-size: 24px;
+  }
 }
 .chef-perf__right {
   top: 45%;
