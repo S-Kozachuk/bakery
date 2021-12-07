@@ -820,6 +820,11 @@ main {
   background-repeat: repeat-x;
   background: linear-gradient(-135deg, #f8f6f4, #fdfbf8);
 }
+@media (min-width: 768px) {
+  .cakes {
+    padding-bottom: 80px;
+  }
+}
 @media (min-width: 1024px) {
   .cakes {
     padding-bottom: 117px;
@@ -833,6 +838,12 @@ main {
 @media (min-width: 768px) {
   .cakes-wrapper {
     grid: auto / repeat(2, 1fr);
+    grid-column-gap: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .cakes-wrapper {
+    grid-column-gap: unset;
   }
 }
 .cakes-column-left {
@@ -845,6 +856,11 @@ main {
   font-weight: 700;
   letter-spacing: 1.2px;
   color: #56534c;
+}
+@media (min-width: 768px) {
+  .cakes-title {
+    font-size: 35px;
+  }
 }
 @media (min-width: 1024px) {
   .cakes-title {
@@ -860,6 +876,11 @@ main {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #a47d5e;
+}
+@media (min-width: 768px) {
+  .cakes-subtitle {
+    margin-bottom: 25px;
+  }
 }
 @media (min-width: 1024px) {
   .cakes-subtitle {
@@ -883,6 +904,11 @@ main {
     letter-spacing: unset;
   }
 }
+@media (min-width: 768px) {
+  .cakes-text > p {
+    margin: 0 auto 20px;
+  }
+}
 @media (min-width: 1024px) {
   .cakes-text > p {
     margin-bottom: 35px;
@@ -901,7 +927,14 @@ main {
 }
 @media (min-width: 768px) {
   .cakes-chef {
+    margin-bottom: 24px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1024px) {
+  .cakes-chef {
     margin-bottom: 44px;
+    font-size: 24px;
   }
 }
 .cakes-chef-content {
@@ -934,6 +967,13 @@ main {
 }
 @media (min-width: 768px) {
   .cakes-chef-name > p {
+    padding: 7px;
+    font-size: 16px;
+    width: 115px;
+  }
+}
+@media (min-width: 1024px) {
+  .cakes-chef-name > p {
     padding-top: 15px;
     padding-bottom: 20px;
     padding-left: 0;
@@ -947,7 +987,14 @@ main {
 }
 @media (min-width: 768px) {
   .cakes-chef-foto {
+    padding: 0 15px;
+    width: 117px;
+  }
+}
+@media (min-width: 1024px) {
+  .cakes-chef-foto {
     padding: unset;
+    width: unset;
   }
 }
 .cakes-chef-foto > img {
@@ -982,6 +1029,11 @@ main {
 }
 @media (min-width: 768px) {
   .chef-perf {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .chef-perf {
     font-size: 60px;
   }
 }
@@ -994,6 +1046,11 @@ main {
   color: #a47d5e;
 }
 @media (min-width: 768px) {
+  .chef-speech {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
   .chef-speech {
     font-size: 24px;
   }
