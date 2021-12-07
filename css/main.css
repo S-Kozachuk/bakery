@@ -152,6 +152,9 @@ img {
 .none {
   display: none;
 }
+main {
+  padding-top: 5px;
+}
 .noscroll {
   overflow: hidden;
 }
