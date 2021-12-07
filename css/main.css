@@ -874,10 +874,15 @@ img {
   color: #56534c;
   text-align: center;
 }
+@media (min-width: 425px) {
+  .cakes-text > p {
+    max-width: unset;
+    letter-spacing: unset;
+  }
+}
 @media (min-width: 1024px) {
   .cakes-text > p {
     margin-bottom: 35px;
-    max-width: unset;
     font-size: 14px;
     letter-spacing: 1.4px;
     text-align: unset;
