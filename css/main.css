@@ -1048,6 +1048,12 @@ img {
   -webkit-filter: drop-shadow(2px 7px 8px rgba(59, 37, 29, 0.5));
           filter: drop-shadow(2px 7px 8px rgba(59, 37, 29, 0.5));
 }
+@media (min-width: 425px) {
+  .tastes-svg {
+    width: 155px;
+    height: 155px;
+  }
+}
 @media (min-width: 768px) {
   .tastes-svg {
     width: 250px;
