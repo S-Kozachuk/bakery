@@ -830,7 +830,7 @@ main {
   grid: repeat(2, auto) / auto;
   justify-items: center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .cakes-wrapper {
     grid: auto / repeat(2, 1fr);
   }
