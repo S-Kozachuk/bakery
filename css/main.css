@@ -1017,6 +1017,11 @@ img {
           justify-content: center;
   gap: 8px;
 }
+@media (min-width: 425px) {
+  .cakes-right-grid {
+    gap: 12px;
+  }
+}
 @media (min-width: 768px) {
   .cakes-right-grid {
     margin-top: 121px;
