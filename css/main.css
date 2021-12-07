@@ -1098,7 +1098,7 @@ main {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  z-index: 3;
+  z-index: 2;
 }
 .cakes-cell__tastes::before {
   content: "TASTES SO GOOD!";
