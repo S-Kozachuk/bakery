@@ -775,7 +775,7 @@ img {
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .header-loaf::before {
     height: 80px;
     width: 80px;
@@ -783,18 +783,18 @@ img {
 }
 .header-loaf::after {
   position: absolute;
-  top: 50%;
-  height: 106px;
   content: "";
-  width: 106px;
+  top: 50%;
   right: 50%;
+  height: 106px;
+  width: 106px;
   background-image: url(/img/header/loaf-frame.png);
   -webkit-transform: translate(59%, -40%);
           transform: translate(59%, -40%);
   background-size: 85px 85px;
   background-repeat: no-repeat;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .header-loaf::after {
     background-size: unset;
     -webkit-transform: translate(50%, -50%);
@@ -806,7 +806,7 @@ img {
   width: 43px;
   z-index: 2;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .header-loaf-img {
     width: unset;
   }
