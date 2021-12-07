@@ -1104,6 +1104,11 @@ img {
   font-size: 14px;
   width: 130px;
 }
+@media (min-width: 425px) {
+  .cakes-cell__tastes::before {
+    font-size: 19px;
+  }
+}
 @media (min-width: 768px) {
   .cakes-cell__tastes::before {
     -webkit-transform: translate(-50%, -50%);
