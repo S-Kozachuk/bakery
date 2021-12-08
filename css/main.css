@@ -1381,7 +1381,7 @@ main {
 .pancakes-content {
   margin-left: 98px;
   display: grid;
-  grid-template-areas: "left-column right-column";
+  grid-template-areas: "left-column" "right-column";
   grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
   max-width: 954px;
   -webkit-box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
@@ -1391,6 +1391,11 @@ main {
   -webkit-border-bottom-left-radius: 97px;
      -moz-border-radius-bottomleft: 97px;
           border-bottom-left-radius: 97px;
+}
+@media (min-width: 768px) {
+  .pancakes-content {
+    grid-template-areas: "left-column right-column";
+  }
 }
 .pancakes-left-column {
   position: relative;
