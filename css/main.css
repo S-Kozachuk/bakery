@@ -111,7 +111,11 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
-  max-width: 1294px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
