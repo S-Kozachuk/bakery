@@ -327,6 +327,11 @@ main {
   .nav-menu-mobile {
     grid-template-columns: auto;
     grid-template-rows: 1fr;
+    max-width: 740px;
+  }
+}
+@media (min-width: 1440px) {
+  .nav-menu-mobile {
     max-width: 816px;
   }
 }
