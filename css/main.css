@@ -1127,6 +1127,11 @@ main {
     gap: 20px;
   }
 }
+@media (min-width: 1200px) {
+  .cakes-right-grid {
+    margin-top: 110px;
+  }
+}
 .cakes-cell {
   outline: 3.5px solid #fff;
   outline-offset: -7px;
