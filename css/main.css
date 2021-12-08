@@ -246,6 +246,11 @@ main {
 }
 @media (min-width: 1200px) {
   .nav-menu {
+    padding: 12px 15px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .nav-menu {
     padding: 12px 0 0;
   }
 }
