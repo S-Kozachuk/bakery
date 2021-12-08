@@ -1,18 +1,32 @@
 .cakes {
-<<<<<<< HEAD
-    padding-bottom: 100px;
-=======
-    padding-bottom: 117px;
->>>>>>> breakfast
+    padding-bottom: 40px;
     background-image: url(/img/cakes/cake-bg.jpg);
     background-repeat: repeat-x;
     background: linear-gradient(-135deg, #f8f6f4, #fdfbf8);
+
+	@media(min-width: 768px) {
+        padding-bottom: 80px;
+    }
+	
+	@media(min-width: 1024px) {
+        padding-bottom: 117px;
+    }
 }
 
 .cakes-wrapper {
     display: grid;
-    grid: auto / repeat(2, 1fr);
+    grid: repeat(2, auto) / auto;
     justify-items: center;
+
+	@media(min-width: 768px) {
+        grid: auto / repeat(2, 1fr);
+		grid-column-gap: 30px;
+    }
+
+	@media(min-width: 1024px) {
+		grid-column-gap: unset;
+	}
+
 }
 
 .cakes-column-left {
@@ -20,40 +34,94 @@
 }
 
 .cakes-title {
-    margin-top: 90px;
+    margin-top: 75px;
     font-family: var(--Alegreya);
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 1.2px;
     color: #56534c;
+
+	@media(min-width: 768px) {
+		font-size: 35px;
+	}
+
+	@media(min-width: 1024px) {
+		margin-top: 90px;
+		font-size: 48px;
+	}
+
+	@media(min-width: 1200px) {
+		margin-top: 79px;
+	}
+
 }
 
 .cakes-subtitle {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-family: var(--Alegreya);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #a47d5e;
+
+	@media(min-width: 768px) {
+		margin-bottom: 25px;
+	}
+
+	@media(min-width: 1024px) {
+		margin-bottom: 60px;
+		font-size: 14px;
+	}
+
 }
 
 .cakes-text>p {
-    margin-bottom: 35px;
-    font-size: 14px;
+    margin: 0 auto 45px;
+	max-width: 250px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.714;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.6px;
     color: #56534c;
+	text-align: center;
+
+	@media(min-width: 425px) {
+		max-width: unset;
+		letter-spacing: unset;
+	}
+
+	@media(min-width: 768px) {
+		margin: 0 auto 20px;
+	}
+
+	@media(min-width: 1024px) {
+		margin-bottom: 35px;
+		font-size: 14px;
+		letter-spacing: 1.4px;
+		text-align: unset;
+	}
+
 }
 
 .cakes-chef {
-    margin-bottom: 44px;
+    margin-bottom: 16px;
     font-family: var(--Alegreya);
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.6px;
     color: #56534c;
+
+	@media(min-width: 768px) {
+		margin-bottom: 24px;
+		font-size: 22px;
+	}
+
+	@media(min-width: 1024px) {
+		margin-bottom: 41px;
+		font-size: 24px;
+	}
+
 }
 
 .cakes-chef-content {
@@ -74,17 +142,51 @@
 }
 
 .cakes-chef-name>p {
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 5px;
     font-family: var(--Alegreya);
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 400;
     letter-spacing: 0.6px;
     color: #56534c;
     border-top: 1px #d7d5ca solid;
     border-bottom: 1px #d7d5ca solid;
-    width: 115px;
+    width: 100px;
     text-align: center;
+
+	@media(min-width: 768px) {
+		padding: 7px;
+		font-size: 16px;
+		width: 115px;
+	}
+
+	@media(min-width: 1024px) {
+		padding-top: 15px;
+    	padding-bottom: 20px;
+		padding-left: 0;
+		padding-right: 0;
+		font-size: 24px;
+		width: 115px;
+	}
+
+	@media(min-width: 1200px) {
+    	padding-bottom: 12px;
+	}
+
+}
+
+.cakes-chef-foto {
+	padding: 8px;
+
+	@media(min-width: 768px) {
+		padding: 0 15px;
+		width: 117px;
+	}
+
+	@media(min-width: 1024px) {
+		padding: unset;
+		width: unset;
+	}
+
 }
 
 .cakes-chef-foto>img {
@@ -94,11 +196,16 @@
 }
 
 .cakes-chef-speech {
+	margin-top: 45px;
     display: grid;
     grid-template: auto / repeat(3, auto);
     align-items: center;
     justify-items: center;
-    margin-top: 40px;
+    
+	@media(min-width: 768px) {
+		margin-top: 44px;
+	}
+
 }
 
 .chef-perf {
@@ -106,19 +213,37 @@
     top: -36%;
     left: 10%;
     font-family: "Times New Roman", Times, serif; 
-    font-size: 60px;
+    font-size: 48px;
     color: #56534c;
     font-weight: 400;
     letter-spacing: 1.5px;
+
+	@media(min-width: 768px) {
+		font-size: 35px;
+	}
+
+	@media(min-width: 1024px) {
+		font-size: 60px;
+	}
+
 }
 
 .chef-speech {
     max-width: 245px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: 0.6px;
     color: #a47d5e;
+
+	@media(min-width: 768px) {
+		font-size: 18px;
+	}
+
+	@media(min-width: 1024px) {
+		font-size: 24px;
+	}
+
 }
 
 .chef-perf__right {
@@ -128,24 +253,57 @@
 }
 
 .cakes-column-right {
-    margin-left: -5px;
-    position: relative;
+    
+	@media(min-width: 1200px) {
+		position: relative;
+		margin-left: -5px;
+	}
+
 }
 
 .cakes-right-grid {
-    margin-top: 121px;
+    margin-top: 75px;
     position: relative;
     display: grid;
     grid-template-areas:"cell-one cell-two"
                         "cell-three cell-four";
     justify-content: center;
-    gap: 20px;
+    gap: 8px;
+
+	@media(min-width: 425px) {
+		gap: 12px;
+	}
+
+	@media(min-width: 768px) {
+		margin-top: 121px;
+		gap: 8px;
+	}
+
+	@media(min-width: 1024px) {
+		gap: 20px;
+	}
+
+	@media(min-width: 1200px) {
+		margin-top: 110px;
+	}
+
 }
 
 .cakes-cell {
-    outline: 5px solid #fff;
-    outline-offset: -12px;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.05)
+    outline: 3.5px solid #fff;
+    outline-offset: -7px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.05);
+
+	@media(min-width: 768px) {
+		outline: 3.5px solid #fff;
+    	outline-offset: -8px;
+	}
+
+	@media(min-width: 1024px) {
+		outline: 5px solid #fff;
+    	outline-offset: -12px;
+	}
+
 }
 
 .cakes-cell-one {
@@ -165,9 +323,21 @@
 }
 
 .tastes-svg {
-    width: 250px;
-    height: 250px;
-    filter: drop-shadow(5px 16px 10px #3b251d);
+    width: 127px;
+	height: 127px;
+	filter: drop-shadow(2px 7px 8px rgba(59, 37, 29, 0.5));
+
+	@media(min-width: 425px) {
+		width: 155px;
+		height: 155px;
+	}
+     
+	@media(min-width: 1024px) {
+		width: 250px;
+    	height: 250px;
+		filter: drop-shadow(5px 16px 10px #3b251d);	
+	}
+
 }
 
 .cakes-svg-1 {
@@ -193,7 +363,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 3;
+    z-index: 2;
 
     &::before {
         content: "TASTES SO GOOD!";
@@ -201,15 +371,30 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-48%, -39%);
         z-index: 1;
         font-family: var(--Alegreya);
         line-height: 1.2;
         letter-spacing: 1.5px;
         color: #c9b176;
         text-align: center;
-        font-size: 30px;
-        width: 156px;
+        font-size: 14px;
+        width: 130px;
+
+		@media(min-width: 425px) {
+			font-size: 19px;
+		}
+
+		@media(min-width: 425px) {
+			font-size: 21px;
+		}
+
+		@media(min-width: 1024px) {
+			transform: translate(-50%, -50%);
+			font-size: 30px;
+			width: 156px;
+		}
+
     }
 
 }
