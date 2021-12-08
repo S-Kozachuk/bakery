@@ -187,7 +187,7 @@ main {
     display: none;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .fix-menu {
     position: unset;
   }
@@ -213,6 +213,11 @@ main {
   }
 }
 @media (min-width: 1024px) {
+  .fix-menu.active::before {
+    height: 70px;
+  }
+}
+@media (min-width: 1440px) {
   .fix-menu.active::before {
     display: none;
   }
@@ -587,7 +592,7 @@ main {
   position: relative;
   z-index: 2;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .header-content {
     margin-top: 220px;
   }
@@ -608,12 +613,12 @@ main {
     margin-bottom: 35px;
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 425px) {
   .header-content__title {
     font-size: 65px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .header-content__title {
     margin-top: unset;
     margin-bottom: 46px;
