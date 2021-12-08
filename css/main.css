@@ -897,6 +897,11 @@ main {
     font-size: 48px;
   }
 }
+@media (min-width: 1200px) {
+  .cakes-title {
+    margin-top: 79px;
+  }
+}
 .cakes-subtitle {
   margin-bottom: 40px;
   font-family: var(--Alegreya);
