@@ -113,6 +113,16 @@ img {
   width: 100%;
   max-width: 1294px;
 }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1294px;
+  }
+}
 #page-nav {
   display: none;
   position: fixed;
