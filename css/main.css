@@ -967,7 +967,7 @@ main {
 }
 @media (min-width: 1024px) {
   .cakes-chef {
-    margin-bottom: 44px;
+    margin-bottom: 41px;
     font-size: 24px;
   }
 }
@@ -1014,6 +1014,11 @@ main {
     padding-right: 0;
     font-size: 24px;
     width: 115px;
+  }
+}
+@media (min-width: 1200px) {
+  .cakes-chef-name > p {
+    padding-bottom: 12px;
   }
 }
 .cakes-chef-foto {
