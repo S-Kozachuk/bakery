@@ -250,10 +250,15 @@
 }
 
 .pancakes-timer__wrapper {
-    margin-top: 26px;
+    margin-top: 17px;
     display: grid;
-    grid-template-rows: 20px 102px 20px;
     justify-content: center;
+
+	@media(min-width: 768px) {
+		margin-top: 26px;
+		grid-template-rows: 20px 102px 20px;
+	}
+
 }
 
 .pancakes-timer-ready {
