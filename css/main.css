@@ -1211,7 +1211,7 @@ main {
 }
 .pancakes-content {
   display: grid;
-  grid-template-areas: "left-column" "right-column";
+  grid-template-areas: "right-column" "left-column";
   max-width: 954px;
   box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
   border: 0px dashed #ffffff00;
