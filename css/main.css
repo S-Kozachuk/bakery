@@ -1438,7 +1438,7 @@ main {
   }
 }
 .pancakes-timer-digit {
-  padding-top: 2px;
+  padding-bottom: 4px;
   font-size: 39px;
   color: #dfc691;
   line-height: 1;
@@ -1446,6 +1446,7 @@ main {
 @media (min-width: 768px) {
   .pancakes-timer-digit {
     padding-top: 4px;
+    padding-bottom: unset;
     font-size: 92px;
   }
 }
