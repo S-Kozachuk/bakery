@@ -1397,11 +1397,12 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(0, -67%);
-  width: 200px;
-  height: 200px;
+  transform: translate(8%, -39%);
+  width: 100px;
+  height: 100px;
   background-image: url(/img/pancakes/field.png);
   background-color: #fff;
+  background-size: cover;
   box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.5);
   font-family: var(--Alegreya);
   font-weight: 700;
@@ -1410,6 +1411,9 @@ main {
 @media (min-width: 768px) {
   .pancakes-timer {
     transform: translate(56%, -21%);
+    width: 200px;
+    height: 200px;
+    background-size: unset;
   }
 }
 .pancakes-timer__wrapper {
