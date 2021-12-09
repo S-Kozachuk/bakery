@@ -1397,7 +1397,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(56%, -21%);
+  transform: translate(0, -67%);
   width: 200px;
   height: 200px;
   background-image: url(/img/pancakes/field.png);
@@ -1406,6 +1406,11 @@ main {
   font-family: var(--Alegreya);
   font-weight: 700;
   letter-spacing: 1.8px;
+}
+@media (min-width: 768px) {
+  .pancakes-timer {
+    transform: translate(56%, -21%);
+  }
 }
 .pancakes-timer__wrapper {
   margin-top: 26px;
