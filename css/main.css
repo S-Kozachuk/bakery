@@ -1419,9 +1419,14 @@ main {
   justify-content: center;
 }
 .pancakes-timer-ready {
-  font-size: 18px;
+  font-size: 12px;
   color: #a47d5e;
   text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .pancakes-timer-ready {
+    font-size: 18px;
+  }
 }
 .pancakes-timer-digit {
   padding-top: 4px;
