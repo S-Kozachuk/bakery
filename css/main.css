@@ -1249,10 +1249,15 @@ main {
   }
 }
 .pancakes-title {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.2px;
   color: #56534c;
+}
+@media (min-width: 768px) {
+  .pancakes-title {
+    font-size: 48px;
+  }
 }
 .pancakes-subtitle {
   margin-bottom: 53px;
