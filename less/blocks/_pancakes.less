@@ -36,14 +36,21 @@
 }
 
 .pancakes-right-column {
-    padding-top: 66px;
-    padding-left: 60px;
+    padding: 70px 20px 50px;
     grid-area: right-column;
     position: relative;
     background-image: url(/img/pancakes/windmill.png);
     background-repeat: no-repeat;
     background-color: #fff;
     background-position: 100% 100%;
+
+	@media(min-width: 768px) {
+		padding-top: 66px;
+    	padding-left: 60px;
+		padding-right: unset;
+		padding-bottom: unset;
+	}
+
 }
 
 .pancakes-title {
