@@ -83,7 +83,7 @@
 }
 
 .slider-button {
-    display: grid;
+    display: none;
     grid: auto / auto;
     position: absolute;
     top: 50%;
@@ -95,6 +95,11 @@
     align-content: center;
     justify-content: center;
     background-color: #fff;
+
+	@media(min-width: 768px) {
+		display: grid;
+	}
+
 }
 
 .slider-button__img {
