@@ -1406,10 +1406,14 @@ main {
 }
 .pancakes-slider__wrapper {
   display: grid;
-  grid-row: auto;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 30px;
-  margin-right: 5px;
+}
+@media (min-width: 768px) {
+  .pancakes-slider__wrapper {
+    grid-row: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-right: 5px;
+  }
 }
 .pancakes-slider-unit:nth-child(2) {
   display: none;
