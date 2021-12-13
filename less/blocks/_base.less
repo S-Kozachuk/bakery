@@ -158,7 +158,19 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     width: 100%;
-    max-width: 1294px;
+
+	@media(min-width: 768px) {
+		max-width: 740px;
+	}
+
+	@media(min-width: 1200px) {
+		max-width: 1140px;
+	}
+
+	@media(min-width: 1440px) {
+		max-width: 1294px;
+	}
+
 }
 
 #page-nav {
@@ -169,8 +181,8 @@ img {
     transform: translate(0, -50%);
     z-index: 100;
 
-    @media (min-width: 1200px) {
-    display: block;
+    @media (min-width: 1440px) {
+    	display: block;
     }
 
 }
@@ -202,4 +214,17 @@ img {
 
 .none {
     display: none;
+}
+
+main {
+	padding-top: 5px;
+
+	@media (min-width: 768px) {
+		padding-top: 7px;
+	}
+
+	@media (min-width: 1200px) {
+		padding-top: 10px;
+	}
+
 }

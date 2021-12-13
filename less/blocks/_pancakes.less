@@ -1,20 +1,33 @@
 .pancakes {
-    padding-top: 141px;
+    padding-top: 90px;
     padding-bottom: 106px;
-    background-image: url(../img/pancakes/pancakes_bg.jpg);
+    background-image: url(../img/pancakes/pancakes_bg_m.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+	@media(min-width: 768px) {
+		padding-top: 141px;
+		background-image: url(../img/pancakes/pancakes_bg.jpg);
+	}
 }
 
 .pancakes-content {
-    margin-left: 98px;
-    display: grid;
-    grid-template-areas:"left-column right-column";
-    grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
-    max-width: 954px;
+    margin: 0 auto;
+	display: grid;
+    grid-template-areas:"right-column"
+						"left-column";
+    max-width: 280px;
     box-shadow: 3px 2px 40px 4px rgba(0, 0, 0, 0.3);
     border: 0px dashed #ffffff00;
     border-bottom-left-radius: 97px;
+
+	@media(min-width: 768px) {
+		margin-left: 98px;
+		grid-template-areas:"left-column right-column";
+		grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
+		max-width: 954px;
+	}
+
 }
 
 .pancakes-left-column {
@@ -23,25 +36,38 @@
 }
 
 .pancakes-right-column {
-    padding-top: 66px;
-    padding-left: 60px;
+    padding: 70px 20px 50px;
     grid-area: right-column;
     position: relative;
     background-image: url(/img/pancakes/windmill.png);
     background-repeat: no-repeat;
     background-color: #fff;
     background-position: 100% 100%;
+
+	@media(min-width: 768px) {
+		padding-top: 66px;
+    	padding-left: 60px;
+		padding-right: unset;
+		padding-bottom: unset;
+	}
+
 }
 
 .pancakes-title {
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.2px;
     color: #56534c;
+
+	@media(min-width: 768px) {
+		font-size: 48px;
+	}
+
 }
 
 .pancakes-subtitle {
     margin-bottom: 53px;
+	font-family: var(--Alegreya);
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -73,7 +99,7 @@
 }
 
 .slider-button {
-    display: grid;
+    display: none;
     grid: auto / auto;
     position: absolute;
     top: 50%;
@@ -85,6 +111,11 @@
     align-content: center;
     justify-content: center;
     background-color: #fff;
+
+	@media(min-width: 768px) {
+		display: grid;
+	}
+
 }
 
 .slider-button__img {
@@ -117,8 +148,13 @@
 
 
 .pancakes-slider-carousel {
-    width: 330px;
+    width: 110px;
     margin: 0 auto;
+
+	@media(min-width: 768px) {
+		width: 330px;
+	}
+
 }
 
 .pancakes-slider__wrapper {
@@ -215,41 +251,73 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(56%, -21%);
+    transform: translate(14%, -50%);
         
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-image: url(/img/pancakes/field.png);
     background-color: #fff;
-    box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.5);
+	background-size: cover;
+    box-shadow: 14px -13px 58px 3px rgba(105, 80, 58, 0.3);
 
     font-family: var(--Alegreya);
     font-weight: 700;
     letter-spacing: 1.8px;
+
+
+	@media(min-width: 768px) {
+		transform: translate(56%, -21%);
+		width: 200px;
+    	height: 200px;
+		background-size: unset;
+		box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.5);
+	}
+
 }
 
 .pancakes-timer__wrapper {
-    margin-top: 26px;
+    margin-top: 17px;
     display: grid;
-    grid-template-rows: 20px 102px 20px;
-    justify-content: center;
+    justify-items: center;
+
+	@media(min-width: 768px) {
+		margin-top: 26px;
+		grid-template-rows: 20px 102px 20px;
+	}
+
 }
 
 .pancakes-timer-ready {
-    font-size: 18px;
+    font-size: 9px;
     color: #a47d5e;
     text-transform: uppercase;
+
+	@media(min-width: 768px) {
+		font-size: 18px;
+	}
+
 }
 
 .pancakes-timer-digit {
-    padding-top: 4px;
-    font-size: 92px;
+    padding-bottom: 4px;
+    font-size: 39px;
     color: #dfc691;
     line-height: 1;
+
+	@media(min-width: 768px) {
+		padding-top: 4px;
+		padding-bottom: unset;
+		font-size: 92px;
+	}
+		
 }
 
 .pancakes-timer-min {
-    justify-self: center;
-    font-size: 18px;
+    font-size: 13px;
     color: #979285;
+
+	@media(min-width: 768px) {
+		font-size: 18px;
+	}
+
 }
