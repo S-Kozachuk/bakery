@@ -1473,7 +1473,7 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-timer__wrapper {
-    margin-top: unset;
+    margin-top: 15px;
     grid-template-rows: 9px 63px 15px;
   }
 }
