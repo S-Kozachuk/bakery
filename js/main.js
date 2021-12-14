@@ -81,7 +81,8 @@ $(document).ready(function(){
 		768:{
             items: 3,
             nav: true,
-			dots: false
+			dots: false,
+			margin: 12
         },
 
         1200:{
