@@ -79,7 +79,7 @@ $(document).ready(function(){
         },
 
 		768:{
-            items: 3,
+            items: 1,
             nav: true,
 			dots: false
         },
