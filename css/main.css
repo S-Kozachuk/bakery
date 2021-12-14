@@ -1266,6 +1266,11 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-title {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-title {
     font-size: 48px;
   }
 }
