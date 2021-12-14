@@ -1335,6 +1335,16 @@ main {
   justify-items: start;
   max-width: 107px;
 }
+@media (min-width: 768px) {
+  .main-stars {
+    margin-bottom: 29px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-stars {
+    margin-bottom: 34px;
+  }
+}
 .slider-button {
   display: none;
   grid: auto / auto;
