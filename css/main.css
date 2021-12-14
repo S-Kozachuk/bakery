@@ -1490,6 +1490,11 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-timer-ready {
+    font-size: 11px;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-timer-ready {
     font-size: 18px;
   }
 }
