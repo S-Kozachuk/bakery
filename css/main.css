@@ -1512,7 +1512,7 @@ main {
   .pancakes-timer {
     right: 0;
     left: unset;
-    transform: translate(34%, -42%);
+    transform: translate(20%, -42%);
     width: 110px;
     height: 110px;
     box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.2);
