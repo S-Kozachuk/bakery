@@ -75,19 +75,20 @@ $(document).ready(function(){
         0:{
             items: 1,
             dots: false,
+			margin: 0
         },
 
 		768:{
             items:3,
             nav:true,
-			dots:false,
+			dots:false
         },
 
         1200:{
             items:3,
-            nav:true
+            nav: true,
+			margin: 2
         },
       }
     });
-	
 });
