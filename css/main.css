@@ -1225,6 +1225,11 @@ main {
     max-width: 320px;
   }
 }
+@media (min-width: 425px) {
+  .pancakes-content {
+    max-width: 350px;
+  }
+}
 @media (min-width: 768px) {
   .pancakes-content {
     grid-template-areas: "left-column right-column";
