@@ -1450,6 +1450,15 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-timer {
+    transform: translate(28%, -57%);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.5);
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-timer {
     transform: translate(56%, -21%);
     width: 200px;
     height: 200px;
