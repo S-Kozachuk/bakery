@@ -1506,6 +1506,11 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-timer-digit {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-timer-digit {
     padding-top: 4px;
     padding-bottom: unset;
     font-size: 92px;
