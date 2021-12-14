@@ -1223,7 +1223,7 @@ main {
   .pancakes-content {
     grid-template-areas: "left-column right-column";
     grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
-    max-width: unset;
+    max-width: 675px;
   }
 }
 @media (min-width: 1200px) {
