@@ -1247,6 +1247,11 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-right-column {
+    padding: 25px 35px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-right-column {
     padding-top: 66px;
     padding-left: 60px;
     padding-right: unset;
