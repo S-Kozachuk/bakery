@@ -79,13 +79,13 @@ $(document).ready(function(){
         },
 
 		768:{
-            items:3,
-            nav:true,
-			dots:false
+            items: 3,
+            nav: true,
+			dots: false
         },
 
         1200:{
-            items:3,
+            items: 3,
             nav: true,
 			margin: 2
         },
