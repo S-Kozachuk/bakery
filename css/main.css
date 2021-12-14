@@ -1522,6 +1522,12 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-timer-min {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-timer-min {
     font-size: 18px;
   }
 }
