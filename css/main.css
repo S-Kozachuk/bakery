@@ -1323,14 +1323,6 @@ main {
 .rating-stars-l__unit {
   margin-top: 10px;
 }
-.pancakes-slider {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 32px 1fr 32px;
-  max-width: 412px;
-  justify-items: center;
-  align-items: center;
-}
 .pancakes-slider-carousel {
   width: 110px;
   margin: 0 auto;
