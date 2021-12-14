@@ -22,6 +22,10 @@
     border: 0px dashed #ffffff00;
     border-bottom-left-radius: 97px;
 
+	@media(min-width: 375px) {
+		max-width: 320px;
+	}
+
 	@media(min-width: 768px) {
 		grid-template-areas:"left-column right-column";
 		grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);

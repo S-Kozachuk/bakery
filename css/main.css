@@ -1220,6 +1220,11 @@ main {
   border: 0px dashed #ffffff00;
   border-bottom-left-radius: 97px;
 }
+@media (min-width: 375px) {
+  .pancakes-content {
+    max-width: 320px;
+  }
+}
 @media (min-width: 768px) {
   .pancakes-content {
     grid-template-areas: "left-column right-column";
