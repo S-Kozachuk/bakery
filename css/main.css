@@ -1283,6 +1283,18 @@ main {
   text-transform: uppercase;
   color: #a47d5e;
 }
+@media (min-width: 768px) {
+  .pancakes-subtitle {
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-subtitle {
+    margin-bottom: 53px;
+    font-size: 14px;
+  }
+}
 .pancakes-text {
   margin-bottom: 52px;
 }
