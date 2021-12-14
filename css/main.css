@@ -1298,6 +1298,16 @@ main {
 .pancakes-text {
   margin-bottom: 52px;
 }
+@media (min-width: 768px) {
+  .pancakes-text {
+    margin-bottom: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-text {
+    margin-bottom: 52px;
+  }
+}
 .pancakes-text > p {
   max-width: 360px;
   font-size: 14px;
