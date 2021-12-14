@@ -1503,6 +1503,16 @@ main {
   font-weight: 700;
   letter-spacing: 1.8px;
 }
+@media (min-width: 425px) {
+  .pancakes-timer {
+    right: 0;
+    left: unset;
+    transform: translate(34%, -42%);
+    width: 110px;
+    height: 110px;
+    box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.2);
+  }
+}
 @media (min-width: 768px) {
   .pancakes-timer {
     right: unset;
@@ -1547,7 +1557,7 @@ main {
   color: #a47d5e;
   text-transform: uppercase;
 }
-@media (min-width: 768px) {
+@media (min-width: 425px) {
   .pancakes-timer-ready {
     font-size: 11px;
   }
@@ -1562,6 +1572,11 @@ main {
   font-size: 39px;
   color: #dfc691;
   line-height: 1;
+}
+@media (min-width: 425px) {
+  .pancakes-timer-digit {
+    font-size: 50px;
+  }
 }
 @media (min-width: 768px) {
   .pancakes-timer-digit {
@@ -1579,10 +1594,14 @@ main {
   font-size: 13px;
   color: #979285;
 }
+@media (min-width: 425px) {
+  .pancakes-timer-min {
+    font-size: 14px;
+  }
+}
 @media (min-width: 768px) {
   .pancakes-timer-min {
     margin-top: 5px;
-    font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
