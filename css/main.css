@@ -1321,7 +1321,7 @@ main {
     font-size: 12px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .pancakes-text > p {
     font-size: 14px;
   }
