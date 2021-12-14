@@ -1199,7 +1199,7 @@ main {
 }
 .pancakes {
   padding-top: 90px;
-  padding-bottom: 106px;
+  padding-bottom: 85px;
   background-image: url(../img/pancakes/pancakes_bg_m.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1207,6 +1207,7 @@ main {
 @media (min-width: 768px) {
   .pancakes {
     padding-top: 141px;
+    padding-bottom: 106px;
     background-image: url(../img/pancakes/pancakes_bg.jpg);
   }
 }
