@@ -1221,9 +1221,14 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-content {
-    margin-left: 98px;
     grid-template-areas: "left-column right-column";
     grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
+    max-width: unset;
+  }
+}
+@media (min-width: 1200px) {
+  .pancakes-content {
+    margin-left: 98px;
     max-width: 954px;
   }
 }

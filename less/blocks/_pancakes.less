@@ -22,9 +22,13 @@
     border-bottom-left-radius: 97px;
 
 	@media(min-width: 768px) {
-		margin-left: 98px;
 		grid-template-areas:"left-column right-column";
 		grid-template-columns: minmax(auto, 55%) minmax(auto, 56%);
+		max-width: unset;
+	}
+
+	@media(min-width: 1200px) {
+		margin-left: 98px;
 		max-width: 954px;
 	}
 
