@@ -75,7 +75,7 @@ $(document).ready(function(){
         0:{
             items: 1,
             dots: false,
-			margin: 0
+			margin: 10
         },
 
 		768:{
