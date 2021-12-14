@@ -1316,6 +1316,16 @@ main {
   color: #56534c;
   text-align: left;
 }
+@media (min-width: 768px) {
+  .pancakes-text > p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .pancakes-text > p {
+    font-size: 14px;
+  }
+}
 .main-stars {
   margin-bottom: 34px;
   display: grid;
