@@ -87,7 +87,7 @@ $(document).ready(function(){
         1200:{
             items: 3,
             nav: true,
-			margin: 2
+			margin: 15
         },
       }
     });
