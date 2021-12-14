@@ -1329,16 +1329,12 @@ main {
 }
 @media (min-width: 768px) {
   .pancakes-slider {
-    width: 330px;
+    width: 150px;
   }
 }
-.pancakes-slider__wrapper {
-  display: grid;
-}
-@media (min-width: 768px) {
-  .pancakes-slider__wrapper {
-    grid-row: auto;
-    margin-right: 5px;
+@media (min-width: 1200px) {
+  .pancakes-slider {
+    width: 330px;
   }
 }
 /*
