@@ -889,8 +889,13 @@ main {
 }
 @media (min-width: 1024px) {
   .cakes-subtitle {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .cakes-subtitle {
+    margin-bottom: 60px;
   }
 }
 .cakes-text > p {
