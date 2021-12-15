@@ -1103,6 +1103,7 @@ main {
 }
 @media (min-width: 1024px) {
   .cakes-right-grid {
+    margin-top: 215px;
     gap: 20px;
   }
 }
