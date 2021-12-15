@@ -1215,6 +1215,13 @@ main {
 @media (min-width: 1024px) {
   .cakes-cell__tastes::before {
     transform: translate(-50%, -50%);
+    font-size: 22px;
+    width: 117px;
+  }
+}
+@media (min-width: 1200px) {
+  .cakes-cell__tastes::before {
+    transform: translate(-50%, -50%);
     font-size: 30px;
     width: 156px;
   }
