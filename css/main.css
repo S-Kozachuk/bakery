@@ -838,7 +838,7 @@ main {
 }
 @media (min-width: 1024px) {
   .cakes-wrapper {
-    grid-column-gap: unset;
+    grid-column-gap: 40px;
   }
 }
 .cakes-column-left {
