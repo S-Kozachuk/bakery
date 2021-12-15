@@ -919,7 +919,13 @@ main {
     margin-bottom: 35px;
     font-size: 14px;
     letter-spacing: 1.4px;
-    text-align: unset;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1200px) {
+  .cakes-text > p {
+    margin-bottom: 35px;
+    white-space: unset;
   }
 }
 .cakes-chef {
