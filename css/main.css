@@ -1378,8 +1378,14 @@ main {
   }
 }
 .slider-button__img {
-  width: 10px;
-  height: 14px;
+  display: none;
+}
+@media (min-width: 768px) {
+  .slider-button__img {
+    display: block;
+    width: 10px;
+    height: 14px;
+  }
 }
 @media (min-width: 1200px) {
   .slider-button__img {
