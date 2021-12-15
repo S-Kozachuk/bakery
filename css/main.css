@@ -1459,7 +1459,13 @@ main {
 }
 @media (min-width: 1200px) {
   .pancakes-slider {
+    margin-left: 50px;
     width: 330px;
+  }
+}
+@media (min-width: 1600px) {
+  .pancakes-slider {
+    margin: 0 auto;
   }
 }
 /*
