@@ -1605,6 +1605,15 @@ main {
   .pancakes-timer {
     left: unset;
     right: 0;
+    transform: translate(40%, -40%);
+    width: 180px;
+    height: 180px;
+    background-size: unset;
+    box-shadow: -5px 5px 56px 2px rgba(105, 80, 58, 0.5);
+  }
+}
+@media (min-width: 1600px) {
+  .pancakes-timer {
     transform: translate(56%, -21%);
     width: 200px;
     height: 200px;
