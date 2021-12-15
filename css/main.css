@@ -921,7 +921,7 @@ main {
 }
 @media (min-width: 1024px) {
   .cakes-text > p {
-    margin-bottom: 35px;
+    margin-bottom: 60px;
     font-size: 14px;
     letter-spacing: 1.4px;
     white-space: nowrap;
