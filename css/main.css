@@ -1491,7 +1491,7 @@ main {
 }
 @media (min-width: 1600px) {
   .pancakes-slider {
-    margin: 0 auto;
+    margin-bottom: 0;
   }
 }
 .pancakes-slider-unit:nth-child(2) {
@@ -1572,6 +1572,11 @@ main {
   margin: 0 auto;
   margin-top: 6px;
   width: 56px;
+}
+@media (min-width: 1600px) {
+  .pancakes-slider .owl-carousel .owl-dots {
+    margin-top: 0;
+  }
 }
 .owl-carousel .owl-dots button.owl-dot {
   margin-right: 10px;
