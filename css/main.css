@@ -1601,7 +1601,7 @@ main {
   transition: .5s;
 }
 @media (min-width: 1600px) {
-  .owl-carousel .owl-stage-outer .owl-item .pancakes-slider__wrapper {
+  .pancakes-slider__wrapper {
     width: 90px;
   }
 }
