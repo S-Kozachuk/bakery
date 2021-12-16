@@ -70,6 +70,7 @@ $(document).ready(function(){
       nav: true,
       dots: true,
       loop: true,
+	  navSpeed: 500,
 	  responsive:{
 
         0:{
