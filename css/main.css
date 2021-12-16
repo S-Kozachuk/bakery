@@ -1575,7 +1575,7 @@ main {
 }
 @media (min-width: 1600px) {
   .pancakes-slider .owl-carousel .owl-dots {
-    margin-top: 0;
+    margin-top: 8px;
   }
 }
 .owl-carousel .owl-dots button.owl-dot {
