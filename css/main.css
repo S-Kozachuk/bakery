@@ -1365,6 +1365,11 @@ main {
     font-size: 14px;
   }
 }
+@media (min-width: 1600px) {
+  .pancakes-subtitle {
+    margin-bottom: 58px;
+  }
+}
 .pancakes-text {
   margin-bottom: 52px;
 }
@@ -1376,6 +1381,11 @@ main {
 @media (min-width: 1200px) {
   .pancakes-text {
     margin-bottom: 52px;
+  }
+}
+@media (min-width: 1600px) {
+  .pancakes-text {
+    margin-bottom: 46px;
   }
 }
 .pancakes-text > p {
