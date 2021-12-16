@@ -71,12 +71,11 @@ $(document).ready(function(){
       dots: true,
       loop: true,
 	  navSpeed: 500,
-	  responsive:{
-
+	  responsive: {
         0:{
             items: 1,
             dots: false,
-			margin: 10
+			margin: 10,
         },
 
 		768:{
