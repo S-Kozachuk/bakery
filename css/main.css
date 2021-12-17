@@ -1284,7 +1284,7 @@ main {
 }
 @media (min-width: 1200px) {
   .pancakes-content {
-    margin-left: 98px;
+    margin-left: 96px;
     max-width: 954px;
   }
 }
@@ -1325,7 +1325,7 @@ main {
     padding-top: 63px;
     padding-left: 63px;
     padding-right: unset;
-    padding-bottom: unset;
+    padding-bottom: 13px;
   }
 }
 .pancakes-title {
@@ -1485,7 +1485,7 @@ main {
 }
 @media (min-width: 1200px) {
   .pancakes-slider {
-    margin-left: 50px;
+    margin-left: 53px;
     width: 330px;
   }
 }
@@ -1575,7 +1575,7 @@ main {
 }
 @media (min-width: 1600px) {
   .pancakes-slider .owl-carousel .owl-dots {
-    margin-top: 8px;
+    margin-top: 11px;
   }
 }
 .owl-carousel .owl-dots button.owl-dot {
@@ -1654,7 +1654,7 @@ main {
 }
 @media (min-width: 1600px) {
   .pancakes-timer {
-    transform: translate(50%, -21%);
+    transform: translate(54%, -21%);
     width: 200px;
     height: 200px;
     background-size: unset;
@@ -1738,6 +1738,11 @@ main {
 @media (min-width: 1200px) {
   .pancakes-timer-min {
     font-size: 18px;
+  }
+}
+@media (min-width: 1600px) {
+  .pancakes-timer-min {
+    margin-top: 0;
   }
 }
 .breakfast {
