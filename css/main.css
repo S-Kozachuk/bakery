@@ -1654,7 +1654,7 @@ main {
 }
 @media (min-width: 1600px) {
   .pancakes-timer {
-    transform: translate(56%, -21%);
+    transform: translate(50%, -21%);
     width: 200px;
     height: 200px;
     background-size: unset;
