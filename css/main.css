@@ -1291,7 +1291,7 @@ main {
 @media (min-width: 1600px) {
   .pancakes-content {
     grid-template-columns: minmax(auto, 53%) minmax(auto, 57%);
-    max-width: 965px;
+    max-width: 958px;
   }
 }
 .pancakes-left-column {
