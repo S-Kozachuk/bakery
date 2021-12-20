@@ -1917,13 +1917,18 @@ main {
 .establishment-year {
   margin-bottom: 22px;
   display: grid;
-  grid-template-columns: repeat(2, 210px);
+  grid-template-columns: repeat(2, 120px);
   align-items: center;
   justify-items: center;
   font-family: var(--Alegreya);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.7px;
+}
+@media (min-width: 768px) {
+  .establishment-year {
+    grid-template-columns: repeat(2, 210px);
+  }
 }
 .breakfast-decor-wrapper {
   display: grid;
