@@ -1747,9 +1747,14 @@ main {
 }
 .breakfast {
   padding-top: 85px;
-  padding-bottom: 67px;
+  padding-bottom: 85px;
   background-image: url(../img/breakfast/breakfast.jpg);
-  background-size: cover;
+}
+@media (min-width: 768px) {
+  .breakfast {
+    padding-bottom: 67px;
+    background-size: cover;
+  }
 }
 .breakfast-wrapper {
   position: relative;
