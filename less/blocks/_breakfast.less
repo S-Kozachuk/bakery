@@ -312,7 +312,6 @@
 .breakfast-sidebar-first {
 
 	@media(min-width: 768px) {
-
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -334,32 +333,36 @@
 			height: 526px;
 			border: dashed 2px #9e9c93;
 		}
-		
+
 	}
 
 }
 
 .breakfast-sidebar-second {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    padding-top: 12px;
-    content: "";
-    width: 14px;
-    height: 502px;
-    transform: translate(155%, 10%);
-    background: #d7d4c5;
-    box-shadow: 5px 3px 16px 0px rgba(0, 0, 0, 0.5);
 
-    &::before {
-        content: "";
-        position: absolute;
-        top: 10px;
-        right: 5px;
-        width: 9px;
-        height: 482px;
-        border: dashed 2px #9e9c93;
-    }
+	@media(min-width: 768px) {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+		padding-top: 12px;
+		content: "";
+		width: 14px;
+		height: 502px;
+		transform: translate(155%, 10%);
+		background: #d7d4c5;
+		box-shadow: 5px 3px 16px 0px rgba(0, 0, 0, 0.5);
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 10px;
+			right: 5px;
+			width: 9px;
+			height: 482px;
+			border: dashed 2px #9e9c93;
+		}
+
+	}
 
 }
