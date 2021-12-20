@@ -1761,6 +1761,7 @@ main {
 @media (min-width: 768px) {
   .breakfast-wrapper {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
   }
 }
 @media (min-width: 1440px) {
