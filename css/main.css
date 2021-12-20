@@ -2049,11 +2049,16 @@ main {
 }
 .breakfast-descr__title {
   margin-bottom: 31px;
-  font-size: 44px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: 1.1px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .breakfast-descr__title {
+    font-size: 44px;
+  }
 }
 .breakfast-descr__text p {
   margin-bottom: 45px;
