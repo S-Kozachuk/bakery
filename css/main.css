@@ -1995,7 +1995,7 @@ main {
 }
 .breakfast-decor-center {
   position: relative;
-  margin: 0 9px;
+  margin: 0 8px;
   width: 37px;
   height: 33px;
   fill: #c2beba;
@@ -2013,6 +2013,7 @@ main {
 }
 @media (min-width: 768px) {
   .breakfast-decor-center {
+    margin: 0 9px;
     width: 45px;
     height: 35px;
   }
