@@ -1797,10 +1797,16 @@ main {
   }
 }
 .breakfast-menu {
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: var(--Alegreya);
+}
+@media (min-width: 768px) {
+  .breakfast-menu {
+    margin-bottom: unset;
+  }
 }
 .breakfast-title {
   margin-bottom: 0;
