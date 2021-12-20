@@ -1872,10 +1872,15 @@ main {
 .breakfast-menu__description {
   margin-bottom: 18px;
   font-family: var(--ProximaNova);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.8px;
   color: #c2beba;
+}
+@media (min-width: 768px) {
+  .breakfast-menu__description {
+    font-size: 16px;
+  }
 }
 .breakfast-menu__cost {
   margin-bottom: 5px;
