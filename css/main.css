@@ -1988,10 +1988,16 @@ main {
   position: absolute;
   top: -7px;
   left: -14px;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border: 1px solid #c2beba;
   border-radius: 50%;
+}
+@media (min-width: 768px) {
+  .breakfast-decor__left {
+    width: 12px;
+    height: 12px;
+  }
 }
 .breakfast-decor-center {
   position: relative;
@@ -2028,10 +2034,16 @@ main {
   position: absolute;
   top: -7px;
   right: -14px;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border: 1px solid #c2beba;
   border-radius: 50%;
+}
+@media (min-width: 768px) {
+  .breakfast-decor__right {
+    width: 12px;
+    height: 12px;
+  }
 }
 .breakfast-descr__title {
   margin-bottom: 31px;
