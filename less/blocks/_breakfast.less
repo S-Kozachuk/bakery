@@ -372,12 +372,18 @@
 
 .breakfast-descr__text p {
     margin-bottom: 45px;
-    max-width: 360px;
-    font-size: 14px;
+    max-width: 246px;
+    font-size: 12px;
     line-height: 2.14;
     letter-spacing: 0.7px;
     color: #56534c;
     text-align: center;
+
+	@media (min-width: 768px) {
+		max-width: 360px;
+    	font-size: 14px;
+	}
+
 }
 
 .breakfast-descr__button {
