@@ -1752,16 +1752,14 @@ main {
   background-size: cover;
 }
 .breakfast-wrapper {
-  margin-top: 2px;
   position: relative;
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  justify-items: center;
 }
 @media (min-width: 768px) {
   .breakfast-wrapper {
+    margin-top: 2px;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    justify-items: center;
   }
 }
 @media (min-width: 1440px) {
