@@ -1995,8 +1995,8 @@ main {
 .breakfast-decor-center {
   position: relative;
   margin: 0 9px;
-  width: 45px;
-  height: 35px;
+  width: 37px;
+  height: 33px;
   fill: #c2beba;
 }
 .breakfast-decor-center::before {
@@ -2006,9 +2006,20 @@ main {
   right: 50%;
   transform: translate(50%, -50%);
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  border: 2px solid #c2beba;
+  height: 50px;
+  width: 50px;
+  border: 1.5px solid #c2beba;
+}
+@media (min-width: 768px) {
+  .breakfast-decor-center {
+    width: 45px;
+    height: 35px;
+  }
+  .breakfast-decor-center::before {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #c2beba;
+  }
 }
 .breakfast-decor__right::before {
   content: "";
