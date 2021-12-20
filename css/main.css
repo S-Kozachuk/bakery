@@ -1817,11 +1817,16 @@ main {
 .breakfast-subtitle {
   margin-bottom: 55px;
   font-family: var(--Alegreya);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.9px;
   text-transform: uppercase;
   color: #c8a593;
+}
+@media (min-width: 768px) {
+  .breakfast-subtitle {
+    font-size: 18px;
+  }
 }
 .breakfast-menu__item:nth-child(1) {
   margin-bottom: 4px;
