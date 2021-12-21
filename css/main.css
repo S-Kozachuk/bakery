@@ -1927,6 +1927,11 @@ main {
     max-width: 320px;
   }
 }
+@media (min-width: 425px) {
+  .breakfast-column-right {
+    max-width: 350px;
+  }
+}
 @media (min-width: 768px) {
   .breakfast-column-right {
     justify-self: right;
