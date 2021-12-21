@@ -2219,6 +2219,11 @@ main {
 }
 @media (min-width: 1200px) {
   .breakfast-descr__button {
+    margin-bottom: 68px;
+  }
+}
+@media (min-width: 1440px) {
+  .breakfast-descr__button {
     margin-bottom: 57px;
   }
 }
