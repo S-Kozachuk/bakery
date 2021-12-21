@@ -1899,7 +1899,7 @@ main {
   letter-spacing: 0.8px;
   color: #c2beba;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .breakfast-menu__description {
     font-size: 16px;
   }
