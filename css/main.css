@@ -2088,7 +2088,7 @@ main {
   width: 50px;
   border: 1.5px solid #c2beba;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .breakfast-decor-center {
     margin: 0 9px;
     width: 45px;
