@@ -2003,6 +2003,11 @@ main {
     width: 90px;
   }
 }
+@media (min-width: 425px) {
+  .breakfast-decor {
+    width: 110px;
+  }
+}
 @media (min-width: 768px) {
   .breakfast-decor {
     width: 144px;
