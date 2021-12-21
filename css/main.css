@@ -2138,6 +2138,13 @@ main {
 @media (min-width: 768px) {
   .breakfast-descr__text p {
     padding: unset;
+    max-width: 290px;
+    font-size: 13px;
+  }
+}
+@media (min-width: 1024px) {
+  .breakfast-descr__text p {
+    padding: unset;
     max-width: 360px;
     font-size: 14px;
   }
