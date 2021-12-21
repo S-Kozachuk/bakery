@@ -1797,6 +1797,11 @@ main {
 }
 @media (min-width: 768px) {
   .breakfast-column-left {
+    max-width: 445px;
+  }
+}
+@media (min-width: 1024px) {
+  .breakfast-column-left {
     margin-left: 87px;
     max-width: 445px;
   }
