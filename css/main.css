@@ -2009,6 +2009,11 @@ main {
 }
 @media (min-width: 768px) {
   .breakfast-decor-wrapper {
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .breakfast-decor-wrapper {
     margin-bottom: 74px;
   }
 }
