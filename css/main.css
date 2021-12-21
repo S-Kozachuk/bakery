@@ -1912,14 +1912,7 @@ main {
 .rye-symbol {
   width: 150px;
   height: 52px;
-  opacity: .4;
-}
-@media (min-width: 768px) {
-  .rye-symbol {
-    width: 95px;
-    height: 45px;
-    opacity: .3;
-  }
+  opacity: .3;
 }
 .breakfast-column-right {
   margin-top: 7px;
