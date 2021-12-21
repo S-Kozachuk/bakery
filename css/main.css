@@ -1912,7 +1912,7 @@ main {
 .rye-symbol {
   width: 150px;
   height: 52px;
-  opacity: .25;
+  opacity: .4;
 }
 @media (min-width: 768px) {
   .rye-symbol {
