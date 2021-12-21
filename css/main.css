@@ -2205,6 +2205,16 @@ main {
   color: rgba(164, 94, 94, 0.5);
 }
 @media (min-width: 1024px) {
+  .breakfast-descr__button {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .breakfast-descr__button {
+    margin-bottom: 57px;
+  }
+}
+@media (min-width: 1024px) {
   .breakfast-sidebar-first {
     position: absolute;
     top: 0;
