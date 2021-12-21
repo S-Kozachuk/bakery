@@ -1853,7 +1853,7 @@ main {
   margin-bottom: 18px;
 }
 .breakfast-menu__item:nth-child(3) {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 .breakfast-menu__item:nth-child(4) {
   margin-bottom: -16px;
@@ -1865,7 +1865,7 @@ main {
   margin-bottom: 21px;
 }
 .breakfast-menu__item:nth-child(7) {
-  margin-bottom: 11px;
+  margin-bottom: 3px;
 }
 .breakfast-menu__item:nth-child(8) {
   margin-bottom: -18px;
@@ -1961,7 +1961,7 @@ main {
     background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1440px) {
   .breakfast-column-right {
     justify-self: right;
   }
