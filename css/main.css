@@ -2246,6 +2246,24 @@ main {
     border: dashed 2px #9e9c93;
   }
 }
+@media (min-width: 1200px) {
+  .breakfast-sidebar-first {
+    height: 568px;
+    transform: translate(-302%, 5%);
+  }
+  .breakfast-sidebar-first::before {
+    height: 543px;
+  }
+}
+@media (min-width: 1440px) {
+  .breakfast-sidebar-first {
+    height: 547px;
+    transform: translate(100%, 5%);
+  }
+  .breakfast-sidebar-first::before {
+    height: 526px;
+  }
+}
 @media (min-width: 1024px) {
   .breakfast-sidebar-second {
     position: absolute;
