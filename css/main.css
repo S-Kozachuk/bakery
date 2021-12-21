@@ -1994,7 +1994,7 @@ main {
 }
 @media (min-width: 768px) {
   .establishment-year {
-    grid-template-columns: repeat(2, 165px);
+    grid-template-columns: repeat(2, 150px);
   }
 }
 @media (min-width: 1024px) {
