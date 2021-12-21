@@ -1957,7 +1957,13 @@ main {
 }
 @media (min-width: 1200px) {
   .breakfast-column-right {
+    justify-self: unset;
     background: linear-gradient(45deg, transparent 20px, #f3f1e9 0);
+  }
+}
+@media (min-width: 1600px) {
+  .breakfast-column-right {
+    justify-self: right;
   }
 }
 .breakfast-testimonial {
