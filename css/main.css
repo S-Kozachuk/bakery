@@ -1825,7 +1825,7 @@ main {
   letter-spacing: 3px;
   line-height: 1;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .breakfast-title {
     margin-bottom: 0;
     font-size: 60px;
