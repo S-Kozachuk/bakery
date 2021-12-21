@@ -1804,8 +1804,11 @@ main {
 @media (min-width: 1024px) {
   .breakfast-column-left {
     margin-top: unset;
+  }
+}
+@media (min-width: 1200px) {
+  .breakfast-column-left {
     margin-left: 87px;
-    max-width: 445px;
   }
 }
 .breakfast-menu {
