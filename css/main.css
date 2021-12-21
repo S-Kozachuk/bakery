@@ -2085,7 +2085,7 @@ main {
 }
 @media (min-width: 375px) {
   .breakfast-descr__text p {
-    padding: 0 10px;
+    padding: 0 12px;
     max-width: 300px;
   }
 }
