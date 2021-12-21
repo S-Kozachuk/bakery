@@ -1891,7 +1891,7 @@ main {
     font-size: 25px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .breakfast-menu__name {
     font-size: 30px;
   }
@@ -1921,6 +1921,11 @@ main {
   margin-bottom: 0;
 }
 @media (min-width: 1024px) {
+  .breakfast-menu__cost {
+    font-size: 34px;
+  }
+}
+@media (min-width: 1200px) {
   .breakfast-menu__cost {
     font-size: 36px;
   }
