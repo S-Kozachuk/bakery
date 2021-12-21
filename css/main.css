@@ -1944,7 +1944,7 @@ main {
     max-width: 350px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .breakfast-column-right {
     justify-self: right;
     max-width: 445px;
