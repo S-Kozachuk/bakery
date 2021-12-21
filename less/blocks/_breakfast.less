@@ -232,8 +232,16 @@
         bottom: 0;
         z-index: 0;
         left: 0;
-        transform: translate(-16px, 17px);
+        transform: translate(-14px, 17px);
     }
+
+	@media (min-width: 768px) {
+
+		&::after {
+			transform: translate(-16px, 17px);
+		}
+
+	}
     
 }
 
