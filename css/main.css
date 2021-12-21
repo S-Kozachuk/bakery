@@ -2095,9 +2095,9 @@ main {
     max-width: 300px;
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 425px) {
   .breakfast-descr__text p {
-    max-width: 320px;
+    max-width: 330px;
   }
 }
 @media (min-width: 768px) {
