@@ -2030,6 +2030,11 @@ main {
     width: 110px;
   }
 }
+@media (min-width: 768px) {
+  .breakfast-decor {
+    width: 100px;
+  }
+}
 @media (min-width: 1024px) {
   .breakfast-decor {
     width: 144px;
