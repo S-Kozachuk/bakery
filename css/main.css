@@ -1814,7 +1814,7 @@ main {
   }
 }
 .breakfast-title {
-  margin-bottom: 0;
+  margin-bottom: 5px;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -1822,6 +1822,7 @@ main {
 }
 @media (min-width: 768px) {
   .breakfast-title {
+    margin-bottom: 0;
     font-size: 60px;
   }
 }
