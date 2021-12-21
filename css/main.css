@@ -2149,7 +2149,7 @@ main {
   border: 1px solid rgba(158, 156, 147, 0.5);
   color: rgba(164, 94, 94, 0.5);
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .breakfast-sidebar-first {
     position: absolute;
     top: 0;
