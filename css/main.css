@@ -1992,6 +1992,11 @@ main {
   border: none;
   border-top: 1px solid #c2beba;
 }
+@media (min-width: 375px) {
+  .breakfast-decor {
+    width: 90px;
+  }
+}
 @media (min-width: 768px) {
   .breakfast-decor {
     width: 144px;
