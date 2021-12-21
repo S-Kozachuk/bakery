@@ -2137,6 +2137,11 @@ main {
 }
 @media (min-width: 1024px) {
   .breakfast-descr__title {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .breakfast-descr__title {
     font-size: 44px;
   }
 }
