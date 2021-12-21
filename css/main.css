@@ -1987,6 +1987,11 @@ main {
 }
 @media (min-width: 768px) {
   .establishment-year {
+    grid-template-columns: repeat(2, 165px);
+  }
+}
+@media (min-width: 1024px) {
+  .establishment-year {
     grid-template-columns: repeat(2, 210px);
   }
 }
