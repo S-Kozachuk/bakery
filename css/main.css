@@ -2002,6 +2002,11 @@ main {
 }
 @media (min-width: 1024px) {
   .establishment-year {
+    grid-template-columns: repeat(2, 190px);
+  }
+}
+@media (min-width: 1200px) {
+  .establishment-year {
     grid-template-columns: repeat(2, 210px);
   }
 }
