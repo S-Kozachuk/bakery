@@ -1915,7 +1915,7 @@ main {
 .breakfast-menu__cost:last-child {
   margin-bottom: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .breakfast-menu__cost {
     font-size: 36px;
   }
