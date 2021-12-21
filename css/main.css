@@ -1883,6 +1883,11 @@ main {
 }
 @media (min-width: 768px) {
   .breakfast-menu__name {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .breakfast-menu__name {
     font-size: 30px;
   }
 }
