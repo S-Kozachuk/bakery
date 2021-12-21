@@ -1975,6 +1975,11 @@ main {
   font-weight: 700;
   letter-spacing: 0.7px;
 }
+@media (min-width: 425px) {
+  .establishment-year {
+    grid-template-columns: repeat(2, 160px);
+  }
+}
 @media (min-width: 768px) {
   .establishment-year {
     grid-template-columns: repeat(2, 210px);
