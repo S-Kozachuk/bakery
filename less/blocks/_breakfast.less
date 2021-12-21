@@ -386,7 +386,14 @@
     color: #56534c;
     text-align: center;
 
+	@media (min-width: 375px) {
+		padding: 0 10px;
+		max-width: 300px;
+	}
+
+
 	@media (min-width: 768px) {
+		padding: unset;
 		max-width: 360px;
     	font-size: 14px;
 	}
