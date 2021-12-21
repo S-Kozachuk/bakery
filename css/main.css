@@ -2288,6 +2288,16 @@ main {
     border: dashed 2px #9e9c93;
   }
 }
+@media (min-width: 1200px) {
+  .breakfast-sidebar-second {
+    transform: translate(-223%, 10%);
+  }
+}
+@media (min-width: 1440px) {
+  .breakfast-sidebar-second {
+    transform: translate(155%, 10%);
+  }
+}
 .sandwich {
   padding: 97px 0;
   background-color: #f3f1e9;
