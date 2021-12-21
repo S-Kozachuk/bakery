@@ -1971,7 +1971,7 @@ main {
   left: 0;
   transform: translate(-14px, 17px);
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .breakfast-testimonial::after {
     transform: translate(-16px, 17px);
   }
