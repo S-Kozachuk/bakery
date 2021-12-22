@@ -144,14 +144,14 @@
 }
 
 .sandwich-testimonial-label {
-    padding: 23px 27px;
+    padding: 10px 11px;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    transform: translate(-14%, 28%);
+    transform: translate(-10%, -36%);
     font-family: var(--Alegreya);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 11px;
     line-height: 1;
     letter-spacing: 0.9px;
     background-color: #fff;
@@ -165,6 +165,14 @@
         color: #df9a91;
         transition: .5s;
     }
+
+	@media(min-width: 1200px) {
+		padding: 23px 27px;
+		top: unset;
+		bottom: 0;
+		transform: translate(-14%, 28%);
+		font-size: 18px;
+	}
 
 }
 
