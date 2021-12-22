@@ -2462,10 +2462,21 @@ main {
 }
 .sandwich-supply-timer {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
-  transform: translate(-3%, -4%);
+  transform: translate(-3.3%, 41%);
+  display: grid;
+  grid-template: auto / repeat(3, 90px);
+  grid-gap: 1px;
   font-family: var(--Alegreya);
+}
+@media (min-width: 1200px) {
+  .sandwich-supply-timer {
+    bottom: unset;
+    top: 0;
+    transform: translate(-3%, -4%);
+    display: block;
+  }
 }
 .sandwich-timer {
   display: grid;
