@@ -2379,7 +2379,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(113%, -55%);
+  transform: translate(54%, -44%);
   z-index: -1;
   width: 150px;
   height: 150px;
@@ -2391,6 +2391,9 @@ main {
 @media (min-width: 1200px) {
   .sandwich__header {
     margin-left: 12px;
+  }
+  .sandwich__header::before {
+    transform: translate(113%, -55%);
   }
 }
 .sandwich__title {
