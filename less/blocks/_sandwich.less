@@ -226,11 +226,18 @@
 }
 
 .sandwich-timer__title {
-    font-size: 18px;
+    margin-top: 7px;
+	font-size: 10px;
     font-weight: 700;
     letter-spacing: 1.8px;
     color: #a47d5e;
     text-transform: uppercase;
+
+	@media(min-width: 1200px) {
+		margin-top: unset;
+		font-size: 18px;
+	}
+
 }
 
 .sandwich-timer__digit {
