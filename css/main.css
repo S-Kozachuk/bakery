@@ -2379,10 +2379,10 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(54%, -44%);
+  transform: translate(86%, -77%);
   z-index: -1;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background-image: url(/img/pancakes/windmill.png);
   background-size: 115px 122px;
   background-repeat: no-repeat;
@@ -2394,6 +2394,8 @@ main {
   }
   .sandwich__header::before {
     transform: translate(113%, -55%);
+    width: 150px;
+    height: 150px;
   }
 }
 .sandwich__title {
