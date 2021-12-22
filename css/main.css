@@ -2335,7 +2335,12 @@ main {
   margin-bottom: 0;
 }
 .sandwich-menu__img {
-  margin-bottom: 25px;
+  margin-bottom: 16px;
+}
+@media (min-width: 1200px) {
+  .sandwich-menu__img {
+    margin-bottom: 25px;
+  }
 }
 .sandwich-menu__img > img {
   filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.04));
