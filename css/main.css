@@ -2499,7 +2499,6 @@ main {
 @media (min-width: 1200px) {
   .sandwich-timer-ready {
     padding: 32px 0;
-    justify-items: unset;
   }
 }
 .sandwich-timer-ready li:nth-of-type(2) {
