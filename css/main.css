@@ -2414,7 +2414,11 @@ main {
 }
 .sandwich-testimonial {
   position: relative;
-  margin-left: 34px;
+}
+@media (min-width: 1200px) {
+  .sandwich-testimonial {
+    margin-left: 34px;
+  }
 }
 .sandwich-testimonial-picture {
   max-width: 845px;
