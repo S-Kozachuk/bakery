@@ -2400,7 +2400,7 @@ main {
   }
 }
 .sandwich__title {
-  margin-bottom: 8px;
+  margin-bottom: 15px;
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
@@ -2410,6 +2410,7 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich__title {
+    margin-bottom: 8px;
     font-size: 48px;
     text-align: unset;
   }
