@@ -5,9 +5,13 @@
 
 .sandwich-wrapper {
     display: grid;
-    grid-template-columns: minmax(auto, 302px) minmax(auto, 870px);
-    grid-template-rows: 1fr;
-    column-gap: 86px;
+    
+	@media(min-width: 1200px) {
+		grid-template-columns: minmax(auto, 302px) minmax(auto, 870px);
+    	grid-template-rows: 1fr;
+    	column-gap: 86px;
+	}
+
 }
 
 .sandwich-menu {
