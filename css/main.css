@@ -2346,7 +2346,7 @@ main {
   filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.04));
 }
 .sandwich-menu__title {
-  margin-bottom: 23px;
+  margin-bottom: 15px;
   font-family: var(--Alegreya);
   font-size: 25px;
   font-weight: 700;
@@ -2356,6 +2356,7 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-menu__title {
+    margin-bottom: 23px;
     font-size: 30px;
   }
 }
