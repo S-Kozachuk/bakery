@@ -2367,7 +2367,6 @@ main {
   }
 }
 .sandwich__header {
-  margin-left: 12px;
   margin-bottom: 82px;
   position: relative;
   z-index: 1;
@@ -2388,6 +2387,11 @@ main {
   background-size: 115px 122px;
   background-repeat: no-repeat;
   filter: brightness(85%);
+}
+@media (min-width: 1200px) {
+  .sandwich__header {
+    margin-left: 12px;
+  }
 }
 .sandwich__title {
   margin-bottom: 8px;

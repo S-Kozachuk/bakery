@@ -72,7 +72,6 @@
 }
 
 .sandwich__header {
-    margin-left: 12px;
     margin-bottom: 82px;
     position: relative;
     z-index: 1;
@@ -80,7 +79,6 @@
     justify-items: center;
     max-width: 460px;
     
-
     &::before {
         content: "";
         position: absolute;
@@ -95,6 +93,10 @@
         background-repeat: no-repeat;
         filter: brightness(85%);
     }
+
+	@media(min-width: 1200px) {
+		margin-left: 12px;
+	}
 
 }
 
