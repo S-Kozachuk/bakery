@@ -198,11 +198,15 @@
 .sandwich-timer {
     display: grid;
     justify-content: center;
-    padding: 47px 0;
-    width: 200px;
-    height: 200px;
     background-color: #fff;
     opacity: .8;
+
+	@media(min-width: 1200px) {
+		padding: 47px 0;
+    	width: 200px;
+    	height: 200px;
+	}
+
 }
 
 .sandwich-timer-ready {
