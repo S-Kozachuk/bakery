@@ -2348,11 +2348,16 @@ main {
 .sandwich-menu__title {
   margin-bottom: 23px;
   font-family: var(--Alegreya);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0.75px;
   color: #a47d5e;
+}
+@media (min-width: 1200px) {
+  .sandwich-menu__title {
+    font-size: 30px;
+  }
 }
 .sandwich-menu__description {
   font-family: var(--ProximaNova);
