@@ -2502,9 +2502,14 @@ main {
   }
 }
 .sandwich-timer-ready li:nth-of-type(2) {
-  font-size: 92px;
-  letter-spacing: 9.2px;
+  font-size: 39px;
   color: #dfc691;
+}
+@media (min-width: 1200px) {
+  .sandwich-timer-ready li:nth-of-type(2) {
+    font-size: 92px;
+    letter-spacing: 9.2px;
+  }
 }
 .sandwich-timer__title {
   margin-top: 7px;
