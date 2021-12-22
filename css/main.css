@@ -2361,12 +2361,17 @@ main {
 }
 .sandwich-menu__description {
   font-family: var(--ProximaNova);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.428;
   letter-spacing: 1.4px;
   text-align: center;
   color: #56534c;
+}
+@media (min-width: 1200px) {
+  .sandwich-menu__description {
+    font-size: 14px;
+  }
 }
 .sandwich-performance {
   margin-bottom: 125px;
