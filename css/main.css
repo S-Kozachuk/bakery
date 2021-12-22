@@ -2412,12 +2412,21 @@ main {
   }
 }
 .sandwich__subtitle {
+  max-width: 225px;
   font-family: var(--Alegreya);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  text-align: center;
   color: #a47d5e;
+}
+@media (min-width: 1200px) {
+  .sandwich__subtitle {
+    max-width: unset;
+    font-size: 14px;
+    text-align: unset;
+  }
 }
 .sandwich-testimonial {
   position: relative;
