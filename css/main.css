@@ -2398,11 +2398,18 @@ main {
 }
 .sandwich__title {
   margin-bottom: 8px;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: 1.2px;
   color: #56534c;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .sandwich__title {
+    font-size: 48px;
+    text-align: unset;
+  }
 }
 .sandwich__subtitle {
   font-family: var(--Alegreya);
