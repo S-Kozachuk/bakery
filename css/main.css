@@ -2464,10 +2464,10 @@ main {
   position: absolute;
   bottom: 0;
   right: 0;
-  transform: translate(-3.3%, 41%);
+  transform: translate(-2.5%, 41%);
   display: grid;
   grid-template: auto / repeat(3, 90px);
-  grid-gap: 1px;
+  grid-gap: 3px;
   font-family: var(--Alegreya);
 }
 @media (min-width: 1200px) {
