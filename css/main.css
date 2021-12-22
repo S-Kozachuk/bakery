@@ -2492,9 +2492,15 @@ main {
   }
 }
 .sandwich-timer-ready {
-  padding: 32px 0;
+  justify-items: center;
   background-image: url(/img/pancakes/field.png);
   opacity: 1;
+}
+@media (min-width: 1200px) {
+  .sandwich-timer-ready {
+    padding: 32px 0;
+    justify-items: unset;
+  }
 }
 .sandwich-timer-ready li:nth-of-type(2) {
   font-size: 92px;
