@@ -15,7 +15,13 @@
 }
 
 .sandwich-menu {
-    padding-top: 61px;
+	order: 1;
+
+	@media(min-width: 1200px) {
+		padding-top: 61px;
+		order: unset;
+	}
+
 }
 
 .sandwich-menu__item {
