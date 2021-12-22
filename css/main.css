@@ -2514,7 +2514,6 @@ main {
   }
 }
 .sandwich-timer__title {
-  margin-top: 7px;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 1.8px;
@@ -2523,7 +2522,6 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-timer__title {
-    margin-top: unset;
     font-size: 18px;
   }
 }
