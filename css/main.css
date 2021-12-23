@@ -2511,6 +2511,11 @@ main {
   grid-gap: 3px;
   font-family: var(--Alegreya);
 }
+@media (min-width: 375px) {
+  .sandwich-supply-timer {
+    transform: translate(-12.4%, 41%);
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-supply-timer {
     bottom: unset;
