@@ -100,17 +100,18 @@
         content: "";
         position: absolute;
         top: 0;
-        left: 0;
-		transform: translate(86%, -77%);
+        left: 50%;
+		transform: translate(-50%, -77%);
         z-index: -1;
-        width: 100px;
-        height: 100px;
+        width: 115px;
+        height: 115px;
         background-image: url(/img/pancakes/windmill.png);
-        background-size: 115px 122px;
+        background-size: 115px 115px;
         background-repeat: no-repeat;
         filter: brightness(85%);
     }
 
+	/*
 	@media(min-width: 375px) {
 		
 		&::before {
@@ -118,15 +119,18 @@
 		}
 
 	}
+	*/
 
 	@media(min-width: 1200px) {
 		margin-bottom: 82px;
 		margin-left: 12px;
 
 		&::before {
+			left: 0;
 			transform: translate(113%, -55%);
 			width: 150px;
         	height: 150px;
+			background-size: 115px 122px;
 		}
 
 	}
