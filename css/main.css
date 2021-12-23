@@ -2404,6 +2404,11 @@ main {
   background-repeat: no-repeat;
   filter: brightness(85%);
 }
+@media (min-width: 375px) {
+  .sandwich__header::before {
+    transform: translate(111%, -77%);
+  }
+}
 @media (min-width: 1200px) {
   .sandwich__header {
     margin-bottom: 82px;
