@@ -2650,6 +2650,11 @@ main {
   text-align: center;
   color: #979285;
 }
+@media (min-width: 768px) {
+  .sandwich-timer__value {
+    font-size: 15px;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-timer__value {
     font-size: 18px;
