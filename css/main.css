@@ -2520,7 +2520,7 @@ main {
     grid-template: auto / repeat(3, 110px);
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .sandwich-supply-timer {
     bottom: unset;
     top: 0;
