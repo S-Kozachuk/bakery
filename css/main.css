@@ -2590,6 +2590,11 @@ main {
     font-size: 42px;
   }
 }
+@media (min-width: 768px) {
+  .sandwich-timer-ready li:nth-of-type(2) {
+    font-size: 60px;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-timer-ready li:nth-of-type(2) {
     font-size: 92px;
