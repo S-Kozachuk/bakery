@@ -2562,6 +2562,11 @@ main {
   font-size: 39px;
   color: #dfc691;
 }
+@media (min-width: 425px) {
+  .sandwich-timer-ready li:nth-of-type(2) {
+    font-size: 42px;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-timer-ready li:nth-of-type(2) {
     font-size: 92px;
@@ -2575,6 +2580,11 @@ main {
   color: #a47d5e;
   text-transform: uppercase;
 }
+@media (min-width: 425px) {
+  .sandwich-timer__title {
+    font-size: 12px;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-timer__title {
     font-size: 18px;
@@ -2587,6 +2597,11 @@ main {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #56534c;
+}
+@media (min-width: 425px) {
+  .sandwich-timer__digit {
+    font-size: 42px;
+  }
 }
 @media (min-width: 1200px) {
   .sandwich-timer__digit {
