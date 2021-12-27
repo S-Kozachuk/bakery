@@ -2557,7 +2557,7 @@ main {
 }
 @media (min-width: 768px) {
   .sandwich-timer {
-    padding: 47px 0;
+    padding: 33px 0;
     width: 150px;
     height: 150px;
     border-radius: unset;
@@ -2565,6 +2565,7 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-timer {
+    padding: 47px 0;
     width: 200px;
     height: 200px;
   }
