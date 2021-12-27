@@ -2631,6 +2631,11 @@ main {
     font-size: 42px;
   }
 }
+@media (min-width: 768px) {
+  .sandwich-timer__digit {
+    font-size: 47px;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-timer__digit {
     font-size: 60px;
