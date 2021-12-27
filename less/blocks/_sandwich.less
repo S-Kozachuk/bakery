@@ -222,15 +222,20 @@
     transform: translate(50%, 41%);
 	display: grid;
 	grid-template: auto / repeat(3, 90px);
-    grid-gap: 3px;
+    gap: 3px;
     font-family: var(--Alegreya);
+
+	@media(min-width: 425px) {
+		grid-template: auto / repeat(3, 110px);
+	}
 
 	@media(min-width: 1200px) {
 		bottom: unset;
 		top: 0;
 		right: 0;
 		transform: translate(-3%, -4%);
-		display: block;
+		grid-template: auto /auto;
+		gap: 1px;
 	}
 
 }
@@ -243,6 +248,11 @@
     background-color: #fff;
     opacity: .8;
 	border-radius: 15%;
+
+	@media(min-width: 425px) {
+		padding-top: 12px;
+    	padding-bottom: 12px;
+	}
 
 	@media(min-width: 1200px) {
 		padding: 47px 0;
