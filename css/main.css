@@ -2525,9 +2525,14 @@ main {
     bottom: unset;
     top: 0;
     right: 0;
-    transform: translate(-3%, -4%);
+    transform: translate(-4%, 2.5%);
     grid-template: auto / auto;
     gap: 1px;
+  }
+}
+@media (min-width: 1200px) {
+  .sandwich-supply-timer {
+    transform: translate(-3%, -4%);
   }
 }
 .sandwich-timer {
