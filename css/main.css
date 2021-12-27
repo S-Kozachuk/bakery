@@ -2444,9 +2444,13 @@ main {
   text-align: center;
   color: #a47d5e;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .sandwich__subtitle {
     max-width: unset;
+  }
+}
+@media (min-width: 1200px) {
+  .sandwich__subtitle {
     font-size: 14px;
     text-align: unset;
   }
