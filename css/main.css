@@ -2711,6 +2711,11 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-timer__digit {
+    font-size: 55px;
+  }
+}
+@media (min-width: 1600px) {
+  .sandwich-timer__digit {
     font-size: 60px;
     letter-spacing: 6px;
   }
