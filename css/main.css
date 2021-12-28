@@ -2577,7 +2577,7 @@ main {
 @media (min-width: 1024px) {
   .sandwich-supply-timer {
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -50%);
   }
 }
 @media (min-width: 1200px) {
