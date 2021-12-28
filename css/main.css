@@ -2621,6 +2621,13 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-timer {
+    padding: 45px 0;
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (min-width: 1600px) {
+  .sandwich-timer {
     padding: 47px 0;
     width: 200px;
     height: 200px;
