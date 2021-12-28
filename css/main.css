@@ -2340,6 +2340,7 @@ main {
 @media (min-width: 1200px) {
   .sandwich-menu {
     padding-top: 61px;
+    display: unset;
     order: unset;
   }
 }
