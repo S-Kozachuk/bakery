@@ -2331,6 +2331,12 @@ main {
 .sandwich-menu {
   order: 1;
 }
+@media (min-width: 768px) {
+  .sandwich-menu {
+    display: grid;
+    grid: auto / repeat(3, auto);
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-menu {
     padding-top: 61px;

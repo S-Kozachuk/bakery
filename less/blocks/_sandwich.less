@@ -27,6 +27,11 @@
 .sandwich-menu {
 	order: 1;
 
+	@media(min-width: 768px) {
+		display: grid;
+		grid: auto / repeat(3, auto);
+	}
+
 	@media(min-width: 1200px) {
 		padding-top: 61px;
 		order: unset;
