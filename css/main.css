@@ -2461,6 +2461,11 @@ main {
   color: #56534c;
   text-align: center;
 }
+@media (min-width: 1024px) {
+  .sandwich__title {
+    font-size: 45px;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich__title {
     margin-bottom: 8px;
