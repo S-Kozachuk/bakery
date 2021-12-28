@@ -2660,6 +2660,11 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-timer-ready li:nth-of-type(2) {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1600px) {
+  .sandwich-timer-ready li:nth-of-type(2) {
     font-size: 92px;
     letter-spacing: 9.2px;
   }
