@@ -2683,6 +2683,11 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-timer__title {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1600px) {
+  .sandwich-timer__title {
     font-size: 18px;
   }
 }
