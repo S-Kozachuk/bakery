@@ -2592,6 +2592,11 @@ main {
 }
 @media (min-width: 1200px) {
   .sandwich-supply-timer {
+    transform: translate(0%, -50%);
+  }
+}
+@media (min-width: 1600px) {
+  .sandwich-supply-timer {
     top: 0;
     transform: translate(-3%, -4%);
   }
