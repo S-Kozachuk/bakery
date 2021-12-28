@@ -2406,6 +2406,11 @@ main {
 .sandwich-performance {
   margin-bottom: 100px;
 }
+@media (min-width: 768px) {
+  .sandwich-performance {
+    margin-bottom: 85px;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-performance {
     margin-bottom: unset;
