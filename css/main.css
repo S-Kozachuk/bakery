@@ -2353,6 +2353,16 @@ main {
 .sandwich-menu__item:last-child {
   margin-bottom: 0;
 }
+@media (min-width: 768px) {
+  .sandwich-menu__item {
+    margin-bottom: unset;
+  }
+}
+@media (min-width: 1200px) {
+  .sandwich-menu__item {
+    margin-bottom: 50px;
+  }
+}
 .sandwich-menu__img {
   margin-bottom: 16px;
 }
