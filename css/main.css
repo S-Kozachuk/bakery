@@ -2513,7 +2513,7 @@ main {
     border: 8px solid #fff;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .sandwich-testimonial-picture {
     border: 10px solid #fff;
   }
