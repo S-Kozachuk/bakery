@@ -15,7 +15,7 @@
 
 .sandwich-wrapper {
     display: grid;
-    
+
 	@media(min-width: 1200px) {
 		grid-template-columns: minmax(auto, 302px) minmax(auto, 870px);
     	grid-template-rows: 1fr;
@@ -278,6 +278,11 @@
 		transform: translate(-4%, 2.5%);
 		grid-template: auto /auto;
 		gap: 1px;
+	}
+
+	@media(min-width: 1024px) {
+		top: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	@media(min-width: 1200px) {
