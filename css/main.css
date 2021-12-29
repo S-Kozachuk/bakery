@@ -2803,35 +2803,11 @@ main {
   color: #56534c79;
   transition: .5s;
 }
-.footer-menu-right .footer-list__item:nth-child(1) {
-  display: none;
-}
-.footer-menu-right .footer-list__item:nth-child(2) {
-  display: none;
-}
-.footer-menu-right .footer-list__item:nth-child(3) {
-  display: none;
-}
-.footer-menu-right .footer-list__item:nth-child(4) {
-  display: none;
-}
-.footer-menu-right .footer-list__item:nth-child(5) {
+.footer-menu-right .footer-list__item {
   display: none;
 }
 @media (min-width: 1200px) {
-  .footer-menu-right .footer-list__item:nth-child(1) {
-    display: unset;
-  }
-  .footer-menu-right .footer-list__item:nth-child(2) {
-    display: unset;
-  }
-  .footer-menu-right .footer-list__item:nth-child(3) {
-    display: unset;
-  }
-  .footer-menu-right .footer-list__item:nth-child(4) {
-    display: unset;
-  }
-  .footer-menu-right .footer-list__item:nth-child(5) {
+  .footer-menu-right .footer-list__item {
     display: unset;
   }
 }
