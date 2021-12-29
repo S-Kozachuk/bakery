@@ -2766,18 +2766,20 @@ main {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
-.footer-list {
-  padding: 23px 20px;
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  align-items: center;
-  border-top: 1px solid #c2beba;
-  border-bottom: 1px solid #c2beba;
-  font-family: var(--Alegreya);
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 4.2px;
-  text-transform: uppercase;
+@media (min-width: 1200px) {
+  .footer-list {
+    padding: 23px 20px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    border-top: 1px solid #c2beba;
+    border-bottom: 1px solid #c2beba;
+    font-family: var(--Alegreya);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+  }
 }
 .footer-menu-left .footer-list__item a {
   color: #56534c;
@@ -2856,6 +2858,7 @@ main {
 }
 .footer-logo a {
   margin-top: 17px;
+  margin-bottom: 20px;
   display: grid;
   justify-content: center;
   color: #56534c;
@@ -2863,6 +2866,11 @@ main {
 .footer-logo a:hover {
   color: #56534c79;
   transition: .5s;
+}
+@media (min-width: 1200px) {
+  .footer-logo a {
+    margin-bottom: unset;
+  }
 }
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
