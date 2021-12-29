@@ -2859,6 +2859,9 @@ main {
 .footer-logo a {
   margin-top: 17px;
   margin-bottom: 20px;
+  padding: 20px 77px 28px;
+  border-top: 1px solid #c2beba;
+  border-bottom: 1px solid #c2beba;
   display: grid;
   justify-content: center;
   color: #56534c;
@@ -2870,6 +2873,8 @@ main {
 @media (min-width: 1200px) {
   .footer-logo a {
     margin-bottom: unset;
+    padding: unset;
+    border: unset;
   }
 }
 /*!
