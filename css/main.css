@@ -2798,6 +2798,9 @@ main {
 .footer-menu-left .footer-list__item:nth-child(4) {
   display: none;
 }
+.footer-menu-left .footer-list__item:nth-child(5) {
+  display: none;
+}
 @media (min-width: 1200px) {
   .footer-menu-left .footer-list__item:nth-child(1) {
     display: unset;
@@ -2818,6 +2821,9 @@ main {
 .footer-menu-right .footer-list__item a:hover {
   color: #56534c79;
   transition: .5s;
+}
+.footer-menu-right .footer-list__item:nth-child(1) {
+  display: none;
 }
 .footer-menu-right .footer-list__item:nth-child(2) {
   display: none;
