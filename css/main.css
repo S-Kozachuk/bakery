@@ -2824,7 +2824,7 @@ main {
   border-bottom: 1px solid #c2beba;
   display: grid;
   justify-content: center;
-  color: #56534c;
+  color: #fff;
 }
 .footer-logo a:hover {
   color: #56534c79;
@@ -2835,6 +2835,7 @@ main {
     margin-bottom: unset;
     padding: unset;
     border: unset;
+    color: #56534c;
   }
 }
 /*!
