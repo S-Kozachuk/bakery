@@ -2784,7 +2784,7 @@ main {
   }
 }
 .footer-list {
-  padding: 23px 20px;
+  padding: 16px 2px;
   display: grid;
   grid: auto / repeat(5, auto);
   align-items: center;
@@ -2796,17 +2796,17 @@ main {
   letter-spacing: 4.2px;
   text-transform: uppercase;
 }
+@media (min-width: 1200px) {
+  .footer-list {
+    padding: 23px 20px;
+  }
+}
 .footer-menu-left .footer-list__item a {
   color: #56534c;
 }
 .footer-menu-left .footer-list__item a:hover {
   color: #56534c79;
   transition: .5s;
-}
-@media (min-width: 1200px) {
-  .footer-menu-left .footer-list__item {
-    display: unset;
-  }
 }
 .footer-menu-right .footer-list__item a {
   color: #56534c;
