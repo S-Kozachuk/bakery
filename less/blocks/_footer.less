@@ -22,6 +22,10 @@
 .footer-menu-left {
 	display: none;
 
+	@media(min-width: 425px) {
+		display: block;
+	}
+
 	@media(min-width: 1200px) {
 		display: block;
 	}
@@ -77,6 +81,42 @@
         color: #56534c79;
         transition: .5s;
     }
+
+}
+
+.footer-menu-left .footer-list .footer-list__item {
+
+	@media(min-width: 425px) {
+		
+		&:nth-child(1) {
+			display: none;
+		}
+
+		&:nth-child(2) {
+			display: none;
+		}
+
+		&:nth-child(3) {
+			display: none;
+		}
+
+	}
+
+	@media(min-width: 1200px) {
+		
+		&:nth-child(1) {
+			display: unset;
+		}
+
+		&:nth-child(2) {
+			display: unset;
+		}
+
+		&:nth-child(3) {
+			display: unset;
+		}
+
+	}
 
 }
 
