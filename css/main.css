@@ -2789,18 +2789,20 @@ main {
   grid: auto / repeat(5, auto);
   align-items: center;
   justify-content: center;
-  border-top: 1px solid #c2beba;
-  border-bottom: 1px solid #c2beba;
   font-family: var(--Alegreya);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  letter-spacing: 4.2px;
+  letter-spacing: 5.2px;
   text-transform: uppercase;
 }
 @media (min-width: 1200px) {
   .footer-list {
     padding: 23px 20px;
     justify-content: unset;
+    border-top: 1px solid #c2beba;
+    border-bottom: 1px solid #c2beba;
+    font-size: 14px;
+    letter-spacing: 4.2px;
   }
 }
 .footer-list__item {
