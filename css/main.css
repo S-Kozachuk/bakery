@@ -2800,6 +2800,7 @@ main {
 @media (min-width: 1200px) {
   .footer-list {
     padding: 23px 20px;
+    justify-content: unset;
   }
 }
 .footer-list__item {
