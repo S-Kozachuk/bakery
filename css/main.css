@@ -2776,22 +2776,17 @@ main {
   }
 }
 .footer-list {
+  padding: 23px 20px;
   display: grid;
   grid: auto / repeat(5, auto);
-}
-@media (min-width: 1200px) {
-  .footer-list {
-    padding: 23px 20px;
-    grid-template-columns: repeat(5, auto);
-    align-items: center;
-    border-top: 1px solid #c2beba;
-    border-bottom: 1px solid #c2beba;
-    font-family: var(--Alegreya);
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 4.2px;
-    text-transform: uppercase;
-  }
+  align-items: center;
+  border-top: 1px solid #c2beba;
+  border-bottom: 1px solid #c2beba;
+  font-family: var(--Alegreya);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
 }
 .footer-menu-left .footer-list__item a {
   color: #56534c;
