@@ -2788,6 +2788,7 @@ main {
   display: grid;
   grid: auto / repeat(5, auto);
   align-items: center;
+  justify-content: center;
   border-top: 1px solid #c2beba;
   border-bottom: 1px solid #c2beba;
   font-family: var(--Alegreya);
