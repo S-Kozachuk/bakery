@@ -2760,7 +2760,7 @@ main {
 }
 .footer {
   padding: 16px 0;
-  background-color: #7a7973;
+  background-color: rgba(86, 83, 76, 0.55);
 }
 @media (min-width: 1200px) {
   .footer {
