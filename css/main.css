@@ -2809,11 +2809,16 @@ main {
   transition: .5s;
 }
 .footer-menu-right .footer-list__item a {
-  color: #56534c;
+  color: #fff;
 }
-.footer-menu-right .footer-list__item a:hover {
-  color: #56534c79;
-  transition: .5s;
+@media (min-width: 1200px) {
+  .footer-menu-right .footer-list__item a {
+    color: #56534c;
+  }
+  .footer-menu-right .footer-list__item a:hover {
+    color: #56534c79;
+    transition: .5s;
+  }
 }
 @media (min-width: 1200px) {
   .footer-menu-right .footer-list__item {
