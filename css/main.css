@@ -2771,10 +2771,13 @@ main {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
+.footer-list {
+  display: grid;
+  grid: auto / repeat(5, auto);
+}
 @media (min-width: 1200px) {
   .footer-list {
     padding: 23px 20px;
-    display: grid;
     grid-template-columns: repeat(5, auto);
     align-items: center;
     border-top: 1px solid #c2beba;
