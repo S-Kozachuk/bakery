@@ -2804,11 +2804,19 @@ main {
   }
 }
 .footer-list__item {
+  margin-right: 6px;
   color: #fff;
+}
+.footer-list__item:last-child {
+  margin-right: 0;
 }
 @media (min-width: 1200px) {
   .footer-list__item {
+    margin-right: unset;
     color: #56534c;
+  }
+  .footer-list__item:last-child {
+    margin-right: unset;
   }
 }
 .footer-menu-left .footer-list__item a {
