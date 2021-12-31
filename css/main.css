@@ -2866,6 +2866,9 @@ main {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.3);
 }
+.footer-copyriht-protection {
+  margin: 0 auto;
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
