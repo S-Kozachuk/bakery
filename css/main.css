@@ -2769,7 +2769,11 @@ main {
 }
 .footer-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+}
+@media (min-width: 1200px) {
+  .footer-wrapper {
+    grid-template-columns: repeat(3, auto);
+  }
 }
 .footer-list {
   display: grid;
