@@ -2876,8 +2876,15 @@ main {
     order: unset;
   }
 }
-.footer-menu-right {
-  grid-area: fmr;
+@media (min-width: 425px) {
+  .footer-menu-right {
+    grid-area: fmr;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-menu-right {
+    grid-area: unset;
+  }
 }
 .footer-menu-right .footer-list__item a {
   color: #fff;
