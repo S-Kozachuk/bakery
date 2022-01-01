@@ -2845,6 +2845,12 @@ main {
   .footer-menu-left .footer-list .footer-list__item:nth-child(3) {
     display: none;
   }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    order: 2;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
+    order: 1;
+  }
 }
 @media (min-width: 1200px) {
   .footer-menu-left .footer-list .footer-list__item:nth-child(1) {
@@ -2855,6 +2861,12 @@ main {
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(3) {
     display: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    order: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
+    order: unset;
   }
 }
 .footer-menu-right .footer-list__item a {
