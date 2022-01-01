@@ -2780,6 +2780,7 @@ main {
 }
 @media (min-width: 1200px) {
   .footer-wrapper {
+    grid-template-areas: unset;
     grid-template-columns: repeat(3, auto);
   }
 }
