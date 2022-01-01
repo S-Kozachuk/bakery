@@ -2837,11 +2837,16 @@ main {
   }
 }
 .footer-menu-left .footer-list__item a {
-  color: #56534c;
+  color: #fff;
 }
-.footer-menu-left .footer-list__item a:hover {
-  color: #56534c79;
-  transition: .5s;
+@media (min-width: 1200px) {
+  .footer-menu-left .footer-list__item a {
+    color: #56534c;
+  }
+  .footer-menu-left .footer-list__item a:hover {
+    color: #56534c79;
+    transition: .5s;
+  }
 }
 @media (min-width: 425px) {
   .footer-menu-left .footer-list .footer-list__item:nth-child(1) {
