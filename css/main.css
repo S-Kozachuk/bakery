@@ -2796,6 +2796,7 @@ main {
 @media (min-width: 1200px) {
   .footer-menu-left {
     display: block;
+    grid-area: unset;
   }
 }
 .footer-list {
