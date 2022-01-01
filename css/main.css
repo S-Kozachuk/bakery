@@ -2828,8 +2828,11 @@ main {
   margin-right: 0;
 }
 @media (min-width: 425px) {
+  .footer-list__item {
+    margin-right: 5px;
+  }
   .footer-list__item:last-child {
-    margin-right: 4px;
+    margin-right: 5px;
   }
 }
 @media (min-width: 1200px) {
