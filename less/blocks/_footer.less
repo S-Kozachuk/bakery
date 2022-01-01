@@ -13,6 +13,11 @@
 .footer-wrapper {
     display: grid;
 
+	@media(min-width: 425px) {
+		grid-template-areas: "fml fmr"
+							 "fc fc";
+	}
+
 	@media(min-width: 1200px) {
 		grid-template-columns: repeat(3, auto);
 	}
