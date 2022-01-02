@@ -70,22 +70,25 @@ $(document).ready(function(){
       nav: true,
       dots: true,
       loop: true,
-	  responsive:{
-
+	  navSpeed: 500,
+	  responsive: {
         0:{
             items: 1,
             dots: false,
+			margin: 10,
         },
 
 		768:{
-            items:3,
-            nav:true,
-			dots:false,
+            items: 3,
+            nav: true,
+			dots: false,
+			margin: 12
         },
 
         1200:{
-            items:3,
-            nav:true
+            items: 3,
+            nav: true,
+			margin: 15
         },
       }
     });
