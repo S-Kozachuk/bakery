@@ -2835,6 +2835,11 @@ main {
     margin-right: 5px;
   }
 }
+@media (min-width: 768px) {
+  .footer-list__item:last-child {
+    margin-right: 0px;
+  }
+}
 @media (min-width: 1200px) {
   .footer-list__item {
     margin-right: unset;
@@ -2867,7 +2872,7 @@ main {
     display: none;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
-    margin-right: 2px;
+    margin-right: 0px;
     order: 2;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
@@ -2885,6 +2890,7 @@ main {
     display: unset;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    margin-right: 5px;
     order: unset;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
