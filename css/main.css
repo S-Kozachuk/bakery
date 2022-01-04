@@ -2843,6 +2843,9 @@ main {
   }
 }
 @media (min-width: 768px) {
+  .footer-list__item {
+    margin-right: 10px;
+  }
   .footer-list__item:last-child {
     margin-right: 0px;
   }
