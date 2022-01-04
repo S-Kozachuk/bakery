@@ -2871,6 +2871,16 @@ main {
     transition: .5s;
   }
 }
+@media (min-width: 768px) {
+  .footer-menu-left .footer-list::after {
+    content: "~";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, 100%);
+    color: #fff;
+  }
+}
 @media (min-width: 425px) {
   .footer-menu-left .footer-list .footer-list__item:nth-child(1) {
     display: none;

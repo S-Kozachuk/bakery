@@ -122,6 +122,22 @@
 
 }
 
+.footer-menu-left .footer-list {
+
+	@media(min-width: 768px) {
+		
+		&::after {
+			content: "~";
+			position: absolute;
+			top: 0;
+    		right: 0;
+    		transform: translate(50%, 100%);
+			color: #fff;
+		}
+	}
+
+}
+
 .footer-menu-left .footer-list .footer-list__item {
 
 	@media(min-width: 425px) {
