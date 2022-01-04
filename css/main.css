@@ -2867,6 +2867,7 @@ main {
     display: none;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    margin-right: 2px;
     order: 2;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
@@ -2884,6 +2885,7 @@ main {
     display: unset;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    margin-right: unset;
     order: unset;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
