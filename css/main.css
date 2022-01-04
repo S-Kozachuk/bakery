@@ -2389,6 +2389,11 @@ main {
   letter-spacing: 0.75px;
   color: #a47d5e;
 }
+@media (min-width: 1024px) {
+  .sandwich-menu__title {
+    align-items: center;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-menu__title {
     margin-bottom: 23px;
