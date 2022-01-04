@@ -2778,10 +2778,17 @@ main {
     grid-template-areas: "fml fmr" "fc fc";
   }
 }
+@media (min-width: 768px) {
+  .footer-wrapper {
+    max-width: 638px;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 1200px) {
   .footer-wrapper {
     grid-template-areas: unset;
     grid-template-columns: repeat(3, auto);
+    max-width: unset;
   }
 }
 .footer-menu-left {
