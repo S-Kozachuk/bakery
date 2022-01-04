@@ -2871,6 +2871,9 @@ main {
     transition: .5s;
   }
 }
+.footer-menu-left .footer-list {
+  position: relative;
+}
 @media (min-width: 768px) {
   .footer-menu-left .footer-list::after {
     content: "~";
