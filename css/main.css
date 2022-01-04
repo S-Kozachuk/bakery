@@ -2871,10 +2871,10 @@ main {
     transition: .5s;
   }
 }
-.footer-menu-left .footer-list {
-  position: relative;
-}
 @media (min-width: 768px) {
+  .footer-menu-left .footer-list {
+    position: relative;
+  }
   .footer-menu-left .footer-list::after {
     content: "~";
     position: absolute;
@@ -2882,6 +2882,14 @@ main {
     right: 0;
     transform: translate(50%, 100%);
     color: #fff;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-menu-left .footer-list {
+    position: unset;
+  }
+  .footer-menu-left .footer-list::after {
+    content: "";
   }
 }
 @media (min-width: 425px) {

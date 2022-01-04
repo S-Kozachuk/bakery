@@ -123,18 +123,28 @@
 }
 
 .footer-menu-left .footer-list {
-	position: relative;
-
+	
 	@media(min-width: 768px) {
-		
+		position: relative;	
+
 		&::after {
 			content: "~";
 			position: absolute;
 			top: 0;
-    		right: 0;
-    		transform: translate(50%, 100%);
+			right: 0;
+			transform: translate(50%, 100%);
 			color: #fff;
 		}
+
+	}
+
+	@media(min-width: 1200px) {
+		position: unset;
+
+		&::after {
+			content: "";
+		}
+
 	}
 
 }
