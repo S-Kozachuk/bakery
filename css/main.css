@@ -2874,6 +2874,23 @@ main {
     order: 1;
   }
 }
+@media (min-width: 768px) {
+  .footer-menu-left .footer-list .footer-list__item:nth-child(1) {
+    display: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(2) {
+    display: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(3) {
+    display: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    order: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
+    order: unset;
+  }
+}
 @media (min-width: 1200px) {
   .footer-menu-left .footer-list .footer-list__item:nth-child(1) {
     display: unset;
