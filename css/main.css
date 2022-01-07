@@ -2780,13 +2780,14 @@ main {
 }
 @media (min-width: 425px) {
   .footer-wrapper {
+    margin: 0 auto;
     grid-template-areas: "fml fmr" "fc fc";
+    max-width: 395px;
   }
 }
 @media (min-width: 768px) {
   .footer-wrapper {
     max-width: 660px;
-    margin: 0 auto;
   }
 }
 @media (min-width: 1200px) {
