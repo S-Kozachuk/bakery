@@ -180,6 +180,13 @@ main {
     padding-top: 10px;
   }
 }
+#back-top a {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 26px;
+  color: red;
+}
 .noscroll {
   overflow: hidden;
 }
