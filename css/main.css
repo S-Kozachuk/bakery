@@ -186,7 +186,7 @@ main {
   right: 13px;
   font-size: 48px;
   color: var(--black);
-  z-index: 2;
+  z-index: 3;
 }
 #back-top a:hover {
   opacity: .5;
