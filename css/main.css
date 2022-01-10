@@ -180,6 +180,14 @@ main {
     padding-top: 10px;
   }
 }
+#back-top a {
+  position: fixed;
+  bottom: 6px;
+  right: 13px;
+  font-size: 48px;
+  color: var(--black);
+  z-index: 2;
+}
 .noscroll {
   overflow: hidden;
 }
@@ -204,7 +212,7 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3;
+  z-index: 4;
 }
 @media (min-width: 768px) {
   .fix-menu::before {
@@ -2389,6 +2397,11 @@ main {
   letter-spacing: 0.75px;
   color: #a47d5e;
 }
+@media (min-width: 1024px) {
+  .sandwich-menu__title {
+    align-items: center;
+  }
+}
 @media (min-width: 1200px) {
   .sandwich-menu__title {
     margin-bottom: 23px;
@@ -2775,13 +2788,21 @@ main {
 }
 @media (min-width: 425px) {
   .footer-wrapper {
+    margin: 0 auto;
     grid-template-areas: "fml fmr" "fc fc";
+    max-width: 395px;
+  }
+}
+@media (min-width: 768px) {
+  .footer-wrapper {
+    max-width: 660px;
   }
 }
 @media (min-width: 1200px) {
   .footer-wrapper {
     grid-template-areas: unset;
     grid-template-columns: repeat(3, auto);
+    max-width: unset;
   }
 }
 .footer-menu-left {
@@ -2835,6 +2856,14 @@ main {
     margin-right: 5px;
   }
 }
+@media (min-width: 768px) {
+  .footer-list__item {
+    margin-right: 10px;
+  }
+  .footer-list__item:last-child {
+    margin-right: 0px;
+  }
+}
 @media (min-width: 1200px) {
   .footer-list__item {
     margin-right: unset;
@@ -2856,6 +2885,27 @@ main {
     transition: .5s;
   }
 }
+@media (min-width: 768px) {
+  .footer-menu-left .footer-list {
+    position: relative;
+  }
+  .footer-menu-left .footer-list::after {
+    content: "~";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, 100%);
+    color: #fff;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-menu-left .footer-list {
+    position: unset;
+  }
+  .footer-menu-left .footer-list::after {
+    content: "";
+  }
+}
 @media (min-width: 425px) {
   .footer-menu-left .footer-list .footer-list__item:nth-child(1) {
     display: none;
@@ -2867,10 +2917,29 @@ main {
     display: none;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    margin-right: 0px;
     order: 2;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
     order: 1;
+  }
+}
+@media (min-width: 768px) {
+  .footer-menu-left .footer-list .footer-list__item:nth-child(1) {
+    display: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(2) {
+    display: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(3) {
+    display: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    margin-right: 5px;
+    order: unset;
+  }
+  .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
+    order: unset;
   }
 }
 @media (min-width: 1200px) {
@@ -2884,6 +2953,7 @@ main {
     display: unset;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(4) {
+    margin-right: unset;
     order: unset;
   }
   .footer-menu-left .footer-list .footer-list__item:nth-child(5) {
@@ -2974,6 +3044,9 @@ main {
 .fa-twitter:before {
   content: "\f099";
 }
+.fa-arrow-alt-circle-up:before {
+  content: "\f35b";
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -2990,5 +3063,35 @@ main {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400;
   font-style: normal;
+}
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/font-awesome/fa-regular-400.eot');
+  src: url('../fonts/font-awesome/fa-regular-400.eot?#iefix') format('embedded-opentype'), url('../fonts/font-awesome/fa-regular-400.woff2') format('woff2'), url('../fonts/font-awesome/fa-regular-400.woff') format('woff'), url('../fonts/font-awesome/fa-regular-400.ttf') format('truetype'), url('../fonts/font-awesome/fa-regular-400.svg#fontawesome') format('svg');
+}
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
 }
 /*# sourceMappingURL=main.css.map */

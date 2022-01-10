@@ -14,13 +14,20 @@
     display: grid;
 
 	@media(min-width: 425px) {
+		margin: 0 auto;
 		grid-template-areas: "fml fmr"
 							 "fc fc";
+		max-width: 395px;
+	}
+
+	@media(min-width: 768px) {
+		max-width: 660px;	
 	}
 
 	@media(min-width: 1200px) {
 		grid-template-areas: unset;
 		grid-template-columns: repeat(3, auto);
+		max-width: unset;
 	}
 
 }
@@ -79,6 +86,15 @@
 
 	}
 
+	@media(min-width: 768px) {
+		margin-right: 10px;
+		
+		&:last-child {
+			margin-right: 0px;
+		}
+
+	}
+
 	@media(min-width: 1200px) {
 		margin-right: unset;
 		color: #56534c;
@@ -107,6 +123,33 @@
 
 }
 
+.footer-menu-left .footer-list {
+	
+	@media(min-width: 768px) {
+		position: relative;	
+
+		&::after {
+			content: "~";
+			position: absolute;
+			top: 0;
+			right: 0;
+			transform: translate(50%, 100%);
+			color: #fff;
+		}
+
+	}
+
+	@media(min-width: 1200px) {
+		position: unset;
+
+		&::after {
+			content: "";
+		}
+
+	}
+
+}
+
 .footer-menu-left .footer-list .footer-list__item {
 
 	@media(min-width: 425px) {
@@ -124,11 +167,37 @@
 		}
 
 		&:nth-child(4) {
+			margin-right: 0px;
 			order: 2;
 		}
 
 		&:nth-child(5) {
 			order: 1;
+		}
+
+	}
+
+	@media(min-width: 768px) {
+		
+		&:nth-child(1) {
+			display: unset;
+		}
+
+		&:nth-child(2) {
+			display: unset;
+		}
+
+		&:nth-child(3) {
+			display: unset;
+		}
+
+		&:nth-child(4) {
+			margin-right: 5px;
+			order: unset;
+		}
+
+		&:nth-child(5) {
+			order: unset;
 		}
 
 	}
@@ -148,6 +217,7 @@
 		}
 
 		&:nth-child(4) {
+			margin-right: unset;
 			order: unset;
 		}
 
