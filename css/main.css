@@ -197,6 +197,11 @@ main {
 #back-top a:hover {
   opacity: .5;
 }
+@media (min-width: 1200px) {
+  #back-top a {
+    display: none;
+  }
+}
 .noscroll {
   overflow: hidden;
 }
