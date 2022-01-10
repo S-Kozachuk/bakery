@@ -131,6 +131,9 @@ img {
     max-width: 1294px;
   }
 }
+#page-nav {
+  display: none;
+}
 @media (min-width: 1200px) {
   #page-nav {
     display: block;
