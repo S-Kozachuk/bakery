@@ -1,17 +1,49 @@
 .sandwich {
-    padding: 97px 0;
+    padding-top: 100px;
+	padding-bottom: 50px;
     background-color: #f3f1e9;
+
+	@media(min-width: 768px) {
+		padding-top: 122px;
+		padding-bottom: 97px;
+	}
+
+	@media(min-width: 1200px) {
+		padding: 97px 0;
+	}
+
 }
 
 .sandwich-wrapper {
     display: grid;
-    grid-template-columns: minmax(auto, 302px) minmax(auto, 870px);
-    grid-template-rows: 1fr;
-    column-gap: 86px;
+
+	@media(min-width: 1200px) {
+		grid-template-columns: minmax(auto, 302px) minmax(auto, 870px);
+    	grid-template-rows: 1fr;
+    	column-gap: 20px;
+	}
+
+	@media(min-width: 1600px) {
+    	column-gap: 86px;
+	}
+
 }
 
 .sandwich-menu {
-    padding-top: 61px;
+	order: 1;
+
+	@media(min-width: 768px) {
+		display: grid;
+		grid: auto / repeat(3, auto);
+		gap: 20px;
+	}
+
+	@media(min-width: 1200px) {
+		padding-top: 61px;
+		display: unset;
+		order: unset;
+	}
+
 }
 
 .sandwich-menu__item {
@@ -22,10 +54,24 @@
     &:last-child {
         margin-bottom: 0;
     }
+
+	@media(min-width: 768px) {
+		margin-bottom: unset;
+	}
+
+	@media(min-width: 1200px) {
+		margin-bottom: 50px;
+	}
+
 }
 
 .sandwich-menu__img {
-    margin-bottom: 25px;
+    margin-bottom: 16px;
+
+	@media(min-width: 1200px) {
+		margin-bottom: 25px;
+	}
+
 }
 
 .sandwich-menu__img > img {
@@ -33,90 +79,173 @@
 }
 
 .sandwich-menu__title {
-    margin-bottom: 23px;
+    margin-bottom: 15px;
     font-family: var(--Alegreya);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 1;
     letter-spacing: 0.75px;
     color: #a47d5e;
+
+	@media(min-width: 1024px) {
+		align-items: center;
+	}
+
+	@media(min-width: 1200px) {
+		margin-bottom: 23px;
+		font-size: 30px;
+	}
+
 }
 
 .sandwich-menu__description {
     font-family: var(--ProximaNova);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.428;
     letter-spacing: 1.4px;
     text-align: center;
     color: #56534c;
+
+	@media(min-width: 1200px) {
+		font-size: 14px;
+	}
+
+}
+
+.sandwich-performance {
+	margin-bottom: 100px;
+
+	@media(min-width: 768px) {
+		margin-bottom: 85px;
+	}
+
+	@media(min-width: 1200px) {
+		margin-bottom: unset;
+	}
+
 }
 
 .sandwich__header {
-    margin-left: 12px;
-    margin-bottom: 82px;
+	margin: 0 auto;
+    margin-bottom: 50px;
     position: relative;
     z-index: 1;
     display: grid;
     justify-items: center;
     max-width: 460px;
     
-
     &::before {
         content: "";
         position: absolute;
         top: 0;
-        left: 0;
-        transform: translate(113%, -55%);
+        left: 50%;
+		transform: translate(-50%, -77%);
         z-index: -1;
-        width: 150px;
-        height: 150px;
+        width: 115px;
+        height: 115px;
         background-image: url(/img/pancakes/windmill.png);
-        background-size: 115px 122px;
+        background-size: 115px 115px;
         background-repeat: no-repeat;
         filter: brightness(85%);
     }
 
+	@media(min-width: 1200px) {
+		margin-bottom: 100px;
+		margin-left: 12px;
+
+		&::before {
+			left: 0;
+			transform: translate(113%, -55%);
+			width: 150px;
+        	height: 150px;
+			background-size: 115px 122px;
+		}
+
+	}
+
+	@media(min-width: 1600px) {
+		margin-bottom: 82px;
+	}
+
 }
 
 .sandwich__title {
-    margin-bottom: 8px;
-    font-size: 48px;
+    margin-bottom: 15px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1;
     letter-spacing: 1.2px;
     color: #56534c;
+	text-align: center;
+
+	@media(min-width: 1024px) {
+		font-size: 45px;
+	}
+
+	@media(min-width: 1200px) {
+		margin-bottom: 8px;
+		font-size: 48px;
+		text-align: unset;
+	}
+
 }
 
 .sandwich__subtitle {
+	max-width: 225px;
     font-family: var(--Alegreya);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+	text-align: center;
     color: #a47d5e;
+
+	@media(min-width: 768px) {
+		max-width: unset;
+	}
+
+	@media(min-width: 1200px) {
+		font-size: 14px;
+		text-align: unset;
+	}
+
 }
 
 .sandwich-testimonial {
     position: relative;
-    margin-left: 34px;
+
+	@media(min-width: 1200px) {
+		margin-left: 34px;
+	}
+
 }
 
 .sandwich-testimonial-picture {
+	margin: 0 auto;
     max-width: 845px;
-    border: 10px solid #fff;
+	border: 4px solid #fff;
     box-shadow: 0px 0px 50px -38px rgba(0, 0, 0, 50%);
+
+	@media(min-width: 768px) {
+		border: 8px solid #fff;
+	}
+
+	@media(min-width: 1024px) {
+		border: 10px solid #fff;
+	}
+
 }
 
 .sandwich-testimonial-label {
-    padding: 23px 27px;
+    padding: 10px 11px;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    transform: translate(-14%, 28%);
+    transform: translate(-10%, -36%);
     font-family: var(--Alegreya);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 11px;
     line-height: 1;
     letter-spacing: 0.9px;
     background-color: #fff;
@@ -131,64 +260,219 @@
         transition: .5s;
     }
 
+	@media(min-width: 768px) {
+		padding: 20px 24px;
+		top: unset;
+		bottom: 0;
+		transform: translate(-14%, 28%);
+		font-size: 16px;
+	}
+
+	@media(min-width: 1200px) {
+		padding: 23px 27px;
+		font-size: 18px;
+	}
+
 }
 
 .sandwich-supply-timer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-3%, -4%);
+	position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 41%);
+	display: grid;
+	grid-template: auto / repeat(3, 90px);
+    gap: 3px;
     font-family: var(--Alegreya);
+
+	@media(min-width: 425px) {
+		grid-template: auto / repeat(3, 110px);
+	}
+
+	@media(min-width: 768px) {
+		bottom: unset;
+		top: 0;
+		right: 0;
+		transform: translate(-4%, 2.5%);
+		grid-template: auto /auto;
+		gap: 1px;
+	}
+
+	@media(min-width: 1024px) {
+		top: 50%;
+		transform: translate(-25%, -50%);
+	}
+
+	@media(min-width: 1200px) {
+		transform: translate(0%, -50%);
+	}
+
+	@media(min-width: 1600px) {
+		top: 0;
+		transform: translate(-3%, -4%);
+	}
+
 }
 
 .sandwich-timer {
+	padding-top: 9px;
+	padding-bottom: 5px;
     display: grid;
     justify-content: center;
-    padding: 47px 0;
-    width: 200px;
-    height: 200px;
     background-color: #fff;
     opacity: .8;
+	border-radius: 15%;
+
+	@media(min-width: 425px) {
+		padding-top: 12px;
+    	padding-bottom: 12px;
+	}
+
+	@media(min-width: 768px) {
+		padding: 33px 0;
+    	width: 150px;
+    	height: 150px;
+		border-radius: unset;
+	}
+
+	@media(min-width: 1200px) {
+		padding: 45px 0;
+    	width: 180px;
+    	height: 180px;
+	}
+
+	@media(min-width: 1600px) {
+		padding: 47px 0;
+    	width: 200px;
+    	height: 200px;
+	}
+
 }
 
 .sandwich-timer-ready {
-    padding: 32px 0;
-    background-image: url(/img/pancakes/field.png);
+    justify-items: center;
+	background-image: url(/img/pancakes/field.png);
+	background-size: cover;
     opacity: 1;
+
+	@media(min-width: 1200px) {
+		padding: 32px 0;
+	}
+
 }
 
 .sandwich-timer-ready li {
 
     &:nth-of-type(2) {
-        font-size: 92px;
-        letter-spacing: 9.2px;
+        font-size: 39px;
         color: #dfc691;
     }
+
+	@media(min-width: 425px) {
+		
+		&:nth-of-type(2) {
+			font-size: 42px;
+		}
+
+	}
+
+	@media(min-width: 768px) {
+		
+		&:nth-of-type(2) {
+			font-size: 60px;
+		}
+
+	}
+
+	@media(min-width: 1200px) {
+		
+		&:nth-of-type(2) {
+			font-size: 80px;
+		}
+
+	}
+
+	@media(min-width: 1600px) {
+		
+		&:nth-of-type(2) {
+			font-size: 92px;
+        	letter-spacing: 9.2px;
+		}
+
+	}
 
 }
 
 .sandwich-timer__title {
-    font-size: 18px;
+	font-size: 10px;
     font-weight: 700;
     letter-spacing: 1.8px;
     color: #a47d5e;
     text-transform: uppercase;
+
+	@media(min-width: 425px) {
+		font-size: 12px;
+	}
+
+	@media(min-width: 768px) {
+		font-size: 14px;
+	}
+
+	@media(min-width: 1200px) {
+		font-size: 16px;
+	}
+
+	@media(min-width: 1600px) {
+		font-size: 18px;
+	}
+
 }
 
 .sandwich-timer__digit {
-    font-size: 60px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #56534c;
+
+	@media(min-width: 425px) {
+		font-size: 42px;
+	}
+
+	@media(min-width: 768px) {
+		font-size: 47px;
+	}
+
+	@media(min-width: 1200px) {
+		font-size: 55px;
+	}
+
+	@media(min-width: 1600px) {
+		font-size: 60px;
+		letter-spacing: 6px;
+	}
+
 }
 
 .sandwich-timer__value {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 1.66;
     letter-spacing: 1.8px;
     text-align: center;
     color: #979285;
+
+	@media(min-width: 768px) {
+		font-size: 15px;
+	}
+
+	@media(min-width: 1200px) {
+		font-size: 16.5px;
+	}
+
+	@media(min-width: 1600px) {
+		font-size: 18px;
+	}
+
 }

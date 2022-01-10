@@ -69,6 +69,28 @@ $(document).ready(function(){
       items: 1,
       nav: true,
       dots: true,
-      loop: true
+      loop: true,
+	  navSpeed: 500,
+	  responsive: {
+        0:{
+            items: 1,
+            dots: false,
+			margin: 10,
+        },
+
+		768:{
+            items: 3,
+            nav: true,
+			dots: false,
+			margin: 12
+        },
+
+        1200:{
+            items: 3,
+            nav: true,
+			margin: 15
+        },
+      }
     });
+	
 });
