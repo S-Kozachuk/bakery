@@ -188,6 +188,9 @@ main {
   color: var(--black);
   z-index: 2;
 }
+#back-top a:hover {
+  opacity: .5;
+}
 .noscroll {
   overflow: hidden;
 }
