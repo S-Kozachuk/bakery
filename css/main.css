@@ -1613,7 +1613,7 @@ main {
 .pancakes-slider .owl-carousel .owl-nav button.owl-prev:hover {
   -webkit-transition: 1s;
   transition: 1s;
-  background-image: url(/img/pancakes/arrow-left-active.png);
+  background-image: url(../img/pancakes/arrow-left-active.png);
 }
 @media (min-width: 768px) {
   .pancakes-slider .owl-carousel .owl-nav button.owl-prev {
@@ -1648,7 +1648,7 @@ main {
 .pancakes-slider .owl-carousel .owl-nav button.owl-next:hover {
   -webkit-transition: 1s;
   transition: 1s;
-  background-image: url(/img/pancakes/arrow-right-active.png);
+  background-image: url(../img/pancakes/arrow-right-active.png);
 }
 @media (min-width: 768px) {
   .pancakes-slider .owl-carousel .owl-nav button.owl-next {
