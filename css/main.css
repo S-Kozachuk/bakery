@@ -2100,7 +2100,7 @@ main {
 .breakfast-testimonial::after {
   position: absolute;
   content: "";
-  background-image: url(/img/breakfast/corner.png);
+  background-image: url(../img/breakfast/corner.png);
   width: 40px;
   height: 40px;
   bottom: 0;
