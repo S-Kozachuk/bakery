@@ -1645,9 +1645,9 @@ main {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-.pancakes-slider .owl-carousel .owl-nav button.owl-next:active {
-  -webkit-transition: 5s;
-  transition: 5s;
+.pancakes-slider .owl-carousel .owl-nav button.owl-next:focus {
+  -webkit-transition: 1s;
+  transition: 1s;
   background-image: url(../img/pancakes/arrow-right-active.png);
 }
 @media (min-width: 768px) {
