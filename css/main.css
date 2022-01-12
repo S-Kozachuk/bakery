@@ -1645,7 +1645,7 @@ main {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-.pancakes-slider .owl-carousel .owl-nav button.owl-next:focus {
+.pancakes-slider .owl-carousel .owl-nav button.owl-next:hover {
   -webkit-transition: 1s;
   transition: 1s;
   background-image: url(../img/pancakes/arrow-right-active.png);
@@ -1660,11 +1660,6 @@ main {
   .pancakes-slider .owl-carousel .owl-nav button.owl-next {
     -webkit-transform: translate(150%, 100%);
             transform: translate(150%, 100%);
-  }
-  .pancakes-slider .owl-carousel .owl-nav button.owl-next:hover {
-    -webkit-transition: 1s;
-    transition: 1s;
-    background-image: url(../img/pancakes/arrow-right-active.png);
   }
 }
 .pancakes-slider .owl-carousel .owl-dots {
