@@ -1610,15 +1610,10 @@ main {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-.pancakes-slider .owl-carousel .owl-nav button.owl-prev:hover {
+.pancakes-slider .owl-carousel .owl-nav button.owl-prev:active {
   -webkit-transition: 1s;
   transition: 1s;
   background-image: url(../img/pancakes/arrow-left-active.png);
-}
-.pancakes-slider .owl-carousel .owl-nav button.owl-prev:visited {
-  -webkit-transition: 1s;
-  transition: 1s;
-  background-image: url(../img/pancakes/arrow-left.png);
 }
 @media (min-width: 768px) {
   .pancakes-slider .owl-carousel .owl-nav button.owl-prev {
