@@ -102,6 +102,12 @@ $(document).ready(function(){
 		else{
 			$('#back-top').fadeOut();
 		}
+	});
+
+	// Remove pseudo class hover from slider button
+	const lButton = document.querySelector('.owl-prev');
+	window.addEventListener('click', function () {
+		lButton.classList.remove(':hover'); 
 	})
 	
 });
