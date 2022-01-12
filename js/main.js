@@ -92,5 +92,16 @@ $(document).ready(function(){
         },
       }
     });
+
+	// Back top button
+	$('#back-top').hide();
+	$(window).scroll( function () {
+		if($(this).scrollTop() > 200) {
+			$('#back-top').fadeIn();
+		}
+		else{
+			$('#back-top').fadeOut();
+		}
+	})
 	
 });

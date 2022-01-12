@@ -291,7 +291,7 @@
 
     &:hover {
         transition: 1s;
-        background-image: url(/img/pancakes/arrow-left-active.png);
+        background-image: url(../img/pancakes/arrow-left-active.png);
     }
 
 	@media(min-width: 768px) {
@@ -321,9 +321,9 @@
     outline: none;
     transition: 0.5s ease;
 
-    &:hover {
+    &:focus {
         transition: 1s;
-        background-image: url(/img/pancakes/arrow-right-active.png);
+        background-image: url(../img/pancakes/arrow-right-active.png);
     }
 
 	@media(min-width: 768px) {
@@ -332,6 +332,12 @@
 
 	@media(min-width: 1200px) {
 		transform: translate(150%, 100%);
+
+		&:hover {
+			transition: 1s;
+			background-image: url(../img/pancakes/arrow-right-active.png);
+		}
+
 	}
 
 }
@@ -391,7 +397,7 @@
         
     width: 100px;
     height: 100px;
-    background-image: url(/img/pancakes/field.png);
+    background-image: url(../img/pancakes/field.png);
     background-color: #fff;
 	background-size: cover;
     box-shadow: 14px -13px 58px 3px rgba(105, 80, 58, 0.3);
