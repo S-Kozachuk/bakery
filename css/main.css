@@ -1615,6 +1615,11 @@ main {
   transition: 1s;
   background-image: url(../img/pancakes/arrow-left-active.png);
 }
+.pancakes-slider .owl-carousel .owl-nav button.owl-prev:visited {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-image: url(../img/pancakes/arrow-left.png);
+}
 @media (min-width: 768px) {
   .pancakes-slider .owl-carousel .owl-nav button.owl-prev {
     -webkit-transform: translate(-150%, 70%);
