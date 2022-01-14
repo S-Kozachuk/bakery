@@ -90,24 +90,25 @@ $(document).ready(function(){
             nav: true,
 			margin: 15
         },
-      }
+	  }
     });
-
-	// Back top button
-	$('#back-top').hide();
-	$(window).scroll( function () {
-		if($(this).scrollTop() > 200) {
-			$('#back-top').fadeIn();
-		}
-		else{
-			$('#back-top').fadeOut();
-		}
-	});
-
-	// Remove pseudo class hover from slider button
-	const lButton = document.querySelector('.owl-prev');
-	window.addEventListener('click', function () {
-		lButton.classList.remove(':hover'); 
-	})
-	
 });
+
+// Back top button
+$('#back-top').hide();
+$(window).scroll( function () {
+	if($(this).scrollTop() > 200) {
+		$('#back-top').fadeIn();
+	}
+	else{
+		$('#back-top').fadeOut();
+	}
+});
+
+// Remove pseudo class hover from slider button
+const lButton = document.querySelector('.owl-prev');
+document.addEventListener('click', function () {
+	lButton.classList.remove(':hover'); 
+});
+	
+
