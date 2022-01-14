@@ -3156,30 +3156,6 @@ main {
     display: unset;
   }
 }
-.footer-menu-left .footer-list__item {
-  display: none;
-}
-@media (min-width: 1200px) {
-  .footer-menu-left .footer-list__item {
-    display: unset;
-  }
-}
-.footer-menu-right .footer-list__item a {
-  color: #56534c;
-}
-.footer-menu-right .footer-list__item a:hover {
-  color: #56534c79;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-.footer-menu-right .footer-list__item {
-  display: none;
-}
-@media (min-width: 1200px) {
-  .footer-menu-right .footer-list__item {
-    display: unset;
-  }
-}
 .footer-logo a {
   display: none;
 }
@@ -3196,13 +3172,6 @@ main {
     color: #56534c79;
     -webkit-transition: .5s;
     transition: .5s;
-  }
-}
-@media (min-width: 1200px) {
-  .footer-logo a {
-    margin-bottom: unset;
-    padding: unset;
-    border: unset;
   }
 }
 .footer-copyright {
