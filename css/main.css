@@ -1879,7 +1879,7 @@ main {
             transform: translate(28%, 26%);
     width: 22%;
     height: 35%;
-    background-image: url(/img/breakfast/rye-1.svg);
+    background-image: url(../img/breakfast/rye-1.svg);
     background-repeat: no-repeat;
     z-index: 4;
   }
