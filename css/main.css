@@ -935,7 +935,7 @@ main {
   right: 50%;
   height: 106px;
   width: 106px;
-  background-image: url(/img/header/loaf-frame.png);
+  background-image: url(../img/header/loaf-frame.png);
   -webkit-transform: translate(59%, -40%);
      -moz-transform: translate(59%, -40%);
       -ms-transform: translate(59%, -40%);
@@ -1500,7 +1500,7 @@ main {
   padding: 70px 20px 50px;
   grid-area: right-column;
   position: relative;
-  background-image: url(/img/pancakes/windmill.png);
+  background-image: url(../img/pancakes/windmill.png);
   background-repeat: no-repeat;
   background-color: #fff;
   background-position: 100% 100%;
@@ -2069,7 +2069,7 @@ main {
             transform: translate(28%, 26%);
     width: 22%;
     height: 35%;
-    background-image: url(/img/breakfast/rye-1.svg);
+    background-image: url(../img/breakfast/rye-1.svg);
     background-repeat: no-repeat;
     z-index: 4;
   }
@@ -2854,7 +2854,7 @@ main {
   z-index: -1;
   width: 115px;
   height: 115px;
-  background-image: url(/img/pancakes/windmill.png);
+  background-image: url(../img/pancakes/windmill.png);
   -moz-background-size: 115px 115px;
        background-size: 115px 115px;
   background-repeat: no-repeat;
@@ -3108,7 +3108,7 @@ main {
 }
 .sandwich-timer-ready {
   justify-items: center;
-  background-image: url(/img/pancakes/field.png);
+  background-image: url(../img/pancakes/field.png);
   -moz-background-size: cover;
        background-size: cover;
   opacity: 1;
@@ -3483,32 +3483,6 @@ main {
     display: unset;
   }
 }
-.footer-menu-left .footer-list__item {
-  display: none;
-}
-@media (min-width: 1200px) {
-  .footer-menu-left .footer-list__item {
-    display: unset;
-  }
-}
-.footer-menu-right .footer-list__item a {
-  color: #56534c;
-}
-.footer-menu-right .footer-list__item a:hover {
-  color: #56534c79;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
-}
-.footer-menu-right .footer-list__item {
-  display: none;
-}
-@media (min-width: 1200px) {
-  .footer-menu-right .footer-list__item {
-    display: unset;
-  }
-}
 .footer-logo a {
   display: none;
 }
@@ -3529,13 +3503,6 @@ main {
     -o-transition: .5s;
     -moz-transition: .5s;
     transition: .5s;
-  }
-}
-@media (min-width: 1200px) {
-  .footer-logo a {
-    margin-bottom: unset;
-    padding: unset;
-    border: unset;
   }
 }
 .footer-copyright {
