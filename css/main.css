@@ -2807,7 +2807,7 @@ main {
 }
 .sandwich-timer-ready {
   justify-items: center;
-  background-image: url(/img/pancakes/field.png);
+  background-image: url(../img/pancakes/field.png);
   background-size: cover;
   opacity: 1;
 }
