@@ -857,7 +857,7 @@ main {
   right: 50%;
   height: 106px;
   width: 106px;
-  background-image: url(/img/header/loaf-frame.png);
+  background-image: url(../img/header/loaf-frame.png);
   -webkit-transform: translate(59%, -40%);
           transform: translate(59%, -40%);
   background-size: 85px 85px;
