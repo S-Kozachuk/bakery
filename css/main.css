@@ -2588,7 +2588,7 @@ main {
   z-index: -1;
   width: 115px;
   height: 115px;
-  background-image: url(/img/pancakes/windmill.png);
+  background-image: url(../img/pancakes/windmill.png);
   background-size: 115px 115px;
   background-repeat: no-repeat;
   -webkit-filter: brightness(85%);
