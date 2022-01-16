@@ -106,9 +106,9 @@ $(window).scroll( function () {
 });
 
 // Remove pseudo class hover from slider button
-const lButton = document.querySelector('.owl-prev');
+const lButton = document.querySelector('.owl-carousel');
 document.addEventListener('click', function () {
-	lButton.classList.remove(':hover'); 
+	lButton.classList.add('active'); 
 });
 	
 
