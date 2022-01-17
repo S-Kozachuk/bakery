@@ -123,3 +123,11 @@ $(document).ready(function(){
 	});
 });
 */
+
+$(document).ready(function(){
+    const lButton = document.querySelector('.owl-prev');
+   
+    $(".owl-nav").addEventListener('click', function () {
+		lButton.classList.add('active'); 
+	});
+});
