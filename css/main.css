@@ -1625,6 +1625,9 @@ main {
             transform: translate(-150%, 100%);
   }
 }
+.active {
+  top: 20px;
+}
 .owl-carousel .owl-nav button.owl-next span {
   display: none;
 }
