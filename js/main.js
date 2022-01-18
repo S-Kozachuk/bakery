@@ -123,7 +123,7 @@ $(document).ready(function(){
 	});
 });
 */
-
+/*
 $(document).ready(function(){
     const lButton = document.querySelector('.owl-prev');
    
@@ -132,3 +132,4 @@ $(document).ready(function(){
 	});
 
 });
+*/
