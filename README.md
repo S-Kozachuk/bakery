@@ -21,7 +21,7 @@
 
 ```
 git clone https://github.com/S-Kozachuk/bakery.git
-cd unit
+cd bakery
 ```
 
 Открыть index.html
