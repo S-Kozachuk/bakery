@@ -104,32 +104,3 @@ $(window).scroll( function () {
 		$('#back-top').fadeOut();
 	}
 });
-
-// Remove pseudo class hover from slider button
-// JS code
-/*
-const lButton = document.querySelector('.owl-carousel');
-document.addEventListener('click', function () {
-	lButton.classList.add('active'); 
-});
-*/
-// JQery code
-/*
-$(document).ready(function(){
-	const lButton = document.querySelector('.owl-carousel');
-    $(".owl-nav").owlCarousel({
-		$(document).addEventListener('click', function () {
-		lButton.classList.add('active'); 
-	});
-});
-*/
-/*
-$(document).ready(function(){
-    const lButton = document.querySelector('.owl-prev');
-   
-    $(".owl-nav").addEventListener('click', function () {
-		lButton.classList.add('active'); 
-	});
-
-});
-*/
